@@ -10,4 +10,8 @@
 
 @interface BrowseController : UIViewController
 
+- (IBAction)clickBrowse:(id)sender;
+
+@property (retain, nonatomic) IBOutlet UITextField *browseTextField;
+
 @end

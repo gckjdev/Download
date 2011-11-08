@@ -13,6 +13,7 @@
 #import "MobClick.h"
 #import "PPTabBarController.h"
 #import "ReviewRequest.h"
+#import "WebViewTouchWindow.h"
 
 #define kAppId			@"456494464"					// To be changed for each project
 #define kMobClickKey	@"4e2d3cc0431fe371c3000029"		// To be changed for each project
@@ -23,7 +24,7 @@
     UIBackgroundTaskIdentifier backgroundTask;
 }
 
-@property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) WebViewTouchWindow *window;
 
 @property (nonatomic, retain) PPTabBarController	*tabBarController;
 @property (nonatomic, retain) CoreDataManager       *dataManager;

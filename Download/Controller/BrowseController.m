@@ -7,8 +7,10 @@
 //
 
 #import "BrowseController.h"
+#import "DownloadWebViewController.h"
 
 @implementation BrowseController
+@synthesize browseTextField;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -37,6 +39,7 @@
 
 - (void)viewDidUnload
 {
+    [self setBrowseTextField:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -48,4 +51,14 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)clickBrowse:(id)sender
+{
+    [DownloadWebViewController show:self url:self.browseTextField.text];
+    
+}
+
+- (void)dealloc {
+    [browseTextField release];
+    [super dealloc];
+}
 @end

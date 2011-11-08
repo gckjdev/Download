@@ -18,6 +18,8 @@
 #import "ResourceCategoryController.h"
 #import "AboutController.h"
 
+#import "DownloadService.h"
+
 @implementation DownloadAppDelegate
 
 @synthesize window = _window;
@@ -100,12 +102,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    self.window = [[[WebViewTouchWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     [self initTabViewControllers];
     
     self.dataManager = [[CoreDataManager alloc] initWithDBName:kDbFileName dataModelName:nil];
 //    workingQueue = dispatch_queue_create("main working queue", NULL);    
     
+    [DownloadService defaultService];   // init service
 	[self initMobClick];
 
     // Ask For Review
