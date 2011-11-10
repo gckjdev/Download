@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CAAC3B9F146C26AD008A74B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAAC3B8C146C26AD008A74B9 /* InfoPlist.strings */; };
+		CAAC3BA0146C26AD008A74B9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAAC3B8E146C26AD008A74B9 /* Localizable.strings */; };
+		CAAC3BA1146C26AD008A74B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAAC3B91146C26AD008A74B9 /* InfoPlist.strings */; };
+		CAAC3BA2146C26AD008A74B9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAAC3B93146C26AD008A74B9 /* Localizable.strings */; };
+		CAAC3BA3146C26AD008A74B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAAC3B96146C26AD008A74B9 /* InfoPlist.strings */; };
+		CAAC3BA4146C26AD008A74B9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAAC3B98146C26AD008A74B9 /* Localizable.strings */; };
+		CAAC3BA5146C26AD008A74B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAAC3B9B146C26AD008A74B9 /* InfoPlist.strings */; };
+		CAAC3BA6146C26AD008A74B9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAAC3B9D146C26AD008A74B9 /* Localizable.strings */; };
 		CAAF53A21468126C0071F5C3 /* DownloadWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAF53A01468126C0071F5C3 /* DownloadWebViewController.m */; };
 		CAAF53A31468126C0071F5C3 /* DownloadWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAAF53A11468126C0071F5C3 /* DownloadWebViewController.xib */; };
 		CAAF53A71468150E0071F5C3 /* FileTypeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAF53A61468150E0071F5C3 /* FileTypeManager.m */; };
@@ -22,7 +30,6 @@
 		CAEA30D01467BCAE006D2975 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA30CF1467BCAE006D2975 /* UIKit.framework */; };
 		CAEA30D21467BCAE006D2975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA30D11467BCAE006D2975 /* Foundation.framework */; };
 		CAEA30D41467BCAE006D2975 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA30D31467BCAE006D2975 /* CoreGraphics.framework */; };
-		CAEA30DA1467BCAE006D2975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAEA30D81467BCAE006D2975 /* InfoPlist.strings */; };
 		CAEA30DC1467BCAE006D2975 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA30DB1467BCAE006D2975 /* main.m */; };
 		CAEA30E01467BCAE006D2975 /* DownloadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA30DF1467BCAE006D2975 /* DownloadAppDelegate.m */; };
 		CAEA30FC1467BCAE006D2975 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA30FB1467BCAE006D2975 /* SenTestingKit.framework */; };
@@ -323,8 +330,6 @@
 		CAEA38C91467BE32006D2975 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA38C81467BE32006D2975 /* libz.dylib */; };
 		CAEA38CB1467BE3E006D2975 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA38CA1467BE3E006D2975 /* libxml2.dylib */; };
 		CAEA38CD1467C15E006D2975 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA38CC1467C15E006D2975 /* CoreText.framework */; };
-		CAEA38D91467C2E9006D2975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAEA38CF1467C2E9006D2975 /* InfoPlist.strings */; };
-		CAEA38DA1467C2E9006D2975 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAEA38D11467C2E9006D2975 /* Localizable.strings */; };
 		CAEA38E91467C43F006D2975 /* BrowseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA38E71467C43F006D2975 /* BrowseController.m */; };
 		CAEA38EA1467C43F006D2975 /* BrowseController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAEA38E81467C43F006D2975 /* BrowseController.xib */; };
 		CAEA38EE1467C46E006D2975 /* DownloadManageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA38EC1467C46E006D2975 /* DownloadManageController.m */; };
@@ -360,6 +365,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CAAC3B8D146C26AD008A74B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		CAAC3B8F146C26AD008A74B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		CAAC3B92146C26AD008A74B9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = InfoPlist.strings; sourceTree = "<group>"; };
+		CAAC3B94146C26AD008A74B9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = Localizable.strings; sourceTree = "<group>"; };
+		CAAC3B97146C26AD008A74B9 /* zh_Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hans; path = InfoPlist.strings; sourceTree = "<group>"; };
+		CAAC3B99146C26AD008A74B9 /* zh_Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hans; path = Localizable.strings; sourceTree = "<group>"; };
+		CAAC3B9C146C26AD008A74B9 /* zh_Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hant; path = InfoPlist.strings; sourceTree = "<group>"; };
+		CAAC3B9E146C26AD008A74B9 /* zh_Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hant; path = Localizable.strings; sourceTree = "<group>"; };
 		CAAF539F1468126C0071F5C3 /* DownloadWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadWebViewController.h; sourceTree = "<group>"; };
 		CAAF53A01468126C0071F5C3 /* DownloadWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadWebViewController.m; sourceTree = "<group>"; };
 		CAAF53A11468126C0071F5C3 /* DownloadWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadWebViewController.xib; sourceTree = "<group>"; };
@@ -384,7 +397,6 @@
 		CAEA30D11467BCAE006D2975 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CAEA30D31467BCAE006D2975 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CAEA30D71467BCAE006D2975 /* Download-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Download-Info.plist"; sourceTree = "<group>"; };
-		CAEA30D91467BCAE006D2975 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CAEA30DB1467BCAE006D2975 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CAEA30DD1467BCAE006D2975 /* Download-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Download-Prefix.pch"; sourceTree = "<group>"; };
 		CAEA30DE1467BCAE006D2975 /* DownloadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadAppDelegate.h; sourceTree = "<group>"; };
@@ -927,14 +939,6 @@
 		CAEA38C81467BE32006D2975 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		CAEA38CA1467BE3E006D2975 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		CAEA38CC1467C15E006D2975 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		CAEA38D01467C2E9006D2975 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CAEA38D21467C2E9006D2975 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
-		CAEA38D31467C2E9006D2975 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CAEA38D41467C2E9006D2975 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		CAEA38D51467C2E9006D2975 /* zh_Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hans; path = zh_Hans.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CAEA38D61467C2E9006D2975 /* zh_Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hans; path = zh_Hans.lproj/Localizable.strings; sourceTree = "<group>"; };
-		CAEA38D71467C2E9006D2975 /* zh_Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hant; path = zh_Hant.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CAEA38D81467C2E9006D2975 /* zh_Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hant; path = zh_Hant.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CAEA38E61467C43F006D2975 /* BrowseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowseController.h; sourceTree = "<group>"; };
 		CAEA38E71467C43F006D2975 /* BrowseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseController.m; sourceTree = "<group>"; };
 		CAEA38E81467C43F006D2975 /* BrowseController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrowseController.xib; sourceTree = "<group>"; };
@@ -1005,6 +1009,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CAAC3B8B146C26AD008A74B9 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CAAC3B8C146C26AD008A74B9 /* InfoPlist.strings */,
+				CAAC3B8E146C26AD008A74B9 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		CAAC3B90146C26AD008A74B9 /* ja.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CAAC3B91146C26AD008A74B9 /* InfoPlist.strings */,
+				CAAC3B93146C26AD008A74B9 /* Localizable.strings */,
+			);
+			path = ja.lproj;
+			sourceTree = "<group>";
+		};
+		CAAC3B95146C26AD008A74B9 /* zh_Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CAAC3B96146C26AD008A74B9 /* InfoPlist.strings */,
+				CAAC3B98146C26AD008A74B9 /* Localizable.strings */,
+			);
+			path = zh_Hans.lproj;
+			sourceTree = "<group>";
+		};
+		CAAC3B9A146C26AD008A74B9 /* zh_Hant.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CAAC3B9B146C26AD008A74B9 /* InfoPlist.strings */,
+				CAAC3B9D146C26AD008A74B9 /* Localizable.strings */,
+			);
+			path = zh_Hant.lproj;
+			sourceTree = "<group>";
+		};
 		CAEA30C01467BCAE006D2975 = {
 			isa = PBXGroup;
 			children = (
@@ -1072,8 +1112,11 @@
 		CAEA30D61467BCAE006D2975 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CAAC3B8B146C26AD008A74B9 /* en.lproj */,
+				CAAC3B90146C26AD008A74B9 /* ja.lproj */,
+				CAAC3B95146C26AD008A74B9 /* zh_Hans.lproj */,
+				CAAC3B9A146C26AD008A74B9 /* zh_Hant.lproj */,
 				CAEA30D71467BCAE006D2975 /* Download-Info.plist */,
-				CAEA30D81467BCAE006D2975 /* InfoPlist.strings */,
 				CAEA30DB1467BCAE006D2975 /* main.m */,
 				CAEA30DD1467BCAE006D2975 /* Download-Prefix.pch */,
 			);
@@ -1093,7 +1136,6 @@
 		CAEA31021467BCAE006D2975 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CAEA38CE1467C2E9006D2975 /* Localization */,
 				CAEA31031467BCAE006D2975 /* DownloadTests-Info.plist */,
 			);
 			name = "Supporting Files";
@@ -2121,16 +2163,6 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
-		CAEA38CE1467C2E9006D2975 /* Localization */ = {
-			isa = PBXGroup;
-			children = (
-				CAEA38CF1467C2E9006D2975 /* InfoPlist.strings */,
-				CAEA38D11467C2E9006D2975 /* Localizable.strings */,
-			);
-			name = Localization;
-			path = Download/Localization;
-			sourceTree = SOURCE_ROOT;
-		};
 		CAEA38DB1467C38B006D2975 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -2347,7 +2379,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAB05F2D1468FC1600605021 /* JSTools.js in Resources */,
-				CAEA30DA1467BCAE006D2975 /* InfoPlist.strings in Resources */,
 				CAEA333D1467BCFB006D2975 /* TapkuLibrary.bundle in Resources */,
 				CAEA36F11467BD14006D2975 /* donedown.png in Resources */,
 				CAEA36F21467BD14006D2975 /* doneup.png in Resources */,
@@ -2412,8 +2443,6 @@
 				CAEA38A61467BD15006D2975 /* reload_48.png in Resources */,
 				CAEA38A71467BD15006D2975 /* reload_64.png in Resources */,
 				CAEA38A91467BD15006D2975 /* PPWebViewController.xib in Resources */,
-				CAEA38D91467C2E9006D2975 /* InfoPlist.strings in Resources */,
-				CAEA38DA1467C2E9006D2975 /* Localizable.strings in Resources */,
 				CAEA38EA1467C43F006D2975 /* BrowseController.xib in Resources */,
 				CAEA38EF1467C46E006D2975 /* DownloadManageController.xib in Resources */,
 				CAEA38F41467C48D006D2975 /* TopDownloadController.xib in Resources */,
@@ -2432,6 +2461,14 @@
 				CAEA39191467D88E006D2975 /* tu_209@2x.png in Resources */,
 				CAAF53A31468126C0071F5C3 /* DownloadWebViewController.xib in Resources */,
 				CAAF53AF146818060071F5C3 /* DownloadItemCell.xib in Resources */,
+				CAAC3B9F146C26AD008A74B9 /* InfoPlist.strings in Resources */,
+				CAAC3BA0146C26AD008A74B9 /* Localizable.strings in Resources */,
+				CAAC3BA1146C26AD008A74B9 /* InfoPlist.strings in Resources */,
+				CAAC3BA2146C26AD008A74B9 /* Localizable.strings in Resources */,
+				CAAC3BA3146C26AD008A74B9 /* InfoPlist.strings in Resources */,
+				CAAC3BA4146C26AD008A74B9 /* Localizable.strings in Resources */,
+				CAAC3BA5146C26AD008A74B9 /* InfoPlist.strings in Resources */,
+				CAAC3BA6146C26AD008A74B9 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2717,12 +2754,68 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CAEA30D81467BCAE006D2975 /* InfoPlist.strings */ = {
+		CAAC3B8C146C26AD008A74B9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CAEA30D91467BCAE006D2975 /* en */,
+				CAAC3B8D146C26AD008A74B9 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAAC3B8E146C26AD008A74B9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAAC3B8F146C26AD008A74B9 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CAAC3B91146C26AD008A74B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAAC3B92146C26AD008A74B9 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAAC3B93146C26AD008A74B9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAAC3B94146C26AD008A74B9 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CAAC3B96146C26AD008A74B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAAC3B97146C26AD008A74B9 /* zh_Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAAC3B98146C26AD008A74B9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAAC3B99146C26AD008A74B9 /* zh_Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CAAC3B9B146C26AD008A74B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAAC3B9C146C26AD008A74B9 /* zh_Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAAC3B9D146C26AD008A74B9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAAC3B9E146C26AD008A74B9 /* zh_Hant */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		CAEA33D41467BD13006D2975 /* AboutView.strings */ = {
@@ -2761,28 +2854,6 @@
 				CAEA36951467BD14006D2975 /* zh_Hant */,
 			);
 			name = ReviewRequest.strings;
-			sourceTree = "<group>";
-		};
-		CAEA38CF1467C2E9006D2975 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CAEA38D01467C2E9006D2975 /* English */,
-				CAEA38D31467C2E9006D2975 /* ja */,
-				CAEA38D51467C2E9006D2975 /* zh_Hans */,
-				CAEA38D71467C2E9006D2975 /* zh_Hant */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CAEA38D11467C2E9006D2975 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CAEA38D21467C2E9006D2975 /* English */,
-				CAEA38D41467C2E9006D2975 /* ja */,
-				CAEA38D61467C2E9006D2975 /* zh_Hans */,
-				CAEA38D81467C2E9006D2975 /* zh_Hant */,
-			);
-			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
