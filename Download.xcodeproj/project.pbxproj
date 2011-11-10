@@ -17,6 +17,8 @@
 		CAAF53CD1468D0A10071F5C3 /* WebViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAF53CB1468D0A10071F5C3 /* WebViewAdditions.m */; };
 		CAAF53D11468D42E0071F5C3 /* WebViewTouchWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAF53D01468D42E0071F5C3 /* WebViewTouchWindow.m */; };
 		CAB05F2D1468FC1600605021 /* JSTools.js in Resources */ = {isa = PBXBuildFile; fileRef = CAAF53C91468D0A10071F5C3 /* JSTools.js */; };
+		CAB17438146AA9D700F0F248 /* DownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB17437146AA9D700F0F248 /* DownloadItem.m */; };
+		CAB1743C146AA9FD00F0F248 /* DownloadItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1743B146AA9ED00F0F248 /* DownloadItemManager.m */; };
 		CAEA30D01467BCAE006D2975 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA30CF1467BCAE006D2975 /* UIKit.framework */; };
 		CAEA30D21467BCAE006D2975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA30D11467BCAE006D2975 /* Foundation.framework */; };
 		CAEA30D41467BCAE006D2975 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA30D31467BCAE006D2975 /* CoreGraphics.framework */; };
@@ -373,6 +375,10 @@
 		CAAF53CB1468D0A10071F5C3 /* WebViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewAdditions.m; sourceTree = "<group>"; };
 		CAAF53CF1468D42E0071F5C3 /* WebViewTouchWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewTouchWindow.h; sourceTree = "<group>"; };
 		CAAF53D01468D42E0071F5C3 /* WebViewTouchWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewTouchWindow.m; sourceTree = "<group>"; };
+		CAB17436146AA9D600F0F248 /* DownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadItem.h; sourceTree = "<group>"; };
+		CAB17437146AA9D700F0F248 /* DownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadItem.m; sourceTree = "<group>"; };
+		CAB1743A146AA9ED00F0F248 /* DownloadItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadItemManager.h; sourceTree = "<group>"; };
+		CAB1743B146AA9ED00F0F248 /* DownloadItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadItemManager.m; sourceTree = "<group>"; };
 		CAEA30CB1467BCAE006D2975 /* Download.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Download.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEA30CF1467BCAE006D2975 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CAEA30D11467BCAE006D2975 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -2204,6 +2210,10 @@
 			isa = PBXGroup;
 			children = (
 				CAEA38FF1467D7EE006D2975 /* MainDataModel.xcdatamodeld */,
+				CAB17436146AA9D600F0F248 /* DownloadItem.h */,
+				CAB17437146AA9D700F0F248 /* DownloadItem.m */,
+				CAB1743A146AA9ED00F0F248 /* DownloadItemManager.h */,
+				CAB1743B146AA9ED00F0F248 /* DownloadItemManager.m */,
 				CAAF53A51468150E0071F5C3 /* FileTypeManager.h */,
 				CAAF53A61468150E0071F5C3 /* FileTypeManager.m */,
 			);
@@ -2683,6 +2693,8 @@
 				CAAF53CC1468D0A10071F5C3 /* JSTools.js in Sources */,
 				CAAF53CD1468D0A10071F5C3 /* WebViewAdditions.m in Sources */,
 				CAAF53D11468D42E0071F5C3 /* WebViewTouchWindow.m in Sources */,
+				CAB17438146AA9D700F0F248 /* DownloadItem.m in Sources */,
+				CAB1743C146AA9FD00F0F248 /* DownloadItemManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
