@@ -139,6 +139,8 @@
     [[NSUserDefaults standardUserDefaults] synchronize];
 //	[self releaseResourceForAllViewControllers];	
     
+    [[DownloadService defaultService] pauseAllDownloadItem];
+    
     backgroundTask = [application beginBackgroundTaskWithExpirationHandler: ^{
         dispatch_async(dispatch_get_main_queue(), ^{
             if (UIBackgroundTaskInvalid != backgroundTask) {

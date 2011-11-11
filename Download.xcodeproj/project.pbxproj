@@ -27,6 +27,8 @@
 		CAB05F2D1468FC1600605021 /* JSTools.js in Resources */ = {isa = PBXBuildFile; fileRef = CAAF53C91468D0A10071F5C3 /* JSTools.js */; };
 		CAB17438146AA9D700F0F248 /* DownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB17437146AA9D700F0F248 /* DownloadItem.m */; };
 		CAB1743C146AA9FD00F0F248 /* DownloadItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1743B146AA9ED00F0F248 /* DownloadItemManager.m */; };
+		CAE81D10146CDB9D0052EE48 /* ItemActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE81D0E146CDB9D0052EE48 /* ItemActionController.m */; };
+		CAE81D11146CDB9D0052EE48 /* ItemActionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAE81D0F146CDB9D0052EE48 /* ItemActionController.xib */; };
 		CAEA30D01467BCAE006D2975 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA30CF1467BCAE006D2975 /* UIKit.framework */; };
 		CAEA30D21467BCAE006D2975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA30D11467BCAE006D2975 /* Foundation.framework */; };
 		CAEA30D41467BCAE006D2975 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA30D31467BCAE006D2975 /* CoreGraphics.framework */; };
@@ -392,6 +394,9 @@
 		CAB17437146AA9D700F0F248 /* DownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadItem.m; sourceTree = "<group>"; };
 		CAB1743A146AA9ED00F0F248 /* DownloadItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadItemManager.h; sourceTree = "<group>"; };
 		CAB1743B146AA9ED00F0F248 /* DownloadItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadItemManager.m; sourceTree = "<group>"; };
+		CAE81D0D146CDB9D0052EE48 /* ItemActionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemActionController.h; sourceTree = "<group>"; };
+		CAE81D0E146CDB9D0052EE48 /* ItemActionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemActionController.m; sourceTree = "<group>"; };
+		CAE81D0F146CDB9D0052EE48 /* ItemActionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemActionController.xib; sourceTree = "<group>"; };
 		CAEA30CB1467BCAE006D2975 /* Download.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Download.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEA30CF1467BCAE006D2975 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CAEA30D11467BCAE006D2975 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -2234,6 +2239,9 @@
 				CAAF539F1468126C0071F5C3 /* DownloadWebViewController.h */,
 				CAAF53A01468126C0071F5C3 /* DownloadWebViewController.m */,
 				CAAF53A11468126C0071F5C3 /* DownloadWebViewController.xib */,
+				CAE81D0D146CDB9D0052EE48 /* ItemActionController.h */,
+				CAE81D0E146CDB9D0052EE48 /* ItemActionController.m */,
+				CAE81D0F146CDB9D0052EE48 /* ItemActionController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2469,6 +2477,7 @@
 				CAAC3BA4146C26AD008A74B9 /* Localizable.strings in Resources */,
 				CAAC3BA5146C26AD008A74B9 /* InfoPlist.strings in Resources */,
 				CAAC3BA6146C26AD008A74B9 /* Localizable.strings in Resources */,
+				CAE81D11146CDB9D0052EE48 /* ItemActionController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2732,6 +2741,7 @@
 				CAAF53D11468D42E0071F5C3 /* WebViewTouchWindow.m in Sources */,
 				CAB17438146AA9D700F0F248 /* DownloadItem.m in Sources */,
 				CAB1743C146AA9FD00F0F248 /* DownloadItemManager.m in Sources */,
+				CAE81D10146CDB9D0052EE48 /* ItemActionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
