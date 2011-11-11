@@ -19,6 +19,19 @@
 #import "AboutController.h"
 
 #import "DownloadService.h"
+#import "ResourceService.h"
+
+NSString* GlobalGetServerURL()
+{
+    //   return @"http://192.168.1.101:8000/api/i?";
+    
+    // return @"http://uhz001030.chinaw3.com/api/i?";
+    
+    
+    return @"http://192.168.1.188:8000/api/i?";
+    
+}
+
 
 @implementation DownloadAppDelegate
 
@@ -108,8 +121,12 @@
     self.dataManager = [[CoreDataManager alloc] initWithDBName:kDbFileName dataModelName:nil];
 //    workingQueue = dispatch_queue_create("main working queue", NULL);    
     
-    [DownloadService defaultService];   // init service
+    // init service
+    [DownloadService defaultService];   
+    [ResourceService defaultService];
 	[self initMobClick];
+    
+    // test
 
     // Ask For Review
 	self.reviewRequest = [ReviewRequest startReviewRequest:kAppId appName:GlobalGetAppName() isTest:NO];

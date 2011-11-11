@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA8E97FD146CF03E0007A824 /* TopDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8E97FC146CF03E0007A824 /* TopDownloadItem.m */; };
+		CA8E9801146CF04D0007A824 /* TopDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8E9800146CF04D0007A824 /* TopDownloadManager.m */; };
+		CA8E9804146CF0640007A824 /* TopSite.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8E9803146CF0640007A824 /* TopSite.m */; };
+		CA8E9807146CF0710007A824 /* TopSiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8E9806146CF0710007A824 /* TopSiteManager.m */; };
+		CA8E980E146CF8D10007A824 /* DownloadNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8E980D146CF8D10007A824 /* DownloadNetworkRequest.m */; };
+		CA8E9812146CFA8A0007A824 /* ResourceService.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8E9811146CFA8A0007A824 /* ResourceService.m */; };
+		CA8E9816146D15B00007A824 /* ResourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8E9814146D15AF0007A824 /* ResourceCell.m */; };
+		CA8E9817146D15B00007A824 /* ResourceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA8E9815146D15AF0007A824 /* ResourceCell.xib */; };
 		CAAC3B9F146C26AD008A74B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAAC3B8C146C26AD008A74B9 /* InfoPlist.strings */; };
 		CAAC3BA0146C26AD008A74B9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAAC3B8E146C26AD008A74B9 /* Localizable.strings */; };
 		CAAC3BA1146C26AD008A74B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAAC3B91146C26AD008A74B9 /* InfoPlist.strings */; };
@@ -367,6 +375,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA8E97FB146CF03E0007A824 /* TopDownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopDownloadItem.h; sourceTree = "<group>"; };
+		CA8E97FC146CF03E0007A824 /* TopDownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopDownloadItem.m; sourceTree = "<group>"; };
+		CA8E97FF146CF04D0007A824 /* TopDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopDownloadManager.h; sourceTree = "<group>"; };
+		CA8E9800146CF04D0007A824 /* TopDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopDownloadManager.m; sourceTree = "<group>"; };
+		CA8E9802146CF0640007A824 /* TopSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopSite.h; sourceTree = "<group>"; };
+		CA8E9803146CF0640007A824 /* TopSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopSite.m; sourceTree = "<group>"; };
+		CA8E9805146CF0710007A824 /* TopSiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopSiteManager.h; sourceTree = "<group>"; };
+		CA8E9806146CF0710007A824 /* TopSiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopSiteManager.m; sourceTree = "<group>"; };
+		CA8E980C146CF8D10007A824 /* DownloadNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadNetworkRequest.h; sourceTree = "<group>"; };
+		CA8E980D146CF8D10007A824 /* DownloadNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadNetworkRequest.m; sourceTree = "<group>"; };
+		CA8E980F146CF9590007A824 /* DownloadNetworkConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadNetworkConstants.h; sourceTree = "<group>"; };
+		CA8E9810146CFA8A0007A824 /* ResourceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceService.h; sourceTree = "<group>"; };
+		CA8E9811146CFA8A0007A824 /* ResourceService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceService.m; sourceTree = "<group>"; };
+		CA8E9813146D15AE0007A824 /* ResourceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceCell.h; sourceTree = "<group>"; };
+		CA8E9814146D15AF0007A824 /* ResourceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceCell.m; sourceTree = "<group>"; };
+		CA8E9815146D15AF0007A824 /* ResourceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResourceCell.xib; sourceTree = "<group>"; };
 		CAAC3B8D146C26AD008A74B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		CAAC3B8F146C26AD008A74B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		CAAC3B92146C26AD008A74B9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = InfoPlist.strings; sourceTree = "<group>"; };
@@ -1014,6 +1038,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA8E980B146CF8BE0007A824 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CA8E980C146CF8D10007A824 /* DownloadNetworkRequest.h */,
+				CA8E980D146CF8D10007A824 /* DownloadNetworkRequest.m */,
+				CA8E980F146CF9590007A824 /* DownloadNetworkConstants.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		CAAC3B8B146C26AD008A74B9 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
@@ -2209,6 +2243,7 @@
 		CAEA38E01467C3FA006D2975 /* DownloadCommon */ = {
 			isa = PBXGroup;
 			children = (
+				CA8E980B146CF8BE0007A824 /* Network */,
 				CAEA38E11467C3FA006D2975 /* Controller */,
 				CAEA38E21467C3FA006D2975 /* Model */,
 				CAEA38E31467C3FA006D2975 /* Resource */,
@@ -2233,6 +2268,9 @@
 				CAEA38F51467C4CB006D2975 /* ResourceCategoryController.h */,
 				CAEA38F61467C4CB006D2975 /* ResourceCategoryController.m */,
 				CAEA38F71467C4CB006D2975 /* ResourceCategoryController.xib */,
+				CA8E9813146D15AE0007A824 /* ResourceCell.h */,
+				CA8E9814146D15AF0007A824 /* ResourceCell.m */,
+				CA8E9815146D15AF0007A824 /* ResourceCell.xib */,
 				CAEA38FA1467C4E0006D2975 /* AboutController.h */,
 				CAEA38FB1467C4E1006D2975 /* AboutController.m */,
 				CAEA38FC1467C4E1006D2975 /* AboutController.xib */,
@@ -2256,6 +2294,14 @@
 				CAB1743B146AA9ED00F0F248 /* DownloadItemManager.m */,
 				CAAF53A51468150E0071F5C3 /* FileTypeManager.h */,
 				CAAF53A61468150E0071F5C3 /* FileTypeManager.m */,
+				CA8E97FB146CF03E0007A824 /* TopDownloadItem.h */,
+				CA8E97FC146CF03E0007A824 /* TopDownloadItem.m */,
+				CA8E97FF146CF04D0007A824 /* TopDownloadManager.h */,
+				CA8E9800146CF04D0007A824 /* TopDownloadManager.m */,
+				CA8E9802146CF0640007A824 /* TopSite.h */,
+				CA8E9803146CF0640007A824 /* TopSite.m */,
+				CA8E9805146CF0710007A824 /* TopSiteManager.h */,
+				CA8E9806146CF0710007A824 /* TopSiteManager.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -2274,6 +2320,8 @@
 			children = (
 				CAAF53A8146815350071F5C3 /* DownloadService.h */,
 				CAAF53A9146815350071F5C3 /* DownloadService.m */,
+				CA8E9810146CFA8A0007A824 /* ResourceService.h */,
+				CA8E9811146CFA8A0007A824 /* ResourceService.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -2478,6 +2526,7 @@
 				CAAC3BA5146C26AD008A74B9 /* InfoPlist.strings in Resources */,
 				CAAC3BA6146C26AD008A74B9 /* Localizable.strings in Resources */,
 				CAE81D11146CDB9D0052EE48 /* ItemActionController.xib in Resources */,
+				CA8E9817146D15B00007A824 /* ResourceCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2742,6 +2791,13 @@
 				CAB17438146AA9D700F0F248 /* DownloadItem.m in Sources */,
 				CAB1743C146AA9FD00F0F248 /* DownloadItemManager.m in Sources */,
 				CAE81D10146CDB9D0052EE48 /* ItemActionController.m in Sources */,
+				CA8E97FD146CF03E0007A824 /* TopDownloadItem.m in Sources */,
+				CA8E9801146CF04D0007A824 /* TopDownloadManager.m in Sources */,
+				CA8E9804146CF0640007A824 /* TopSite.m in Sources */,
+				CA8E9807146CF0710007A824 /* TopSiteManager.m in Sources */,
+				CA8E980E146CF8D10007A824 /* DownloadNetworkRequest.m in Sources */,
+				CA8E9812146CFA8A0007A824 /* ResourceService.m in Sources */,
+				CA8E9816146D15B00007A824 /* ResourceCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
