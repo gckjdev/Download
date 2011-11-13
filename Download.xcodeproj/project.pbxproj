@@ -362,6 +362,11 @@
 		CAEA39151467D861006D2975 /* tu_24@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAEA390B1467D861006D2975 /* tu_24@2x.png */; };
 		CAEA39161467D861006D2975 /* tu_25@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAEA390C1467D861006D2975 /* tu_25@2x.png */; };
 		CAEA39191467D88E006D2975 /* tu_209@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAEA39181467D88E006D2975 /* tu_209@2x.png */; };
+		CAF71218146F65AA00FD161D /* PlayAudioVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF71216146F65AA00FD161D /* PlayAudioVideoController.m */; };
+		CAF71219146F65AA00FD161D /* PlayAudioVideoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF71217146F65AA00FD161D /* PlayAudioVideoController.xib */; };
+		CAF7121D146F65DA00FD161D /* DisplayReadableFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF7121B146F65DA00FD161D /* DisplayReadableFileController.m */; };
+		CAF7121E146F65DA00FD161D /* DisplayReadableFileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF7121C146F65DA00FD161D /* DisplayReadableFileController.xib */; };
+		CAF71223146F6D3B00FD161D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF71222146F6D3A00FD161D /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -995,6 +1000,14 @@
 		CAEA390B1467D861006D2975 /* tu_24@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_24@2x.png"; sourceTree = "<group>"; };
 		CAEA390C1467D861006D2975 /* tu_25@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_25@2x.png"; sourceTree = "<group>"; };
 		CAEA39181467D88E006D2975 /* tu_209@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_209@2x.png"; sourceTree = "<group>"; };
+		CAF71215146F65AA00FD161D /* PlayAudioVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayAudioVideoController.h; sourceTree = "<group>"; };
+		CAF71216146F65AA00FD161D /* PlayAudioVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayAudioVideoController.m; sourceTree = "<group>"; };
+		CAF71217146F65AA00FD161D /* PlayAudioVideoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayAudioVideoController.xib; sourceTree = "<group>"; };
+		CAF7121A146F65DA00FD161D /* DisplayReadableFileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayReadableFileController.h; sourceTree = "<group>"; };
+		CAF7121B146F65DA00FD161D /* DisplayReadableFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayReadableFileController.m; sourceTree = "<group>"; };
+		CAF7121C146F65DA00FD161D /* DisplayReadableFileController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayReadableFileController.xib; sourceTree = "<group>"; };
+		CAF7121F146F663300FD161D /* CommonFileActionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFileActionController.h; sourceTree = "<group>"; };
+		CAF71222146F6D3A00FD161D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1002,6 +1015,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF71223146F6D3B00FD161D /* MediaPlayer.framework in Frameworks */,
 				CAEA38CD1467C15E006D2975 /* CoreText.framework in Frameworks */,
 				CAEA38CB1467BE3E006D2975 /* libxml2.dylib in Frameworks */,
 				CAEA38C91467BE32006D2975 /* libz.dylib in Frameworks */,
@@ -1110,6 +1124,7 @@
 		CAEA30CE1467BCAE006D2975 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CAF71222146F6D3A00FD161D /* MediaPlayer.framework */,
 				CAEA38CC1467C15E006D2975 /* CoreText.framework */,
 				CAEA38CA1467BE3E006D2975 /* libxml2.dylib */,
 				CAEA38C81467BE32006D2975 /* libz.dylib */,
@@ -2256,6 +2271,7 @@
 		CAEA38E11467C3FA006D2975 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CAF71213146F659200FD161D /* Action */,
 				CAEA38EB1467C46E006D2975 /* DownloadManageController.h */,
 				CAEA38EC1467C46E006D2975 /* DownloadManageController.m */,
 				CAEA38ED1467C46E006D2975 /* DownloadManageController.xib */,
@@ -2356,6 +2372,20 @@
 				CAEA39181467D88E006D2975 /* tu_209@2x.png */,
 			);
 			path = Background;
+			sourceTree = "<group>";
+		};
+		CAF71213146F659200FD161D /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				CAF71215146F65AA00FD161D /* PlayAudioVideoController.h */,
+				CAF71216146F65AA00FD161D /* PlayAudioVideoController.m */,
+				CAF71217146F65AA00FD161D /* PlayAudioVideoController.xib */,
+				CAF7121A146F65DA00FD161D /* DisplayReadableFileController.h */,
+				CAF7121B146F65DA00FD161D /* DisplayReadableFileController.m */,
+				CAF7121C146F65DA00FD161D /* DisplayReadableFileController.xib */,
+				CAF7121F146F663300FD161D /* CommonFileActionController.h */,
+			);
+			path = Action;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2527,6 +2557,8 @@
 				CAAC3BA6146C26AD008A74B9 /* Localizable.strings in Resources */,
 				CAE81D11146CDB9D0052EE48 /* ItemActionController.xib in Resources */,
 				CA8E9817146D15B00007A824 /* ResourceCell.xib in Resources */,
+				CAF71219146F65AA00FD161D /* PlayAudioVideoController.xib in Resources */,
+				CAF7121E146F65DA00FD161D /* DisplayReadableFileController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2798,6 +2830,8 @@
 				CA8E980E146CF8D10007A824 /* DownloadNetworkRequest.m in Sources */,
 				CA8E9812146CFA8A0007A824 /* ResourceService.m in Sources */,
 				CA8E9816146D15B00007A824 /* ResourceCell.m in Sources */,
+				CAF71218146F65AA00FD161D /* PlayAudioVideoController.m in Sources */,
+				CAF7121D146F65DA00FD161D /* DisplayReadableFileController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
