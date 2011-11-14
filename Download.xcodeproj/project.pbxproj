@@ -220,7 +220,6 @@
 		CAEA37571467BD14006D2975 /* TextEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAEA34881467BD13006D2975 /* TextEditorViewController.xib */; };
 		CAEA37581467BD14006D2975 /* CoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA348B1467BD13006D2975 /* CoreDataUtil.m */; };
 		CAEA37591467BD14006D2975 /* PPDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA348D1467BD13006D2975 /* PPDataManager.m */; };
-		CAEA37601467BD14006D2975 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA349F1467BD13006D2975 /* libFlurry.a */; };
 		CAEA37FC1467BD14006D2975 /* Help.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAEA35701467BD13006D2975 /* Help.txt */; };
 		CAEA37FD1467BD14006D2975 /* HTTPResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA35731467BD13006D2975 /* HTTPResponseHandler.m */; };
 		CAEA37FE1467BD14006D2975 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA35751467BD13006D2975 /* HTTPServer.m */; };
@@ -761,11 +760,6 @@
 		CAEA348B1467BD13006D2975 /* CoreDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataUtil.m; sourceTree = "<group>"; };
 		CAEA348C1467BD13006D2975 /* PPDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDataManager.h; sourceTree = "<group>"; };
 		CAEA348D1467BD13006D2975 /* PPDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDataManager.m; sourceTree = "<group>"; };
-		CAEA349B1467BD13006D2975 /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
-		CAEA349C1467BD13006D2975 /* FlurryAPI+AppCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FlurryAPI+AppCircle.h"; sourceTree = "<group>"; };
-		CAEA349D1467BD13006D2975 /* FlurryOffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryOffer.h; sourceTree = "<group>"; };
-		CAEA349E1467BD13006D2975 /* FlurryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAPI.h; sourceTree = "<group>"; };
-		CAEA349F1467BD13006D2975 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
 		CAEA35701467BD13006D2975 /* Help.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Help.txt; sourceTree = "<group>"; };
 		CAEA35721467BD13006D2975 /* HTTPResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPResponseHandler.h; sourceTree = "<group>"; };
 		CAEA35731467BD13006D2975 /* HTTPResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPResponseHandler.m; sourceTree = "<group>"; };
@@ -1037,7 +1031,6 @@
 				CAEA30D01467BCAE006D2975 /* UIKit.framework in Frameworks */,
 				CAEA30D21467BCAE006D2975 /* Foundation.framework in Frameworks */,
 				CAEA30D41467BCAE006D2975 /* CoreGraphics.framework in Frameworks */,
-				CAEA37601467BD14006D2975 /* libFlurry.a in Frameworks */,
 				CAEA380C1467BD14006D2975 /* libMobClickLibrary_1.6.4.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1104,7 +1097,6 @@
 		CAEA30C01467BCAE006D2975 = {
 			isa = PBXGroup;
 			children = (
-				CABA82131470D052008E8AFB /* Security.framework */,
 				CAEA339E1467BD12006D2975 /* Common_Iphone */,
 				CAEA33771467BD06006D2975 /* OHAttributedLabel */,
 				CAEA32191467BCF9006D2975 /* tapkulibrary */,
@@ -1128,6 +1120,7 @@
 		CAEA30CE1467BCAE006D2975 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CABA82131470D052008E8AFB /* Security.framework */,
 				CAF71222146F6D3A00FD161D /* MediaPlayer.framework */,
 				CAEA38CC1467C15E006D2975 /* CoreText.framework */,
 				CAEA38CA1467BE3E006D2975 /* libxml2.dylib */,
@@ -1484,7 +1477,6 @@
 				CAEA33A21467BD13006D2975 /* Application */,
 				CAEA33C01467BD13006D2975 /* Components */,
 				CAEA34891467BD13006D2975 /* CoreData */,
-				CAEA34951467BD13006D2975 /* Flurry iPhone SDK */,
 				CAEA35701467BD13006D2975 /* Help.txt */,
 				CAEA35711467BD13006D2975 /* HTTPServer */,
 				CAEA35871467BD13006D2975 /* JSON */,
@@ -1863,34 +1855,6 @@
 				CAEA348D1467BD13006D2975 /* PPDataManager.m */,
 			);
 			path = CoreData;
-			sourceTree = "<group>";
-		};
-		CAEA34951467BD13006D2975 /* Flurry iPhone SDK */ = {
-			isa = PBXGroup;
-			children = (
-				CAEA34971467BD13006D2975 /* FlurryLib */,
-			);
-			path = "Flurry iPhone SDK";
-			sourceTree = "<group>";
-		};
-		CAEA34971467BD13006D2975 /* FlurryLib */ = {
-			isa = PBXGroup;
-			children = (
-				CAEA34991467BD13006D2975 /* AppCircle */,
-				CAEA349E1467BD13006D2975 /* FlurryAPI.h */,
-				CAEA349F1467BD13006D2975 /* libFlurry.a */,
-			);
-			path = FlurryLib;
-			sourceTree = "<group>";
-		};
-		CAEA34991467BD13006D2975 /* AppCircle */ = {
-			isa = PBXGroup;
-			children = (
-				CAEA349B1467BD13006D2975 /* FlurryAdDelegate.h */,
-				CAEA349C1467BD13006D2975 /* FlurryAPI+AppCircle.h */,
-				CAEA349D1467BD13006D2975 /* FlurryOffer.h */,
-			);
-			path = AppCircle;
 			sourceTree = "<group>";
 		};
 		CAEA35711467BD13006D2975 /* HTTPServer */ = {
