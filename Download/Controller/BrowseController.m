@@ -53,6 +53,7 @@
 
 - (IBAction)clickBrowse:(id)sender
 {
+    [self.view endEditing:YES];
     [DownloadWebViewController show:self url:self.browseTextField.text];
     
 }
