@@ -2983,7 +2983,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../Common_Iphone/Flurry iPhone SDK/FlurryLib\"",
 					"\"$(SRCROOT)/../Common_Iphone/iFly/bin\"",
 					"\"$(SRCROOT)/../Common_Iphone/MobClick\"",
 				);
@@ -3005,7 +3004,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../Common_Iphone/Flurry iPhone SDK/FlurryLib\"",
 					"\"$(SRCROOT)/../Common_Iphone/iFly/bin\"",
 					"\"$(SRCROOT)/../Common_Iphone/MobClick\"",
 				);
