@@ -35,6 +35,7 @@
 		CAB05F2D1468FC1600605021 /* JSTools.js in Resources */ = {isa = PBXBuildFile; fileRef = CAAF53C91468D0A10071F5C3 /* JSTools.js */; };
 		CAB17438146AA9D700F0F248 /* DownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB17437146AA9D700F0F248 /* DownloadItem.m */; };
 		CAB1743C146AA9FD00F0F248 /* DownloadItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1743B146AA9ED00F0F248 /* DownloadItemManager.m */; };
+		CABA82141470D053008E8AFB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABA82131470D052008E8AFB /* Security.framework */; };
 		CAE81D10146CDB9D0052EE48 /* ItemActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE81D0E146CDB9D0052EE48 /* ItemActionController.m */; };
 		CAE81D11146CDB9D0052EE48 /* ItemActionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAE81D0F146CDB9D0052EE48 /* ItemActionController.xib */; };
 		CAEA30D01467BCAE006D2975 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA30CF1467BCAE006D2975 /* UIKit.framework */; };
@@ -423,6 +424,7 @@
 		CAB17437146AA9D700F0F248 /* DownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadItem.m; sourceTree = "<group>"; };
 		CAB1743A146AA9ED00F0F248 /* DownloadItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadItemManager.h; sourceTree = "<group>"; };
 		CAB1743B146AA9ED00F0F248 /* DownloadItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadItemManager.m; sourceTree = "<group>"; };
+		CABA82131470D052008E8AFB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CAE81D0D146CDB9D0052EE48 /* ItemActionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemActionController.h; sourceTree = "<group>"; };
 		CAE81D0E146CDB9D0052EE48 /* ItemActionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemActionController.m; sourceTree = "<group>"; };
 		CAE81D0F146CDB9D0052EE48 /* ItemActionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemActionController.xib; sourceTree = "<group>"; };
@@ -1015,6 +1017,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CABA82141470D053008E8AFB /* Security.framework in Frameworks */,
 				CAF71223146F6D3B00FD161D /* MediaPlayer.framework in Frameworks */,
 				CAEA38CD1467C15E006D2975 /* CoreText.framework in Frameworks */,
 				CAEA38CB1467BE3E006D2975 /* libxml2.dylib in Frameworks */,
@@ -1101,6 +1104,7 @@
 		CAEA30C01467BCAE006D2975 = {
 			isa = PBXGroup;
 			children = (
+				CABA82131470D052008E8AFB /* Security.framework */,
 				CAEA339E1467BD12006D2975 /* Common_Iphone */,
 				CAEA33771467BD06006D2975 /* OHAttributedLabel */,
 				CAEA32191467BCF9006D2975 /* tapkulibrary */,
