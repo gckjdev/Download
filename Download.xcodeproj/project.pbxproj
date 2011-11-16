@@ -370,6 +370,8 @@
 		CAF7121D146F65DA00FD161D /* DisplayReadableFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF7121B146F65DA00FD161D /* DisplayReadableFileController.m */; };
 		CAF7121E146F65DA00FD161D /* DisplayReadableFileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF7121C146F65DA00FD161D /* DisplayReadableFileController.xib */; };
 		CAF71223146F6D3B00FD161D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF71222146F6D3A00FD161D /* MediaPlayer.framework */; };
+		EA24B5471473632700BFE1BF /* TopDownloadItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA24B5451473632700BFE1BF /* TopDownloadItemCell.m */; };
+		EA24B5481473632700BFE1BF /* TopDownloadItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA24B5461473632700BFE1BF /* TopDownloadItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1010,6 +1012,9 @@
 		CAF7121C146F65DA00FD161D /* DisplayReadableFileController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayReadableFileController.xib; sourceTree = "<group>"; };
 		CAF7121F146F663300FD161D /* CommonFileActionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFileActionController.h; sourceTree = "<group>"; };
 		CAF71222146F6D3A00FD161D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EA24B5441473632700BFE1BF /* TopDownloadItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopDownloadItemCell.h; sourceTree = "<group>"; };
+		EA24B5451473632700BFE1BF /* TopDownloadItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopDownloadItemCell.m; sourceTree = "<group>"; };
+		EA24B5461473632700BFE1BF /* TopDownloadItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopDownloadItemCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2257,6 +2262,9 @@
 				CAEA38F01467C48D006D2975 /* TopDownloadController.h */,
 				CAEA38F11467C48D006D2975 /* TopDownloadController.m */,
 				CAEA38F21467C48D006D2975 /* TopDownloadController.xib */,
+				EA24B5441473632700BFE1BF /* TopDownloadItemCell.h */,
+				EA24B5451473632700BFE1BF /* TopDownloadItemCell.m */,
+				EA24B5461473632700BFE1BF /* TopDownloadItemCell.xib */,
 				CAEA38F51467C4CB006D2975 /* ResourceCategoryController.h */,
 				CAEA38F61467C4CB006D2975 /* ResourceCategoryController.m */,
 				CAEA38F71467C4CB006D2975 /* ResourceCategoryController.xib */,
@@ -2539,6 +2547,7 @@
 				CAF7121E146F65DA00FD161D /* DisplayReadableFileController.xib in Resources */,
 				CABA823D14715C6B008E8AFB /* star1@2x.png in Resources */,
 				CABA823E14715C6B008E8AFB /* star2@2x.png in Resources */,
+				EA24B5481473632700BFE1BF /* TopDownloadItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2812,6 +2821,7 @@
 				CA8E9816146D15B00007A824 /* ResourceCell.m in Sources */,
 				CAF71218146F65AA00FD161D /* PlayAudioVideoController.m in Sources */,
 				CAF7121D146F65DA00FD161D /* DisplayReadableFileController.m in Sources */,
+				EA24B5471473632700BFE1BF /* TopDownloadItemCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
