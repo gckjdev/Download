@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PPViewController.h"
 
-@interface BrowseController : UIViewController
+@interface BrowseController : PPViewController
 
 - (IBAction)clickBrowse:(id)sender;
 
 @property (retain, nonatomic) IBOutlet UITextField *browseTextField;
+@property (retain, nonatomic) IBOutlet UIView *wordsView;
 
 @end
