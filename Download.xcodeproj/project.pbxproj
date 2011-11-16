@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA11360714736A47004D517E /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = CA11360614736A47004D517E /* Site.m */; };
 		CA83D14214726BF500E004A6 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA83D14114726BF500E004A6 /* QuickLook.framework */; };
 		CA8E97FD146CF03E0007A824 /* TopDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8E97FC146CF03E0007A824 /* TopDownloadItem.m */; };
 		CA8E9801146CF04D0007A824 /* TopDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8E9800146CF04D0007A824 /* TopDownloadManager.m */; };
@@ -385,6 +386,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA11360514736A47004D517E /* Site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Site.h; sourceTree = "<group>"; };
+		CA11360614736A47004D517E /* Site.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Site.m; sourceTree = "<group>"; };
 		CA83D14114726BF500E004A6 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		CA8E97FB146CF03E0007A824 /* TopDownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopDownloadItem.h; sourceTree = "<group>"; };
 		CA8E97FC146CF03E0007A824 /* TopDownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopDownloadItem.m; sourceTree = "<group>"; };
@@ -2288,6 +2291,8 @@
 			isa = PBXGroup;
 			children = (
 				CAEA38FF1467D7EE006D2975 /* MainDataModel.xcdatamodeld */,
+				CA11360514736A47004D517E /* Site.h */,
+				CA11360614736A47004D517E /* Site.m */,
 				CAB17436146AA9D600F0F248 /* DownloadItem.h */,
 				CAB17437146AA9D700F0F248 /* DownloadItem.m */,
 				CAB1743A146AA9ED00F0F248 /* DownloadItemManager.h */,
@@ -2822,6 +2827,7 @@
 				CAF71218146F65AA00FD161D /* PlayAudioVideoController.m in Sources */,
 				CAF7121D146F65DA00FD161D /* DisplayReadableFileController.m in Sources */,
 				EA24B5471473632700BFE1BF /* TopDownloadItemCell.m in Sources */,
+				CA11360714736A47004D517E /* Site.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
