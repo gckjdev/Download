@@ -181,8 +181,6 @@
 		CAEA37111467BD14006D2975 /* countryTelPrefix.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAEA33ED1467BD13006D2975 /* countryTelPrefix.plist */; };
 		CAEA37121467BD14006D2975 /* SelectCountryController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA33EF1467BD13006D2975 /* SelectCountryController.m */; };
 		CAEA37131467BD14006D2975 /* SelectCountryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAEA33F01467BD13006D2975 /* SelectCountryController.xib */; };
-		CAEA37141467BD14006D2975 /* CreateDesktopShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA33F31467BD13006D2975 /* CreateDesktopShortcut.m */; };
-		CAEA37151467BD14006D2975 /* DesktopHTTPResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA33F51467BD13006D2975 /* DesktopHTTPResponseHandler.m */; };
 		CAEA37171467BD14006D2975 /* PullToRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA33FB1467BD13006D2975 /* PullToRefreshTableViewController.m */; };
 		CAEA37181467BD14006D2975 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA33FD1467BD13006D2975 /* RootViewController.m */; };
 		CAEA37191467BD14006D2975 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA34001467BD13006D2975 /* EGORefreshTableHeaderView.m */; };
@@ -225,8 +223,6 @@
 		CAEA37581467BD14006D2975 /* CoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA348B1467BD13006D2975 /* CoreDataUtil.m */; };
 		CAEA37591467BD14006D2975 /* PPDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA348D1467BD13006D2975 /* PPDataManager.m */; };
 		CAEA37FC1467BD14006D2975 /* Help.txt in Resources */ = {isa = PBXBuildFile; fileRef = CAEA35701467BD13006D2975 /* Help.txt */; };
-		CAEA37FD1467BD14006D2975 /* HTTPResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA35731467BD13006D2975 /* HTTPResponseHandler.m */; };
-		CAEA37FE1467BD14006D2975 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA35751467BD13006D2975 /* HTTPServer.m */; };
 		CAEA38021467BD14006D2975 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA358A1467BD13006D2975 /* NSObject+SBJSON.m */; };
 		CAEA38031467BD14006D2975 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA358C1467BD13006D2975 /* NSString+SBJSON.m */; };
 		CAEA38041467BD14006D2975 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA358E1467BD13006D2975 /* SBJSON.m */; };
@@ -267,7 +263,6 @@
 		CAEA38691467BD15006D2975 /* UIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA36631467BD14006D2975 /* UIUtils.m */; };
 		CAEA386A1467BD15006D2975 /* UIViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA36651467BD14006D2975 /* UIViewUtils.m */; };
 		CAEA386B1467BD15006D2975 /* ViewControllerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA36671467BD14006D2975 /* ViewControllerUtils.m */; };
-		CAEA386C1467BD15006D2975 /* ActionSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA366A1467BD14006D2975 /* ActionSelector.m */; };
 		CAEA386D1467BD15006D2975 /* ArrayOfCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA366C1467BD14006D2975 /* ArrayOfCharacters.m */; };
 		CAEA386E1467BD15006D2975 /* DeviceDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA366E1467BD14006D2975 /* DeviceDetection.m */; };
 		CAEA386F1467BD15006D2975 /* ReviewRequest.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAEA366F1467BD14006D2975 /* ReviewRequest.strings */; };
@@ -311,7 +306,6 @@
 		CAEA38951467BD15006D2975 /* UINumberAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA36C31467BD14006D2975 /* UINumberAccessoryView.m */; };
 		CAEA38961467BD15006D2975 /* UIRectTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA36C51467BD14006D2975 /* UIRectTextView.m */; };
 		CAEA38971467BD15006D2975 /* UISearchHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA36C71467BD14006D2975 /* UISearchHistoryView.m */; };
-		CAEA38981467BD15006D2975 /* UISimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA36C91467BD14006D2975 /* UISimpleTableViewController.m */; };
 		CAEA38991467BD15006D2975 /* UISimpleTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA36CB1467BD14006D2975 /* UISimpleTextViewController.m */; };
 		CAEA389A1467BD15006D2975 /* UISwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA36CD1467BD14006D2975 /* UISwitchCell.m */; };
 		CAEA389B1467BD15006D2975 /* UITextFieldForCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA36CF1467BD14006D2975 /* UITextFieldForCell.m */; };
@@ -694,10 +688,6 @@
 		CAEA33EE1467BD13006D2975 /* SelectCountryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCountryController.h; sourceTree = "<group>"; };
 		CAEA33EF1467BD13006D2975 /* SelectCountryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCountryController.m; sourceTree = "<group>"; };
 		CAEA33F01467BD13006D2975 /* SelectCountryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectCountryController.xib; sourceTree = "<group>"; };
-		CAEA33F21467BD13006D2975 /* CreateDesktopShortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateDesktopShortcut.h; sourceTree = "<group>"; };
-		CAEA33F31467BD13006D2975 /* CreateDesktopShortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateDesktopShortcut.m; sourceTree = "<group>"; };
-		CAEA33F41467BD13006D2975 /* DesktopHTTPResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesktopHTTPResponseHandler.h; sourceTree = "<group>"; };
-		CAEA33F51467BD13006D2975 /* DesktopHTTPResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesktopHTTPResponseHandler.m; sourceTree = "<group>"; };
 		CAEA33FA1467BD13006D2975 /* PullToRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullToRefreshTableViewController.h; sourceTree = "<group>"; };
 		CAEA33FB1467BD13006D2975 /* PullToRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullToRefreshTableViewController.m; sourceTree = "<group>"; };
 		CAEA33FC1467BD13006D2975 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -772,11 +762,6 @@
 		CAEA348C1467BD13006D2975 /* PPDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDataManager.h; sourceTree = "<group>"; };
 		CAEA348D1467BD13006D2975 /* PPDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPDataManager.m; sourceTree = "<group>"; };
 		CAEA35701467BD13006D2975 /* Help.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Help.txt; sourceTree = "<group>"; };
-		CAEA35721467BD13006D2975 /* HTTPResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPResponseHandler.h; sourceTree = "<group>"; };
-		CAEA35731467BD13006D2975 /* HTTPResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPResponseHandler.m; sourceTree = "<group>"; };
-		CAEA35741467BD13006D2975 /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
-		CAEA35751467BD13006D2975 /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
-		CAEA35761467BD13006D2975 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		CAEA35881467BD13006D2975 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		CAEA35891467BD13006D2975 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		CAEA358A1467BD13006D2975 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -847,8 +832,6 @@
 		CAEA36651467BD14006D2975 /* UIViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewUtils.m; sourceTree = "<group>"; };
 		CAEA36661467BD14006D2975 /* ViewControllerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerUtils.h; sourceTree = "<group>"; };
 		CAEA36671467BD14006D2975 /* ViewControllerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerUtils.m; sourceTree = "<group>"; };
-		CAEA36691467BD14006D2975 /* ActionSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSelector.h; sourceTree = "<group>"; };
-		CAEA366A1467BD14006D2975 /* ActionSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSelector.m; sourceTree = "<group>"; };
 		CAEA366B1467BD14006D2975 /* ArrayOfCharacters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayOfCharacters.h; sourceTree = "<group>"; };
 		CAEA366C1467BD14006D2975 /* ArrayOfCharacters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayOfCharacters.m; sourceTree = "<group>"; };
 		CAEA366D1467BD14006D2975 /* DeviceDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetection.h; sourceTree = "<group>"; };
@@ -938,8 +921,6 @@
 		CAEA36C51467BD14006D2975 /* UIRectTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRectTextView.m; sourceTree = "<group>"; };
 		CAEA36C61467BD14006D2975 /* UISearchHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISearchHistoryView.h; sourceTree = "<group>"; };
 		CAEA36C71467BD14006D2975 /* UISearchHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISearchHistoryView.m; sourceTree = "<group>"; };
-		CAEA36C81467BD14006D2975 /* UISimpleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISimpleTableViewController.h; sourceTree = "<group>"; };
-		CAEA36C91467BD14006D2975 /* UISimpleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISimpleTableViewController.m; sourceTree = "<group>"; };
 		CAEA36CA1467BD14006D2975 /* UISimpleTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISimpleTextViewController.h; sourceTree = "<group>"; };
 		CAEA36CB1467BD14006D2975 /* UISimpleTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISimpleTextViewController.m; sourceTree = "<group>"; };
 		CAEA36CC1467BD14006D2975 /* UISwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISwitchCell.h; sourceTree = "<group>"; };
@@ -1494,7 +1475,6 @@
 				CAEA33C01467BD13006D2975 /* Components */,
 				CAEA34891467BD13006D2975 /* CoreData */,
 				CAEA35701467BD13006D2975 /* Help.txt */,
-				CAEA35711467BD13006D2975 /* HTTPServer */,
 				CAEA35871467BD13006D2975 /* JSON */,
 				CAEA35951467BD13006D2975 /* LiteManager */,
 				CAEA35981467BD13006D2975 /* Location */,
@@ -1570,7 +1550,6 @@
 				CAEA33DC1467BD13006D2975 /* CityPicker */,
 				CAEA33E41467BD13006D2975 /* Contact */,
 				CAEA33E81467BD13006D2975 /* CountryPicker */,
-				CAEA33F11467BD13006D2975 /* DesktopShortcut */,
 				CAEA33F71467BD13006D2975 /* EGOTableViewPullRefresh */,
 				CAEA340B1467BD13006D2975 /* GoogleTranslation */,
 				CAEA340E1467BD13006D2975 /* HJCacheClasses */,
@@ -1659,17 +1638,6 @@
 				CAEA33F01467BD13006D2975 /* SelectCountryController.xib */,
 			);
 			path = CountryPicker;
-			sourceTree = "<group>";
-		};
-		CAEA33F11467BD13006D2975 /* DesktopShortcut */ = {
-			isa = PBXGroup;
-			children = (
-				CAEA33F21467BD13006D2975 /* CreateDesktopShortcut.h */,
-				CAEA33F31467BD13006D2975 /* CreateDesktopShortcut.m */,
-				CAEA33F41467BD13006D2975 /* DesktopHTTPResponseHandler.h */,
-				CAEA33F51467BD13006D2975 /* DesktopHTTPResponseHandler.m */,
-			);
-			path = DesktopShortcut;
 			sourceTree = "<group>";
 		};
 		CAEA33F71467BD13006D2975 /* EGOTableViewPullRefresh */ = {
@@ -1873,18 +1841,6 @@
 			path = CoreData;
 			sourceTree = "<group>";
 		};
-		CAEA35711467BD13006D2975 /* HTTPServer */ = {
-			isa = PBXGroup;
-			children = (
-				CAEA35721467BD13006D2975 /* HTTPResponseHandler.h */,
-				CAEA35731467BD13006D2975 /* HTTPResponseHandler.m */,
-				CAEA35741467BD13006D2975 /* HTTPServer.h */,
-				CAEA35751467BD13006D2975 /* HTTPServer.m */,
-				CAEA35761467BD13006D2975 /* SynthesizeSingleton.h */,
-			);
-			path = HTTPServer;
-			sourceTree = "<group>";
-		};
 		CAEA35871467BD13006D2975 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
@@ -2038,8 +1994,6 @@
 		CAEA36681467BD14006D2975 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				CAEA36691467BD14006D2975 /* ActionSelector.h */,
-				CAEA366A1467BD14006D2975 /* ActionSelector.m */,
 				CAEA366B1467BD14006D2975 /* ArrayOfCharacters.h */,
 				CAEA366C1467BD14006D2975 /* ArrayOfCharacters.m */,
 				CAEA366D1467BD14006D2975 /* DeviceDetection.h */,
@@ -2141,8 +2095,6 @@
 				CAEA36C51467BD14006D2975 /* UIRectTextView.m */,
 				CAEA36C61467BD14006D2975 /* UISearchHistoryView.h */,
 				CAEA36C71467BD14006D2975 /* UISearchHistoryView.m */,
-				CAEA36C81467BD14006D2975 /* UISimpleTableViewController.h */,
-				CAEA36C91467BD14006D2975 /* UISimpleTableViewController.m */,
 				CAEA36CA1467BD14006D2975 /* UISimpleTextViewController.h */,
 				CAEA36CB1467BD14006D2975 /* UISimpleTextViewController.m */,
 				CAEA36CC1467BD14006D2975 /* UISwitchCell.h */,
@@ -2691,8 +2643,6 @@
 				CAEA370F1467BD14006D2975 /* CountryDataManager.m in Sources */,
 				CAEA37101467BD14006D2975 /* CountryPicker.m in Sources */,
 				CAEA37121467BD14006D2975 /* SelectCountryController.m in Sources */,
-				CAEA37141467BD14006D2975 /* CreateDesktopShortcut.m in Sources */,
-				CAEA37151467BD14006D2975 /* DesktopHTTPResponseHandler.m in Sources */,
 				CAEA37171467BD14006D2975 /* PullToRefreshTableViewController.m in Sources */,
 				CAEA37181467BD14006D2975 /* RootViewController.m in Sources */,
 				CAEA37191467BD14006D2975 /* EGORefreshTableHeaderView.m in Sources */,
@@ -2721,8 +2671,6 @@
 				CAEA37561467BD14006D2975 /* TextEditorViewController.m in Sources */,
 				CAEA37581467BD14006D2975 /* CoreDataUtil.m in Sources */,
 				CAEA37591467BD14006D2975 /* PPDataManager.m in Sources */,
-				CAEA37FD1467BD14006D2975 /* HTTPResponseHandler.m in Sources */,
-				CAEA37FE1467BD14006D2975 /* HTTPServer.m in Sources */,
 				CAEA38021467BD14006D2975 /* NSObject+SBJSON.m in Sources */,
 				CAEA38031467BD14006D2975 /* NSString+SBJSON.m in Sources */,
 				CAEA38041467BD14006D2975 /* SBJSON.m in Sources */,
@@ -2750,7 +2698,6 @@
 				CAEA38691467BD15006D2975 /* UIUtils.m in Sources */,
 				CAEA386A1467BD15006D2975 /* UIViewUtils.m in Sources */,
 				CAEA386B1467BD15006D2975 /* ViewControllerUtils.m in Sources */,
-				CAEA386C1467BD15006D2975 /* ActionSelector.m in Sources */,
 				CAEA386D1467BD15006D2975 /* ArrayOfCharacters.m in Sources */,
 				CAEA386E1467BD15006D2975 /* DeviceDetection.m in Sources */,
 				CAEA38701467BD15006D2975 /* FileUtil.m in Sources */,
@@ -2793,7 +2740,6 @@
 				CAEA38951467BD15006D2975 /* UINumberAccessoryView.m in Sources */,
 				CAEA38961467BD15006D2975 /* UIRectTextView.m in Sources */,
 				CAEA38971467BD15006D2975 /* UISearchHistoryView.m in Sources */,
-				CAEA38981467BD15006D2975 /* UISimpleTableViewController.m in Sources */,
 				CAEA38991467BD15006D2975 /* UISimpleTextViewController.m in Sources */,
 				CAEA389A1467BD15006D2975 /* UISwitchCell.m in Sources */,
 				CAEA389B1467BD15006D2975 /* UITextFieldForCell.m in Sources */,
@@ -2971,7 +2917,7 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
@@ -2988,7 +2934,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
