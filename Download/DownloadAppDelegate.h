@@ -16,7 +16,7 @@
 #import "WebViewTouchWindow.h"
 
 #define kAppId			@"456494464"					// To be changed for each project
-#define kMobClickKey	@"4e2d3cc0431fe371c3000029"		// To be changed for each project
+#define kMobClickKey	@"4ec3d3045270151da9000025"		// To be changed for each project
 #define kDbFileName     @"Download"
 
 @interface DownloadAppDelegate : PPApplication <UIApplicationDelegate, UITabBarControllerDelegate, MobClickDelegate>

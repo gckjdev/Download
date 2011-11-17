@@ -101,7 +101,7 @@
         }
     }
     else{
-        text = [searchEngineURL stringByAppendingString:[text stringByURLEncode]];
+        text = [searchEngineURL stringByAppendingString:text];
     }
     
     [DownloadWebViewController show:self url:text];
