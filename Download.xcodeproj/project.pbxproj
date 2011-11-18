@@ -348,7 +348,6 @@
 		CAEA38F91467C4CC006D2975 /* ResourceCategoryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAEA38F71467C4CB006D2975 /* ResourceCategoryController.xib */; };
 		CAEA38FD1467C4E1006D2975 /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA38FB1467C4E1006D2975 /* AboutController.m */; };
 		CAEA38FE1467C4E1006D2975 /* AboutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAEA38FC1467C4E1006D2975 /* AboutController.xib */; };
-		CAEA39011467D7EE006D2975 /* MainDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAEA38FF1467D7EE006D2975 /* MainDataModel.xcdatamodeld */; };
 		CAEA390D1467D861006D2975 /* tu_06@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAEA39031467D861006D2975 /* tu_06@2x.png */; };
 		CAEA390E1467D861006D2975 /* tu_07@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAEA39041467D861006D2975 /* tu_07@2x.png */; };
 		CAEA390F1467D861006D2975 /* tu_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAEA39051467D861006D2975 /* tu_10@2x.png */; };
@@ -367,6 +366,7 @@
 		CAF71223146F6D3B00FD161D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF71222146F6D3A00FD161D /* MediaPlayer.framework */; };
 		EA24B5471473632700BFE1BF /* TopDownloadItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA24B5451473632700BFE1BF /* TopDownloadItemCell.m */; };
 		EA24B5481473632700BFE1BF /* TopDownloadItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA24B5461473632700BFE1BF /* TopDownloadItemCell.xib */; };
+		EA64A2C614765123002BB704 /* MainDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA64A2C414765123002BB704 /* MainDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -976,7 +976,6 @@
 		CAEA38FA1467C4E0006D2975 /* AboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutController.h; sourceTree = "<group>"; };
 		CAEA38FB1467C4E1006D2975 /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutController.m; sourceTree = "<group>"; };
 		CAEA38FC1467C4E1006D2975 /* AboutController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutController.xib; sourceTree = "<group>"; };
-		CAEA39001467D7EE006D2975 /* MainDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MainDataModel.xcdatamodel; sourceTree = "<group>"; };
 		CAEA39031467D861006D2975 /* tu_06@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_06@2x.png"; sourceTree = "<group>"; };
 		CAEA39041467D861006D2975 /* tu_07@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_07@2x.png"; sourceTree = "<group>"; };
 		CAEA39051467D861006D2975 /* tu_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_10@2x.png"; sourceTree = "<group>"; };
@@ -999,6 +998,7 @@
 		EA24B5441473632700BFE1BF /* TopDownloadItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopDownloadItemCell.h; sourceTree = "<group>"; };
 		EA24B5451473632700BFE1BF /* TopDownloadItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopDownloadItemCell.m; sourceTree = "<group>"; };
 		EA24B5461473632700BFE1BF /* TopDownloadItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopDownloadItemCell.xib; sourceTree = "<group>"; };
+		EA64A2C514765123002BB704 /* MainDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MainDataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2242,7 +2242,7 @@
 		CAEA38E21467C3FA006D2975 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CAEA38FF1467D7EE006D2975 /* MainDataModel.xcdatamodeld */,
+				EA64A2C414765123002BB704 /* MainDataModel.xcdatamodeld */,
 				CAB17436146AA9D600F0F248 /* DownloadItem.h */,
 				CAB17437146AA9D700F0F248 /* DownloadItem.m */,
 				CAB1743A146AA9ED00F0F248 /* DownloadItemManager.h */,
@@ -2752,7 +2752,6 @@
 				CAEA38F31467C48D006D2975 /* TopDownloadController.m in Sources */,
 				CAEA38F81467C4CC006D2975 /* ResourceCategoryController.m in Sources */,
 				CAEA38FD1467C4E1006D2975 /* AboutController.m in Sources */,
-				CAEA39011467D7EE006D2975 /* MainDataModel.xcdatamodeld in Sources */,
 				CAAF53A21468126C0071F5C3 /* DownloadWebViewController.m in Sources */,
 				CAAF53A71468150E0071F5C3 /* FileTypeManager.m in Sources */,
 				CAAF53AA146815350071F5C3 /* DownloadService.m in Sources */,
@@ -2774,6 +2773,7 @@
 				CAF7121D146F65DA00FD161D /* DisplayReadableFileController.m in Sources */,
 				EA24B5471473632700BFE1BF /* TopDownloadItemCell.m in Sources */,
 				CA11360B1473A13C004D517E /* Site.m in Sources */,
+				EA64A2C614765123002BB704 /* MainDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3053,12 +3053,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CAEA38FF1467D7EE006D2975 /* MainDataModel.xcdatamodeld */ = {
+		EA64A2C414765123002BB704 /* MainDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CAEA39001467D7EE006D2975 /* MainDataModel.xcdatamodel */,
+				EA64A2C514765123002BB704 /* MainDataModel.xcdatamodel */,
 			);
-			currentVersion = CAEA39001467D7EE006D2975 /* MainDataModel.xcdatamodel */;
+			currentVersion = EA64A2C514765123002BB704 /* MainDataModel.xcdatamodel */;
 			path = MainDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
