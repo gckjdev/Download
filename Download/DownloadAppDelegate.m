@@ -67,25 +67,25 @@ NSString* GlobalGetServerURL()
 	NSMutableArray* controllers = [[NSMutableArray alloc] init];
     
 	[UIUtils addViewController:[TopDownloadController alloc]
-					 viewTitle:NSLS(@"Top")
+					 viewTitle:NSLS(@"kFirstViewTitle")
 					 viewImage:@"tu_06.png"
 			  hasNavController:YES			
 			   viewControllers:controllers];	
     
 	[UIUtils addViewController:[ResourceCategoryController alloc]
-					 viewTitle:NSLS(@"Resource")
+					 viewTitle:NSLS(@"kSecondViewTitle")
 					 viewImage:@"tu_07.png"
 			  hasNavController:YES			
 			   viewControllers:controllers];	
     
 	[UIUtils addViewController:[BrowseController alloc]
-                     viewTitle:NSLS(@"Browse")				 
+                     viewTitle:NSLS(@"kThirdViewTitle")				 
                      viewImage:@"tu_10.png"
               hasNavController:YES			
                viewControllers:controllers];
 
 	[UIUtils addViewController:[DownloadManageController alloc]
-					 viewTitle:NSLS(@"Download")				 
+					 viewTitle:NSLS(@"kFourthViewTitle")				 
 					 viewImage:@"tu_12.png"
 			  hasNavController:YES			
 			   viewControllers:controllers];	
