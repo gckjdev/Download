@@ -15,6 +15,8 @@
 @implementation BrowseController
 @synthesize browseTextField;
 @synthesize wordsView;
+@synthesize browseButton;
+@synthesize commonlyUsedWordsLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -67,6 +69,9 @@
     [wordsView createButtonsInView:keywords templateButton:keywordTemplateButton target:self action:@selector(clickKeyword:)];
     
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    [self.browseButton setTitle:NSLS(@"kBrowseButtonTitle") forState:UIControlStateNormal];
+    [self.commonlyUsedWordsLabel setText:NSLS(@"kCommonlyUsedWordsLabel")];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -78,6 +83,8 @@
 - (void)viewDidUnload
 {
     [self setBrowseTextField:nil];
+    [self setBrowseButton:nil];
+    [self setCommonlyUsedWordsLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -123,6 +130,8 @@
 - (void)dealloc {
     [wordsView release];
     [browseTextField release];
+    [browseButton release];
+    [commonlyUsedWordsLabel release];
     [super dealloc];
 }
 @end

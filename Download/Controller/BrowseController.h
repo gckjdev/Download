@@ -15,5 +15,7 @@
 
 @property (retain, nonatomic) IBOutlet UITextField *browseTextField;
 @property (retain, nonatomic) IBOutlet UIView *wordsView;
+@property (retain, nonatomic) IBOutlet UIButton *browseButton;
+@property (retain, nonatomic) IBOutlet UILabel *commonlyUsedWordsLabel;
 
 @end
