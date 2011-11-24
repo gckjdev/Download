@@ -28,7 +28,7 @@ NSString* GlobalGetServerURL()
     // return @"http://uhz001030.chinaw3.com/api/i?";
     
     
-    return @"http://192.168.1.188:8000/api/i?";
+    return @"http://192.168.1.105:8000/api/i?";
     
 }
 

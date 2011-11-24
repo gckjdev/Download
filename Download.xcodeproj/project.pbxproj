@@ -367,6 +367,20 @@
 		CAF71223146F6D3B00FD161D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF71222146F6D3A00FD161D /* MediaPlayer.framework */; };
 		EA24B5471473632700BFE1BF /* TopDownloadItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA24B5451473632700BFE1BF /* TopDownloadItemCell.m */; };
 		EA24B5481473632700BFE1BF /* TopDownloadItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA24B5461473632700BFE1BF /* TopDownloadItemCell.xib */; };
+		EAC56203147CE22000DD2AFF /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC561D7147CE22000DD2AFF /* Menu.m */; };
+		EAC56204147CE22000DD2AFF /* MWPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC561D9147CE22000DD2AFF /* MWPhoto.m */; };
+		EAC56205147CE22000DD2AFF /* MWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC561DB147CE22000DD2AFF /* MWPhotoBrowser.m */; };
+		EAC56206147CE22000DD2AFF /* MWPhotoBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC561DD147CE22000DD2AFF /* MWPhotoBrowserAppDelegate.m */; };
+		EAC56207147CE22000DD2AFF /* UIImage+Decompress.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC561DF147CE22000DD2AFF /* UIImage+Decompress.m */; };
+		EAC56208147CE22000DD2AFF /* UIImageViewTap.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC561E1147CE22000DD2AFF /* UIImageViewTap.m */; };
+		EAC56209147CE22000DD2AFF /* UIViewTap.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC561E3147CE22000DD2AFF /* UIViewTap.m */; };
+		EAC5620A147CE22000DD2AFF /* ZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC561E5147CE22000DD2AFF /* ZoomingScrollView.m */; };
+		EAC5621A147CE22000DD2AFF /* UIBarButtonItemArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC561FA147CE22000DD2AFF /* UIBarButtonItemArrowLeft.png */; };
+		EAC5621B147CE22000DD2AFF /* UIBarButtonItemArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC561FB147CE22000DD2AFF /* UIBarButtonItemArrowLeft@2x.png */; };
+		EAC5621C147CE22000DD2AFF /* UIBarButtonItemArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC561FC147CE22000DD2AFF /* UIBarButtonItemArrowRight.png */; };
+		EAC5621D147CE22000DD2AFF /* UIBarButtonItemArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC561FD147CE22000DD2AFF /* UIBarButtonItemArrowRight@2x.png */; };
+		EAC56224147CE36C00DD2AFF /* ViewImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC56222147CE36C00DD2AFF /* ViewImageController.m */; };
+		EAC56225147CE36C00DD2AFF /* ViewImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC56223147CE36C00DD2AFF /* ViewImageController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -999,6 +1013,29 @@
 		EA24B5441473632700BFE1BF /* TopDownloadItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopDownloadItemCell.h; sourceTree = "<group>"; };
 		EA24B5451473632700BFE1BF /* TopDownloadItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopDownloadItemCell.m; sourceTree = "<group>"; };
 		EA24B5461473632700BFE1BF /* TopDownloadItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopDownloadItemCell.xib; sourceTree = "<group>"; };
+		EAC561D6147CE22000DD2AFF /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		EAC561D7147CE22000DD2AFF /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		EAC561D8147CE22000DD2AFF /* MWPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhoto.h; sourceTree = "<group>"; };
+		EAC561D9147CE22000DD2AFF /* MWPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhoto.m; sourceTree = "<group>"; };
+		EAC561DA147CE22000DD2AFF /* MWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoBrowser.h; sourceTree = "<group>"; };
+		EAC561DB147CE22000DD2AFF /* MWPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhotoBrowser.m; sourceTree = "<group>"; };
+		EAC561DC147CE22000DD2AFF /* MWPhotoBrowserAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoBrowserAppDelegate.h; sourceTree = "<group>"; };
+		EAC561DD147CE22000DD2AFF /* MWPhotoBrowserAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhotoBrowserAppDelegate.m; sourceTree = "<group>"; };
+		EAC561DE147CE22000DD2AFF /* UIImage+Decompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Decompress.h"; sourceTree = "<group>"; };
+		EAC561DF147CE22000DD2AFF /* UIImage+Decompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Decompress.m"; sourceTree = "<group>"; };
+		EAC561E0147CE22000DD2AFF /* UIImageViewTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageViewTap.h; sourceTree = "<group>"; };
+		EAC561E1147CE22000DD2AFF /* UIImageViewTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewTap.m; sourceTree = "<group>"; };
+		EAC561E2147CE22000DD2AFF /* UIViewTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewTap.h; sourceTree = "<group>"; };
+		EAC561E3147CE22000DD2AFF /* UIViewTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewTap.m; sourceTree = "<group>"; };
+		EAC561E4147CE22000DD2AFF /* ZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomingScrollView.h; sourceTree = "<group>"; };
+		EAC561E5147CE22000DD2AFF /* ZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomingScrollView.m; sourceTree = "<group>"; };
+		EAC561FA147CE22000DD2AFF /* UIBarButtonItemArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIBarButtonItemArrowLeft.png; sourceTree = "<group>"; };
+		EAC561FB147CE22000DD2AFF /* UIBarButtonItemArrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIBarButtonItemArrowLeft@2x.png"; sourceTree = "<group>"; };
+		EAC561FC147CE22000DD2AFF /* UIBarButtonItemArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIBarButtonItemArrowRight.png; sourceTree = "<group>"; };
+		EAC561FD147CE22000DD2AFF /* UIBarButtonItemArrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIBarButtonItemArrowRight@2x.png"; sourceTree = "<group>"; };
+		EAC56221147CE36C00DD2AFF /* ViewImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewImageController.h; sourceTree = "<group>"; };
+		EAC56222147CE36C00DD2AFF /* ViewImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewImageController.m; sourceTree = "<group>"; };
+		EAC56223147CE36C00DD2AFF /* ViewImageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewImageController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1469,6 +1506,7 @@
 		CAEA339E1467BD12006D2975 /* Common_Iphone */ = {
 			isa = PBXGroup;
 			children = (
+				EAC561D3147CE22000DD2AFF /* MWPhotoBrowser */,
 				CAEA38E01467C3FA006D2975 /* DownloadCommon */,
 				CAEA339F1467BD12006D2975 /* AddressBookUtils */,
 				CAEA33A21467BD13006D2975 /* Application */,
@@ -2327,8 +2365,46 @@
 				CAF7121B146F65DA00FD161D /* DisplayReadableFileController.m */,
 				CAF7121C146F65DA00FD161D /* DisplayReadableFileController.xib */,
 				CAF7121F146F663300FD161D /* CommonFileActionController.h */,
+				EAC56221147CE36C00DD2AFF /* ViewImageController.h */,
+				EAC56222147CE36C00DD2AFF /* ViewImageController.m */,
+				EAC56223147CE36C00DD2AFF /* ViewImageController.xib */,
 			);
 			path = Action;
+			sourceTree = "<group>";
+		};
+		EAC561D3147CE22000DD2AFF /* MWPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EAC561D5147CE22000DD2AFF /* Classes */,
+				EAC561FA147CE22000DD2AFF /* UIBarButtonItemArrowLeft.png */,
+				EAC561FB147CE22000DD2AFF /* UIBarButtonItemArrowLeft@2x.png */,
+				EAC561FC147CE22000DD2AFF /* UIBarButtonItemArrowRight.png */,
+				EAC561FD147CE22000DD2AFF /* UIBarButtonItemArrowRight@2x.png */,
+			);
+			path = MWPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		EAC561D5147CE22000DD2AFF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EAC561D6147CE22000DD2AFF /* Menu.h */,
+				EAC561D7147CE22000DD2AFF /* Menu.m */,
+				EAC561D8147CE22000DD2AFF /* MWPhoto.h */,
+				EAC561D9147CE22000DD2AFF /* MWPhoto.m */,
+				EAC561DA147CE22000DD2AFF /* MWPhotoBrowser.h */,
+				EAC561DB147CE22000DD2AFF /* MWPhotoBrowser.m */,
+				EAC561DC147CE22000DD2AFF /* MWPhotoBrowserAppDelegate.h */,
+				EAC561DD147CE22000DD2AFF /* MWPhotoBrowserAppDelegate.m */,
+				EAC561DE147CE22000DD2AFF /* UIImage+Decompress.h */,
+				EAC561DF147CE22000DD2AFF /* UIImage+Decompress.m */,
+				EAC561E0147CE22000DD2AFF /* UIImageViewTap.h */,
+				EAC561E1147CE22000DD2AFF /* UIImageViewTap.m */,
+				EAC561E2147CE22000DD2AFF /* UIViewTap.h */,
+				EAC561E3147CE22000DD2AFF /* UIViewTap.m */,
+				EAC561E4147CE22000DD2AFF /* ZoomingScrollView.h */,
+				EAC561E5147CE22000DD2AFF /* ZoomingScrollView.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2505,6 +2581,11 @@
 				CABA823D14715C6B008E8AFB /* star1@2x.png in Resources */,
 				CABA823E14715C6B008E8AFB /* star2@2x.png in Resources */,
 				EA24B5481473632700BFE1BF /* TopDownloadItemCell.xib in Resources */,
+				EAC5621A147CE22000DD2AFF /* UIBarButtonItemArrowLeft.png in Resources */,
+				EAC5621B147CE22000DD2AFF /* UIBarButtonItemArrowLeft@2x.png in Resources */,
+				EAC5621C147CE22000DD2AFF /* UIBarButtonItemArrowRight.png in Resources */,
+				EAC5621D147CE22000DD2AFF /* UIBarButtonItemArrowRight@2x.png in Resources */,
+				EAC56225147CE36C00DD2AFF /* ViewImageController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2774,6 +2855,15 @@
 				CAF7121D146F65DA00FD161D /* DisplayReadableFileController.m in Sources */,
 				EA24B5471473632700BFE1BF /* TopDownloadItemCell.m in Sources */,
 				CA11360B1473A13C004D517E /* Site.m in Sources */,
+				EAC56203147CE22000DD2AFF /* Menu.m in Sources */,
+				EAC56204147CE22000DD2AFF /* MWPhoto.m in Sources */,
+				EAC56205147CE22000DD2AFF /* MWPhotoBrowser.m in Sources */,
+				EAC56206147CE22000DD2AFF /* MWPhotoBrowserAppDelegate.m in Sources */,
+				EAC56207147CE22000DD2AFF /* UIImage+Decompress.m in Sources */,
+				EAC56208147CE22000DD2AFF /* UIImageViewTap.m in Sources */,
+				EAC56209147CE22000DD2AFF /* UIViewTap.m in Sources */,
+				EAC5620A147CE22000DD2AFF /* ZoomingScrollView.m in Sources */,
+				EAC56224147CE36C00DD2AFF /* ViewImageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
