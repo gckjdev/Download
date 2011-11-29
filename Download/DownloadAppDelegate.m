@@ -21,6 +21,8 @@
 #import "DownloadService.h"
 #import "ResourceService.h"
 
+#import "DownloadResource.h"
+
 NSString* GlobalGetServerURL()
 {
     //   return @"http://192.168.1.101:8000/api/i?";
@@ -58,7 +60,7 @@ NSString* GlobalGetServerURL()
     self.tabBarController = [[[PPTabBarController alloc] init] autorelease];
     
     self.tabBarController.delegate = self;
-    [self.tabBarController setBarBackground:@"tu_209.png"];
+    [self.tabBarController setBarBackground:TABBAR_BACKGROUND];
     [self.tabBarController setTextColor:[UIColor colorWithRed:194/255.0 green:188/255.0 blue:180/255.0 alpha:1.0]
                    selectTextColor:[UIColor colorWithRed:210/255.0 green:217/255.0 blue:133/255.0 alpha:1.0]];
     self.tabBarController.buttonStyle = TAB_BUTTON_STYLE_ICON;    
@@ -68,40 +70,40 @@ NSString* GlobalGetServerURL()
     
 	[UIUtils addViewController:[TopDownloadController alloc]
 					 viewTitle:NSLS(@"kFirstViewTitle")
-					 viewImage:@"tu_06.png"
+					 viewImage:TOP_ICON
 			  hasNavController:YES			
 			   viewControllers:controllers];	
     
 	[UIUtils addViewController:[ResourceCategoryController alloc]
 					 viewTitle:NSLS(@"kSecondViewTitle")
-					 viewImage:@"tu_07.png"
+					 viewImage:RESOURCE_ICON
 			  hasNavController:YES			
 			   viewControllers:controllers];	
     
 	[UIUtils addViewController:[BrowseController alloc]
                      viewTitle:NSLS(@"kThirdViewTitle")				 
-                     viewImage:@"tu_10.png"
+                     viewImage:BROWSE_ICON
               hasNavController:YES			
                viewControllers:controllers];
 
 	[UIUtils addViewController:[DownloadManageController alloc]
 					 viewTitle:NSLS(@"kFourthViewTitle")				 
-					 viewImage:@"tu_12.png"
+					 viewImage:DOWNLOAD_ICON
 			  hasNavController:YES			
 			   viewControllers:controllers];	
 	    
     [UIUtils addViewController:[AboutController alloc]
                      viewTitle:NSLS(@"Settings")
-                     viewImage:@"tu_13.png"
+                     viewImage:ABOUT_ICON
               hasNavController:YES			
                viewControllers:controllers];	        
     
     [self.tabBarController setSelectedImageArray:[NSArray arrayWithObjects:
-                                                  @"tu_21.png", 
-                                                  @"tu_22.png", 
-                                                  @"tu_23.png", 
-                                                  @"tu_24.png", 
-                                                  @"tu_25.png", nil]];
+                                                  TOP_PRESS_ICON, 
+                                                  RESOURCE_PRESS_ICON, 
+                                                  BROWSE_PRESS_ICON, 
+                                                  DOWNLOAD_PRESS_ICON, 
+                                                  ABOUT_PRESS_ICON, nil]];
     	
 	self.tabBarController.viewControllers = controllers;	
 	[controllers release];
