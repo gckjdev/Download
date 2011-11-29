@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		CA11360B1473A13C004D517E /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = CA11360A1473A13B004D517E /* Site.m */; };
+		CA19EFB81484C27400CDF114 /* Unrar4iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = CA19EF671484C27300CDF114 /* Unrar4iOS.mm */; };
+		CA19EFBE1484C2C800CDF114 /* Unrar4iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA19EFBD1484C2C800CDF114 /* Unrar4iOS.framework */; };
+		CA19EFDE1484C34900CDF114 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = CA19EFC51484C34900CDF114 /* ioapi.c */; };
+		CA19EFDF1484C34900CDF114 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = CA19EFC71484C34900CDF114 /* mztools.c */; };
+		CA19EFE01484C34900CDF114 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = CA19EFC91484C34900CDF114 /* unzip.c */; };
+		CA19EFE11484C34900CDF114 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = CA19EFCB1484C34900CDF114 /* zip.c */; };
+		CA19EFEC1484C39500CDF114 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19EFEB1484C39500CDF114 /* SSZipArchive.m */; };
 		CA83D14214726BF500E004A6 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA83D14114726BF500E004A6 /* QuickLook.framework */; };
 		CA8E97FD146CF03E0007A824 /* TopDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8E97FC146CF03E0007A824 /* TopDownloadItem.m */; };
 		CA8E9801146CF04D0007A824 /* TopDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8E9800146CF04D0007A824 /* TopDownloadManager.m */; };
@@ -31,7 +38,6 @@
 		CAAF53AA146815350071F5C3 /* DownloadService.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAF53A9146815350071F5C3 /* DownloadService.m */; };
 		CAAF53AE146818060071F5C3 /* DownloadItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAF53AC146818030071F5C3 /* DownloadItemCell.m */; };
 		CAAF53AF146818060071F5C3 /* DownloadItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAAF53AD146818040071F5C3 /* DownloadItemCell.xib */; };
-		CAAF53CC1468D0A10071F5C3 /* JSTools.js in Sources */ = {isa = PBXBuildFile; fileRef = CAAF53C91468D0A10071F5C3 /* JSTools.js */; };
 		CAAF53CD1468D0A10071F5C3 /* WebViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAF53CB1468D0A10071F5C3 /* WebViewAdditions.m */; };
 		CAAF53D11468D42E0071F5C3 /* WebViewTouchWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAF53D01468D42E0071F5C3 /* WebViewTouchWindow.m */; };
 		CAB05F2D1468FC1600605021 /* JSTools.js in Resources */ = {isa = PBXBuildFile; fileRef = CAAF53C91468D0A10071F5C3 /* JSTools.js */; };
@@ -365,11 +371,9 @@
 		CAF7121D146F65DA00FD161D /* DisplayReadableFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF7121B146F65DA00FD161D /* DisplayReadableFileController.m */; };
 		CAF7121E146F65DA00FD161D /* DisplayReadableFileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF7121C146F65DA00FD161D /* DisplayReadableFileController.xib */; };
 		CAF71223146F6D3B00FD161D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF71222146F6D3A00FD161D /* MediaPlayer.framework */; };
-		EA1B00A71481F458002A1E8B /* Unrar4iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA1B00571481F457002A1E8B /* Unrar4iOS.mm */; };
 		EA1B00BD14823359002A1E8B /* DecompressItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1B00BC14823359002A1E8B /* DecompressItem.m */; };
 		EA1B00C014823908002A1E8B /* DecompressService.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1B00BF14823908002A1E8B /* DecompressService.m */; };
 		EA1B00C314824456002A1E8B /* DecompressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1B00C214824456002A1E8B /* DecompressManager.m */; };
-		EA1BFFD21481F439002A1E8B /* Unrar4iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1BFFD11481F439002A1E8B /* Unrar4iOS.framework */; };
 		EA24B5471473632700BFE1BF /* TopDownloadItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA24B5451473632700BFE1BF /* TopDownloadItemCell.m */; };
 		EA24B5481473632700BFE1BF /* TopDownloadItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA24B5461473632700BFE1BF /* TopDownloadItemCell.xib */; };
 		EAAF75F5147F60E8009A61CE /* ViewDecompressItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAF75F3147F60E7009A61CE /* ViewDecompressItemController.m */; };
@@ -388,15 +392,6 @@
 		EAC5621D147CE22000DD2AFF /* UIBarButtonItemArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC561FD147CE22000DD2AFF /* UIBarButtonItemArrowRight@2x.png */; };
 		EAC56224147CE36C00DD2AFF /* ViewImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC56222147CE36C00DD2AFF /* ViewImageController.m */; };
 		EAC56225147CE36C00DD2AFF /* ViewImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC56223147CE36C00DD2AFF /* ViewImageController.xib */; };
-		EAF462341483B037002B86BB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EAF462191483B037002B86BB /* .gitignore */; };
-		EAF462351483B037002B86BB /* Changelog.markdown in Resources */ = {isa = PBXBuildFile; fileRef = EAF4621A1483B037002B86BB /* Changelog.markdown */; };
-		EAF462361483B037002B86BB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EAF4621B1483B037002B86BB /* LICENSE */; };
-		EAF462371483B037002B86BB /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = EAF4621E1483B037002B86BB /* ioapi.c */; };
-		EAF462381483B037002B86BB /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = EAF462201483B037002B86BB /* mztools.c */; };
-		EAF462391483B037002B86BB /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = EAF462221483B037002B86BB /* unzip.c */; };
-		EAF4623A1483B037002B86BB /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = EAF462241483B037002B86BB /* zip.c */; };
-		EAF4623B1483B037002B86BB /* Readme.markdown in Resources */ = {isa = PBXBuildFile; fileRef = EAF462261483B037002B86BB /* Readme.markdown */; };
-		EAF4623C1483B037002B86BB /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF462281483B037002B86BB /* SSZipArchive.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -412,6 +407,20 @@
 /* Begin PBXFileReference section */
 		CA1136091473A13B004D517E /* Site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Site.h; sourceTree = "<group>"; };
 		CA11360A1473A13B004D517E /* Site.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Site.m; sourceTree = "<group>"; };
+		CA19EF661484C27300CDF114 /* Unrar4iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unrar4iOS.h; sourceTree = "<group>"; };
+		CA19EF671484C27300CDF114 /* Unrar4iOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Unrar4iOS.mm; sourceTree = "<group>"; };
+		CA19EFBD1484C2C800CDF114 /* Unrar4iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Unrar4iOS.framework; sourceTree = "<group>"; };
+		CA19EFC41484C34900CDF114 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		CA19EFC51484C34900CDF114 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		CA19EFC61484C34900CDF114 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		CA19EFC71484C34900CDF114 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		CA19EFC81484C34900CDF114 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		CA19EFC91484C34900CDF114 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		CA19EFCA1484C34900CDF114 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		CA19EFCB1484C34900CDF114 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		CA19EFCC1484C34900CDF114 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		CA19EFEA1484C39500CDF114 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		CA19EFEB1484C39500CDF114 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
 		CA83D14114726BF500E004A6 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		CA8E97FB146CF03E0007A824 /* TopDownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopDownloadItem.h; sourceTree = "<group>"; };
 		CA8E97FC146CF03E0007A824 /* TopDownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopDownloadItem.m; sourceTree = "<group>"; };
@@ -1026,15 +1035,12 @@
 		CAF7121C146F65DA00FD161D /* DisplayReadableFileController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayReadableFileController.xib; sourceTree = "<group>"; };
 		CAF7121F146F663300FD161D /* CommonFileActionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFileActionController.h; sourceTree = "<group>"; };
 		CAF71222146F6D3A00FD161D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		EA1B00561481F457002A1E8B /* Unrar4iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unrar4iOS.h; sourceTree = "<group>"; };
-		EA1B00571481F457002A1E8B /* Unrar4iOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Unrar4iOS.mm; sourceTree = "<group>"; };
 		EA1B00BB14823359002A1E8B /* DecompressItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecompressItem.h; sourceTree = "<group>"; };
 		EA1B00BC14823359002A1E8B /* DecompressItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecompressItem.m; sourceTree = "<group>"; };
 		EA1B00BE14823908002A1E8B /* DecompressService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecompressService.h; sourceTree = "<group>"; };
 		EA1B00BF14823908002A1E8B /* DecompressService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecompressService.m; sourceTree = "<group>"; };
 		EA1B00C114824455002A1E8B /* DecompressManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecompressManager.h; sourceTree = "<group>"; };
 		EA1B00C214824456002A1E8B /* DecompressManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecompressManager.m; sourceTree = "<group>"; };
-		EA1BFFD11481F439002A1E8B /* Unrar4iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Unrar4iOS.framework; sourceTree = "<group>"; };
 		EA24B5441473632700BFE1BF /* TopDownloadItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopDownloadItemCell.h; sourceTree = "<group>"; };
 		EA24B5451473632700BFE1BF /* TopDownloadItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopDownloadItemCell.m; sourceTree = "<group>"; };
 		EA24B5461473632700BFE1BF /* TopDownloadItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopDownloadItemCell.xib; sourceTree = "<group>"; };
@@ -1064,21 +1070,6 @@
 		EAC56221147CE36C00DD2AFF /* ViewImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewImageController.h; sourceTree = "<group>"; };
 		EAC56222147CE36C00DD2AFF /* ViewImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewImageController.m; sourceTree = "<group>"; };
 		EAC56223147CE36C00DD2AFF /* ViewImageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewImageController.xib; sourceTree = "<group>"; };
-		EAF462191483B037002B86BB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		EAF4621A1483B037002B86BB /* Changelog.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changelog.markdown; sourceTree = "<group>"; };
-		EAF4621B1483B037002B86BB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		EAF4621D1483B037002B86BB /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
-		EAF4621E1483B037002B86BB /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
-		EAF4621F1483B037002B86BB /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
-		EAF462201483B037002B86BB /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
-		EAF462211483B037002B86BB /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
-		EAF462221483B037002B86BB /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
-		EAF462231483B037002B86BB /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
-		EAF462241483B037002B86BB /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
-		EAF462251483B037002B86BB /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
-		EAF462261483B037002B86BB /* Readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.markdown; sourceTree = "<group>"; };
-		EAF462271483B037002B86BB /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
-		EAF462281483B037002B86BB /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1108,7 +1099,7 @@
 				CAEA30D21467BCAE006D2975 /* Foundation.framework in Frameworks */,
 				CAEA30D41467BCAE006D2975 /* CoreGraphics.framework in Frameworks */,
 				CAEA380C1467BD14006D2975 /* libMobClickLibrary_1.6.4.a in Frameworks */,
-				EA1BFFD21481F439002A1E8B /* Unrar4iOS.framework in Frameworks */,
+				CA19EFBE1484C2C800CDF114 /* Unrar4iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1125,6 +1116,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA19EEE31484C27300CDF114 /* Unrar4iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CA19EFBD1484C2C800CDF114 /* Unrar4iOS.framework */,
+				CA19EEE41484C27300CDF114 /* Unrar4iOS */,
+			);
+			path = Unrar4iOS;
+			sourceTree = "<group>";
+		};
+		CA19EEE41484C27300CDF114 /* Unrar4iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CA19EF661484C27300CDF114 /* Unrar4iOS.h */,
+				CA19EF671484C27300CDF114 /* Unrar4iOS.mm */,
+			);
+			path = Unrar4iOS;
+			sourceTree = "<group>";
+		};
+		CA19EFBF1484C34900CDF114 /* ssziparchive */ = {
+			isa = PBXGroup;
+			children = (
+				CA19EFEA1484C39500CDF114 /* SSZipArchive.h */,
+				CA19EFEB1484C39500CDF114 /* SSZipArchive.m */,
+				CA19EFC31484C34900CDF114 /* minizip */,
+			);
+			name = ssziparchive;
+			path = ../ssziparchive;
+			sourceTree = "<group>";
+		};
+		CA19EFC31484C34900CDF114 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				CA19EFC41484C34900CDF114 /* crypt.h */,
+				CA19EFC51484C34900CDF114 /* ioapi.c */,
+				CA19EFC61484C34900CDF114 /* ioapi.h */,
+				CA19EFC71484C34900CDF114 /* mztools.c */,
+				CA19EFC81484C34900CDF114 /* mztools.h */,
+				CA19EFC91484C34900CDF114 /* unzip.c */,
+				CA19EFCA1484C34900CDF114 /* unzip.h */,
+				CA19EFCB1484C34900CDF114 /* zip.c */,
+				CA19EFCC1484C34900CDF114 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
 		CA8E980B146CF8BE0007A824 /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -1174,8 +1210,7 @@
 		CAEA30C01467BCAE006D2975 = {
 			isa = PBXGroup;
 			children = (
-				EAF462181483B037002B86BB /* ssziparchive */,
-				EA1BFFD41481F457002A1E8B /* Unrar4iOS */,
+				CA19EFBF1484C34900CDF114 /* ssziparchive */,
 				CAEA339E1467BD12006D2975 /* Common_Iphone */,
 				CAEA33771467BD06006D2975 /* OHAttributedLabel */,
 				CAEA32191467BCF9006D2975 /* tapkulibrary */,
@@ -1199,7 +1234,6 @@
 		CAEA30CE1467BCAE006D2975 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EA1BFFD11481F439002A1E8B /* Unrar4iOS.framework */,
 				CA83D14114726BF500E004A6 /* QuickLook.framework */,
 				CABA82131470D052008E8AFB /* Security.framework */,
 				CAF71222146F6D3A00FD161D /* MediaPlayer.framework */,
@@ -1553,6 +1587,7 @@
 		CAEA339E1467BD12006D2975 /* Common_Iphone */ = {
 			isa = PBXGroup;
 			children = (
+				CA19EEE31484C27300CDF114 /* Unrar4iOS */,
 				EAC561D3147CE22000DD2AFF /* MWPhotoBrowser */,
 				CAEA38E01467C3FA006D2975 /* DownloadCommon */,
 				CAEA339F1467BD12006D2975 /* AddressBookUtils */,
@@ -2428,15 +2463,6 @@
 			path = Action;
 			sourceTree = "<group>";
 		};
-		EA1BFFD41481F457002A1E8B /* Unrar4iOS */ = {
-			isa = PBXGroup;
-			children = (
-				EA1B00561481F457002A1E8B /* Unrar4iOS.h */,
-				EA1B00571481F457002A1E8B /* Unrar4iOS.mm */,
-			);
-			path = Unrar4iOS;
-			sourceTree = "<group>";
-		};
 		EAC561D3147CE22000DD2AFF /* MWPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
@@ -2470,36 +2496,6 @@
 				EAC561E5147CE22000DD2AFF /* ZoomingScrollView.m */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		EAF462181483B037002B86BB /* ssziparchive */ = {
-			isa = PBXGroup;
-			children = (
-				EAF462191483B037002B86BB /* .gitignore */,
-				EAF4621A1483B037002B86BB /* Changelog.markdown */,
-				EAF4621B1483B037002B86BB /* LICENSE */,
-				EAF4621C1483B037002B86BB /* minizip */,
-				EAF462261483B037002B86BB /* Readme.markdown */,
-				EAF462271483B037002B86BB /* SSZipArchive.h */,
-				EAF462281483B037002B86BB /* SSZipArchive.m */,
-			);
-			path = ssziparchive;
-			sourceTree = "<group>";
-		};
-		EAF4621C1483B037002B86BB /* minizip */ = {
-			isa = PBXGroup;
-			children = (
-				EAF4621D1483B037002B86BB /* crypt.h */,
-				EAF4621E1483B037002B86BB /* ioapi.c */,
-				EAF4621F1483B037002B86BB /* ioapi.h */,
-				EAF462201483B037002B86BB /* mztools.c */,
-				EAF462211483B037002B86BB /* mztools.h */,
-				EAF462221483B037002B86BB /* unzip.c */,
-				EAF462231483B037002B86BB /* unzip.h */,
-				EAF462241483B037002B86BB /* zip.c */,
-				EAF462251483B037002B86BB /* zip.h */,
-			);
-			path = minizip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2682,10 +2678,6 @@
 				EAC5621D147CE22000DD2AFF /* UIBarButtonItemArrowRight@2x.png in Resources */,
 				EAC56225147CE36C00DD2AFF /* ViewImageController.xib in Resources */,
 				EAAF75F6147F60E8009A61CE /* ViewDecompressItemController.xib in Resources */,
-				EAF462341483B037002B86BB /* .gitignore in Resources */,
-				EAF462351483B037002B86BB /* Changelog.markdown in Resources */,
-				EAF462361483B037002B86BB /* LICENSE in Resources */,
-				EAF4623B1483B037002B86BB /* Readme.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2938,7 +2930,6 @@
 				CAAF53A71468150E0071F5C3 /* FileTypeManager.m in Sources */,
 				CAAF53AA146815350071F5C3 /* DownloadService.m in Sources */,
 				CAAF53AE146818060071F5C3 /* DownloadItemCell.m in Sources */,
-				CAAF53CC1468D0A10071F5C3 /* JSTools.js in Sources */,
 				CAAF53CD1468D0A10071F5C3 /* WebViewAdditions.m in Sources */,
 				CAAF53D11468D42E0071F5C3 /* WebViewTouchWindow.m in Sources */,
 				CAB17438146AA9D700F0F248 /* DownloadItem.m in Sources */,
@@ -2965,15 +2956,15 @@
 				EAC5620A147CE22000DD2AFF /* ZoomingScrollView.m in Sources */,
 				EAC56224147CE36C00DD2AFF /* ViewImageController.m in Sources */,
 				EAAF75F5147F60E8009A61CE /* ViewDecompressItemController.m in Sources */,
-				EA1B00A71481F458002A1E8B /* Unrar4iOS.mm in Sources */,
 				EA1B00BD14823359002A1E8B /* DecompressItem.m in Sources */,
 				EA1B00C014823908002A1E8B /* DecompressService.m in Sources */,
 				EA1B00C314824456002A1E8B /* DecompressManager.m in Sources */,
-				EAF462371483B037002B86BB /* ioapi.c in Sources */,
-				EAF462381483B037002B86BB /* mztools.c in Sources */,
-				EAF462391483B037002B86BB /* unzip.c in Sources */,
-				EAF4623A1483B037002B86BB /* zip.c in Sources */,
-				EAF4623C1483B037002B86BB /* SSZipArchive.m in Sources */,
+				CA19EFB81484C27400CDF114 /* Unrar4iOS.mm in Sources */,
+				CA19EFDE1484C34900CDF114 /* ioapi.c in Sources */,
+				CA19EFDF1484C34900CDF114 /* mztools.c in Sources */,
+				CA19EFE01484C34900CDF114 /* unzip.c in Sources */,
+				CA19EFE11484C34900CDF114 /* zip.c in Sources */,
+				CA19EFEC1484C39500CDF114 /* SSZipArchive.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3149,14 +3140,8 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../Common_Iphone/iFly\"",
-					"\"$(SRCROOT)/../Unrar4iOS/Unrar4iOS/build/Framework\"",
-					"\"$(SRCROOT)/../Unrar4iOS/build/Framework\"",
-					"\"/Users/gckj/Downloads/ararog-Unrar4iOS-0b54428/Unrar4iOS/build/Framework\"",
-					"\"$(SRCROOT)/../ararog-Unrar4iOS/Unrar4iOS/build/Framework\"",
 					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/Unrar4iOS/build/Framework\"",
-					"\"$(SRCROOT)/Framework\"",
+					"\"$(SRCROOT)/../Common_Iphone/Unrar4iOS\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Download/Download-Prefix.pch";
@@ -3177,14 +3162,8 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../Common_Iphone/iFly\"",
-					"\"$(SRCROOT)/../Unrar4iOS/Unrar4iOS/build/Framework\"",
-					"\"$(SRCROOT)/../Unrar4iOS/build/Framework\"",
-					"\"/Users/gckj/Downloads/ararog-Unrar4iOS-0b54428/Unrar4iOS/build/Framework\"",
-					"\"$(SRCROOT)/../ararog-Unrar4iOS/Unrar4iOS/build/Framework\"",
 					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/Unrar4iOS/build/Framework\"",
-					"\"$(SRCROOT)/Framework\"",
+					"\"$(SRCROOT)/../Common_Iphone/Unrar4iOS\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Download/Download-Prefix.pch";
