@@ -479,6 +479,8 @@
 		EAE9CFAF1485F8E900EB8755 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = EAE9CFA71485F8E800EB8755 /* unzip.c */; };
 		EAE9CFB01485F8E900EB8755 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = EAE9CFA91485F8E800EB8755 /* zip.c */; };
 		EAE9CFB11485F8E900EB8755 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE9CFAC1485F8E800EB8755 /* SSZipArchive.m */; };
+		EAE9CFC01486319D00EB8755 /* png_93-82.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE9CFBE1486319D00EB8755 /* png_93-82.png */; };
+		EAE9CFC11486319D00EB8755 /* png_178@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE9CFBF1486319D00EB8755 /* png_178@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1245,6 +1247,8 @@
 		EAE9CFAA1485F8E800EB8755 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 		EAE9CFAB1485F8E800EB8755 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
 		EAE9CFAC1485F8E800EB8755 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		EAE9CFBE1486319D00EB8755 /* png_93-82.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "png_93-82.png"; sourceTree = "<group>"; };
+		EAE9CFBF1486319D00EB8755 /* png_178@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "png_178@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1348,6 +1352,8 @@
 		CA19F0DF1484DACD00CDF114 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EAE9CFBE1486319D00EB8755 /* png_93-82.png */,
+				EAE9CFBF1486319D00EB8755 /* png_178@2x.png */,
 				CA19F0E01484DACE00CDF114 /* png_08@2x.png */,
 				CA19F0E11484DACE00CDF114 /* png_102@2x.png */,
 				CA19F0E21484DACE00CDF114 /* png_103@2x.png */,
@@ -3035,6 +3041,8 @@
 				CA19F19F1484DACE00CDF114 /* tu_95@2x.png in Resources */,
 				CA19F1A01484DACE00CDF114 /* tu_96@2x.png in Resources */,
 				CA19F1A11484DACE00CDF114 /* tu_97@2x.png in Resources */,
+				EAE9CFC01486319D00EB8755 /* png_93-82.png in Resources */,
+				EAE9CFC11486319D00EB8755 /* png_178@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
