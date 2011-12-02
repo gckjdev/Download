@@ -11,12 +11,14 @@
 #import "UIViewUtils.h"
 #import "LocaleUtils.h"
 #import "StringUtil.h"
+#import "DownloadResource.h"
 
 @implementation BrowseController
 @synthesize browseTextField;
 @synthesize wordsView;
 @synthesize browseButton;
 @synthesize commonlyUsedWordsLabel;
+@synthesize innerBackgroundView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -59,18 +61,30 @@
 }
 
 - (void)viewDidLoad
-{
+{    
+    [self setDownloadNavigationTitle:NSLS(@"kThirdViewTitle")];
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
+   
     NSArray* keywords = [self getKeywords];
     
-    UIButton* keywordTemplateButton = [UIButton buttonWithType:UIButtonTypeCustom];    
-    [wordsView createButtonsInView:keywords templateButton:keywordTemplateButton target:self action:@selector(clickKeyword:)];
+    UIButton* keywordTemplateButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [keywordTemplateButton.titleLabel setFont:[UIFont fontWithName:@"" size:KEYWORD_FONT_SIZE]];
+    [keywordTemplateButton setTitleColor:KEYWORD_UICOLOR forState:UIControlStateNormal];    
     
-    self.view.backgroundColor = [UIColor whiteColor];
+    [wordsView createButtonsInView:keywords templateButton:keywordTemplateButton target:self action:@selector(clickKeyword:)];
+    [wordsView setBackgroundColor:[UIColor clearColor]];
+    
+    [self.browseTextField setBackground:BROSWER_TEXTFIELD_BG_IMAGE];
+    
+    [self.innerBackgroundView setImage:BROSWER_INNER_BG_IMAGE];
+    
+    [self.view setBackgroundImageView:BROWSER_BG];
     
     [self.browseButton setTitle:NSLS(@"kBrowseButtonTitle") forState:UIControlStateNormal];
+    [self.browseButton setBackgroundImage:BROSWER_VISIT_BG_IMAGE forState:UIControlStateNormal];
+    
     [self.commonlyUsedWordsLabel setText:NSLS(@"kCommonlyUsedWordsLabel")];
 }
 
@@ -132,6 +146,7 @@
     [browseTextField release];
     [browseButton release];
     [commonlyUsedWordsLabel release];
+    [innerBackgroundView release];
     [super dealloc];
 }
 @end
