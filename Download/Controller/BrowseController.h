@@ -17,5 +17,6 @@
 @property (retain, nonatomic) IBOutlet UIView *wordsView;
 @property (retain, nonatomic) IBOutlet UIButton *browseButton;
 @property (retain, nonatomic) IBOutlet UILabel *commonlyUsedWordsLabel;
+@property (retain, nonatomic) IBOutlet UIImageView *innerBackgroundView;
 
 @end
