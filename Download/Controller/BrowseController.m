@@ -77,6 +77,10 @@
     [wordsView setBackgroundColor:[UIColor clearColor]];
     
     [self.browseTextField setBackground:BROSWER_TEXTFIELD_BG_IMAGE];
+    //add indentation
+    UIView *paddingView = [[[UIView alloc] initWithFrame:CGRectMake(0, 0, 10, 31)] autorelease];
+    self.browseTextField.leftView = paddingView;
+    self.browseTextField.leftViewMode = UITextFieldViewModeAlways;
     
     [self.innerBackgroundView setImage:BROSWER_INNER_BG_IMAGE];
     
@@ -84,13 +88,14 @@
     
     [self.browseButton setTitle:NSLS(@"kBrowseButtonTitle") forState:UIControlStateNormal];
     [self.browseButton setBackgroundImage:BROSWER_VISIT_BG_IMAGE forState:UIControlStateNormal];
+    [self.browseButton setBackgroundImage:BROSWER_VISITED_BG_IMAGE forState:UIControlStateSelected];
     
     [self.commonlyUsedWordsLabel setText:NSLS(@"kCommonlyUsedWordsLabel")];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
-    [self addBlankView:45 currentResponder:browseTextField];    
+    [self addBlankView:70 currentResponder:browseTextField];    
     [super viewDidAppear:animated];
 }
 
