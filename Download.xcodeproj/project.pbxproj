@@ -152,6 +152,9 @@
 		CABA82141470D053008E8AFB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CABA82131470D052008E8AFB /* Security.framework */; };
 		CABA823D14715C6B008E8AFB /* star1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CABA823B14715C6B008E8AFB /* star1@2x.png */; };
 		CABA823E14715C6B008E8AFB /* star2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CABA823C14715C6B008E8AFB /* star2@2x.png */; };
+		CAE45CB3148F4EE400447806 /* ReviewRequest.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAE45CAB148F4EE400447806 /* ReviewRequest.strings */; };
+		CAE45CB4148F4EE400447806 /* ReviewRequest.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAE45CAE148F4EE400447806 /* ReviewRequest.strings */; };
+		CAE45CB5148F4EE400447806 /* ReviewRequest.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAE45CB1148F4EE400447806 /* ReviewRequest.strings */; };
 		CAE81D10146CDB9D0052EE48 /* ItemActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE81D0E146CDB9D0052EE48 /* ItemActionController.m */; };
 		CAE81D11146CDB9D0052EE48 /* ItemActionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAE81D0F146CDB9D0052EE48 /* ItemActionController.xib */; };
 		CAEA30D01467BCAE006D2975 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA30CF1467BCAE006D2975 /* UIKit.framework */; };
@@ -377,7 +380,6 @@
 		CAEA386B1467BD15006D2975 /* ViewControllerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA36671467BD14006D2975 /* ViewControllerUtils.m */; };
 		CAEA386D1467BD15006D2975 /* ArrayOfCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA366C1467BD14006D2975 /* ArrayOfCharacters.m */; };
 		CAEA386E1467BD15006D2975 /* DeviceDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA366E1467BD14006D2975 /* DeviceDetection.m */; };
-		CAEA386F1467BD15006D2975 /* ReviewRequest.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAEA366F1467BD14006D2975 /* ReviewRequest.strings */; };
 		CAEA38701467BD15006D2975 /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA36721467BD14006D2975 /* FileUtil.m */; };
 		CAEA38711467BD15006D2975 /* FontUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA36741467BD14006D2975 /* FontUtils.m */; };
 		CAEA38721467BD15006D2975 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA36761467BD14006D2975 /* GTMBase64.m */; };
@@ -667,6 +669,9 @@
 		CABA82131470D052008E8AFB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CABA823B14715C6B008E8AFB /* star1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star1@2x.png"; sourceTree = "<group>"; };
 		CABA823C14715C6B008E8AFB /* star2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star2@2x.png"; sourceTree = "<group>"; };
+		CAE45CAC148F4EE400447806 /* zh_Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hant; path = ReviewRequest.strings; sourceTree = "<group>"; };
+		CAE45CAF148F4EE400447806 /* zh_Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hans; path = ReviewRequest.strings; sourceTree = "<group>"; };
+		CAE45CB2148F4EE400447806 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = ReviewRequest.strings; sourceTree = "<group>"; };
 		CAE81D0D146CDB9D0052EE48 /* ItemActionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemActionController.h; sourceTree = "<group>"; };
 		CAE81D0E146CDB9D0052EE48 /* ItemActionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemActionController.m; sourceTree = "<group>"; };
 		CAE81D0F146CDB9D0052EE48 /* ItemActionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemActionController.xib; sourceTree = "<group>"; };
@@ -1074,7 +1079,6 @@
 		CAEA366C1467BD14006D2975 /* ArrayOfCharacters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayOfCharacters.m; sourceTree = "<group>"; };
 		CAEA366D1467BD14006D2975 /* DeviceDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetection.h; sourceTree = "<group>"; };
 		CAEA366E1467BD14006D2975 /* DeviceDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetection.m; sourceTree = "<group>"; };
-		CAEA36701467BD14006D2975 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/ReviewRequest.strings; sourceTree = "<group>"; };
 		CAEA36711467BD14006D2975 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
 		CAEA36721467BD14006D2975 /* FileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtil.m; sourceTree = "<group>"; };
 		CAEA36731467BD14006D2975 /* FontUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontUtils.h; sourceTree = "<group>"; };
@@ -1109,8 +1113,6 @@
 		CAEA36911467BD14006D2975 /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
 		CAEA36921467BD14006D2975 /* UIImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageUtil.h; sourceTree = "<group>"; };
 		CAEA36931467BD14006D2975 /* UIImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageUtil.m; sourceTree = "<group>"; };
-		CAEA36941467BD14006D2975 /* zh_Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hans; path = zh_Hans.lproj/ReviewRequest.strings; sourceTree = "<group>"; };
-		CAEA36951467BD14006D2975 /* zh_Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_Hant; path = zh_Hant.lproj/ReviewRequest.strings; sourceTree = "<group>"; };
 		CAEA36971467BD14006D2975 /* SearchHistoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchHistoryManager.h; sourceTree = "<group>"; };
 		CAEA36981467BD14006D2975 /* SearchHistoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchHistoryManager.m; sourceTree = "<group>"; };
 		CAEA36991467BD14006D2975 /* StatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusView.h; sourceTree = "<group>"; };
@@ -1502,6 +1504,30 @@
 				CAAC3B9D146C26AD008A74B9 /* Localizable.strings */,
 			);
 			path = zh_Hant.lproj;
+			sourceTree = "<group>";
+		};
+		CAE45CAA148F4EE400447806 /* zh_Hant.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CAE45CAB148F4EE400447806 /* ReviewRequest.strings */,
+			);
+			path = zh_Hant.lproj;
+			sourceTree = "<group>";
+		};
+		CAE45CAD148F4EE400447806 /* zh_Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CAE45CAE148F4EE400447806 /* ReviewRequest.strings */,
+			);
+			path = zh_Hans.lproj;
+			sourceTree = "<group>";
+		};
+		CAE45CB0148F4EE400447806 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CAE45CB1148F4EE400447806 /* ReviewRequest.strings */,
+			);
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 		CAEA30C01467BCAE006D2975 = {
@@ -2411,11 +2437,13 @@
 		CAEA36681467BD14006D2975 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				CAE45CAA148F4EE400447806 /* zh_Hant.lproj */,
+				CAE45CAD148F4EE400447806 /* zh_Hans.lproj */,
+				CAE45CB0148F4EE400447806 /* en.lproj */,
 				CAEA366B1467BD14006D2975 /* ArrayOfCharacters.h */,
 				CAEA366C1467BD14006D2975 /* ArrayOfCharacters.m */,
 				CAEA366D1467BD14006D2975 /* DeviceDetection.h */,
 				CAEA366E1467BD14006D2975 /* DeviceDetection.m */,
-				CAEA366F1467BD14006D2975 /* ReviewRequest.strings */,
 				CAEA36711467BD14006D2975 /* FileUtil.h */,
 				CAEA36721467BD14006D2975 /* FileUtil.m */,
 				CAEA36731467BD14006D2975 /* FontUtils.h */,
@@ -2908,7 +2936,6 @@
 				CAEA38611467BD15006D2975 /* sinaico_big.png in Resources */,
 				CAEA38621467BD15006D2975 /* sinaico_big@2x.png in Resources */,
 				CAEA38641467BD15006D2975 /* SpecialCharacters.txt in Resources */,
-				CAEA386F1467BD15006D2975 /* ReviewRequest.strings in Resources */,
 				CAEA389F1467BD15006D2975 /* arrow_left_24.png in Resources */,
 				CAEA38A01467BD15006D2975 /* arrow_left_24@2x.png in Resources */,
 				CAEA38A11467BD15006D2975 /* arrow_left_64.png in Resources */,
@@ -3047,6 +3074,9 @@
 				EAE9CFC01486319D00EB8755 /* png_93-82.png in Resources */,
 				EAE9CFC11486319D00EB8755 /* png_178@2x.png in Resources */,
 				CA4C88DB1488662B00285D85 /* tu_17.png in Resources */,
+				CAE45CB3148F4EE400447806 /* ReviewRequest.strings in Resources */,
+				CAE45CB4148F4EE400447806 /* ReviewRequest.strings in Resources */,
+				CAE45CB5148F4EE400447806 /* ReviewRequest.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3421,6 +3451,30 @@
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
+		CAE45CAB148F4EE400447806 /* ReviewRequest.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE45CAC148F4EE400447806 /* zh_Hant */,
+			);
+			name = ReviewRequest.strings;
+			sourceTree = "<group>";
+		};
+		CAE45CAE148F4EE400447806 /* ReviewRequest.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE45CAF148F4EE400447806 /* zh_Hans */,
+			);
+			name = ReviewRequest.strings;
+			sourceTree = "<group>";
+		};
+		CAE45CB1148F4EE400447806 /* ReviewRequest.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE45CB2148F4EE400447806 /* en */,
+			);
+			name = ReviewRequest.strings;
+			sourceTree = "<group>";
+		};
 		CAEA33D41467BD13006D2975 /* AboutView.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -3447,16 +3501,6 @@
 				CAEA340A1467BD13006D2975 /* zh-Hant */,
 			);
 			name = EGORefresh.strings;
-			sourceTree = "<group>";
-		};
-		CAEA366F1467BD14006D2975 /* ReviewRequest.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CAEA36701467BD14006D2975 /* English */,
-				CAEA36941467BD14006D2975 /* zh_Hans */,
-				CAEA36951467BD14006D2975 /* zh_Hant */,
-			);
-			name = ReviewRequest.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

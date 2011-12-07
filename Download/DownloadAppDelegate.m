@@ -57,14 +57,25 @@ NSString* GlobalGetServerURL()
 - (void)initTabViewControllers
 {
     
+    if ([DeviceDetection isOS5]){
+        [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"tu_17"] forBarMetrics:UIBarMetricsDefault];
+    }
+    else{
+        GlobalSetNavBarBackground(@"tu_17.png");        
+    }
+    
     self.tabBarController = [[[PPTabBarController alloc] init] autorelease];
     
     self.tabBarController.delegate = self;
     [self.tabBarController setBarBackground:TABBAR_BACKGROUND];
-    [self.tabBarController setTextColor:[UIColor colorWithRed:194/255.0 green:188/255.0 blue:180/255.0 alpha:1.0]
-                   selectTextColor:[UIColor colorWithRed:210/255.0 green:217/255.0 blue:133/255.0 alpha:1.0]];
+    [self.tabBarController setTextColor:BAR_BUTTON_TEXT_NORMAL_COLOR
+                        selectTextColor:BAR_BUTTON_TEXT_COLOR];
     self.tabBarController.buttonStyle = TAB_BUTTON_STYLE_ICON;    
     self.tabBarController.selectedIndex = 0;
+    
+    self.tabBarController.animation = CubeTabBarControllerAnimationOutside;
+    self.tabBarController.backgroundColor = [UIColor blackColor];
+    
     
 	NSMutableArray* controllers = [[NSMutableArray alloc] init];
     
@@ -105,7 +116,7 @@ NSString* GlobalGetServerURL()
                                                   DOWNLOAD_PRESS_ICON, 
                                                   ABOUT_PRESS_ICON, nil]];
     	
-	self.tabBarController.viewControllers = controllers;	
+	self.tabBarController.viewControllers = controllers;	    
 	[controllers release];
 }
 
