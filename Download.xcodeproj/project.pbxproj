@@ -120,8 +120,8 @@
 		CA19F19F1484DACE00CDF114 /* tu_95@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA19F13E1484DACE00CDF114 /* tu_95@2x.png */; };
 		CA19F1A01484DACE00CDF114 /* tu_96@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA19F13F1484DACE00CDF114 /* tu_96@2x.png */; };
 		CA19F1A11484DACE00CDF114 /* tu_97@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA19F1401484DACE00CDF114 /* tu_97@2x.png */; };
-		CA4C88DB1488662B00285D85 /* tu_17.png in Resources */ = {isa = PBXBuildFile; fileRef = CA4C88DA1488662B00285D85 /* tu_17.png */; };
 		CA83D14214726BF500E004A6 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA83D14114726BF500E004A6 /* QuickLook.framework */; };
+		CA85C2781490A0F50089175B /* UIViewController+DownloadViewControllerAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = CA85C2771490A0F50089175B /* UIViewController+DownloadViewControllerAddition.m */; };
 		CA8E97FD146CF03E0007A824 /* TopDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8E97FC146CF03E0007A824 /* TopDownloadItem.m */; };
 		CA8E9801146CF04D0007A824 /* TopDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8E9800146CF04D0007A824 /* TopDownloadManager.m */; };
 		CA8E9804146CF0640007A824 /* TopSite.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8E9803146CF0640007A824 /* TopSite.m */; };
@@ -621,8 +621,9 @@
 		CA19F13E1484DACE00CDF114 /* tu_95@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_95@2x.png"; sourceTree = "<group>"; };
 		CA19F13F1484DACE00CDF114 /* tu_96@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_96@2x.png"; sourceTree = "<group>"; };
 		CA19F1401484DACE00CDF114 /* tu_97@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_97@2x.png"; sourceTree = "<group>"; };
-		CA4C88DA1488662B00285D85 /* tu_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tu_17.png; sourceTree = "<group>"; };
 		CA83D14114726BF500E004A6 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		CA85C2761490A0F50089175B /* UIViewController+DownloadViewControllerAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DownloadViewControllerAddition.h"; sourceTree = "<group>"; };
+		CA85C2771490A0F50089175B /* UIViewController+DownloadViewControllerAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DownloadViewControllerAddition.m"; sourceTree = "<group>"; };
 		CA8E97FB146CF03E0007A824 /* TopDownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopDownloadItem.h; sourceTree = "<group>"; };
 		CA8E97FC146CF03E0007A824 /* TopDownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopDownloadItem.m; sourceTree = "<group>"; };
 		CA8E97FF146CF04D0007A824 /* TopDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopDownloadManager.h; sourceTree = "<group>"; };
@@ -1356,7 +1357,6 @@
 		CA19F0DF1484DACD00CDF114 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				CA4C88DA1488662B00285D85 /* tu_17.png */,
 				EAE9CFBE1486319D00EB8755 /* png_93-82.png */,
 				EAE9CFBF1486319D00EB8755 /* png_178@2x.png */,
 				CA19F0E01484DACE00CDF114 /* png_08@2x.png */,
@@ -1458,6 +1458,15 @@
 				CA19F1401484DACE00CDF114 /* tu_97@2x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		CA85C2751490A0BE0089175B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CA85C2761490A0F50089175B /* UIViewController+DownloadViewControllerAddition.h */,
+				CA85C2771490A0F50089175B /* UIViewController+DownloadViewControllerAddition.m */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		CA8E980B146CF8BE0007A824 /* Network */ = {
@@ -2652,6 +2661,7 @@
 		CAEA38E11467C3FA006D2975 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CA85C2751490A0BE0089175B /* Common */,
 				CAF71213146F659200FD161D /* Action */,
 				CAEA38EB1467C46E006D2975 /* DownloadManageController.h */,
 				CAEA38EC1467C46E006D2975 /* DownloadManageController.m */,
@@ -3073,7 +3083,6 @@
 				CA19F1A11484DACE00CDF114 /* tu_97@2x.png in Resources */,
 				EAE9CFC01486319D00EB8755 /* png_93-82.png in Resources */,
 				EAE9CFC11486319D00EB8755 /* png_178@2x.png in Resources */,
-				CA4C88DB1488662B00285D85 /* tu_17.png in Resources */,
 				CAE45CB3148F4EE400447806 /* ReviewRequest.strings in Resources */,
 				CAE45CB4148F4EE400447806 /* ReviewRequest.strings in Resources */,
 				CAE45CB5148F4EE400447806 /* ReviewRequest.strings in Resources */,
@@ -3365,6 +3374,7 @@
 				EAE9CFAF1485F8E900EB8755 /* unzip.c in Sources */,
 				EAE9CFB01485F8E900EB8755 /* zip.c in Sources */,
 				EAE9CFB11485F8E900EB8755 /* SSZipArchive.m in Sources */,
+				CA85C2781490A0F50089175B /* UIViewController+DownloadViewControllerAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,7 @@
 #import "LocaleUtils.h"
 #import "StringUtil.h"
 #import "DownloadResource.h"
+#import "UIViewController+DownloadViewControllerAddition.h"
 
 @implementation BrowseController
 @synthesize browseTextField;
@@ -70,7 +71,7 @@
     NSArray* keywords = [self getKeywords];
     
     UIButton* keywordTemplateButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [keywordTemplateButton.titleLabel setFont:[UIFont fontWithName:@"" size:KEYWORD_FONT_SIZE]];
+    [keywordTemplateButton.titleLabel setFont:[UIFont systemFontOfSize:KEYWORD_FONT_SIZE]];
     [keywordTemplateButton setTitleColor:KEYWORD_UICOLOR forState:UIControlStateNormal];    
     
     [wordsView createButtonsInView:keywords templateButton:keywordTemplateButton target:self action:@selector(clickKeyword:)];
@@ -90,7 +91,7 @@
     [self.browseButton setBackgroundImage:BROSWER_VISIT_BG_IMAGE forState:UIControlStateNormal];
     [self.browseButton setBackgroundImage:BROSWER_VISITED_BG_IMAGE forState:UIControlStateSelected];
     
-    [self.commonlyUsedWordsLabel setText:NSLS(@"kCommonlyUsedWordsLabel")];
+    [self.commonlyUsedWordsLabel setText:NSLS(@"kCommonlyUsedWordsLabel")];    
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -132,6 +133,11 @@
     
     [DownloadWebViewController show:self url:text];
     
+}
+
+- (IBAction)clickGotoWebView:(id)sender
+{
+    [DownloadWebViewController show:self url:nil];    
 }
 
 - (void)clickKeyword:(id)sender

@@ -58,7 +58,7 @@ NSString* GlobalGetServerURL()
 {
     
     if ([DeviceDetection isOS5]){
-        [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"tu_17"] forBarMetrics:UIBarMetricsDefault];
+        [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"tu_17.png"] forBarMetrics:UIBarMetricsDefault];
     }
     else{
         GlobalSetNavBarBackground(@"tu_17.png");        
@@ -179,10 +179,10 @@ NSString* GlobalGetServerURL()
     [[NSUserDefaults standardUserDefaults] synchronize];
 //	[self releaseResourceForAllViewControllers];	
     
-    [[DownloadService defaultService] pauseAllDownloadItem];
     
     backgroundTask = [application beginBackgroundTaskWithExpirationHandler: ^{
         dispatch_async(dispatch_get_main_queue(), ^{
+            [[DownloadService defaultService] pauseAllDownloadItem];
             if (UIBackgroundTaskInvalid != backgroundTask) {
                 [application endBackgroundTask:backgroundTask];
                 backgroundTask = UIBackgroundTaskInvalid;
@@ -200,9 +200,7 @@ NSString* GlobalGetServerURL()
 {
     /*
      Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-     */
-    
-    [MobClick appLaunched];
+     */    
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
@@ -210,6 +208,10 @@ NSString* GlobalGetServerURL()
     /*
      Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
      */
+    
+    [MobClick appLaunched];
+    [[DownloadService defaultService] resumeAllDownloadItem];
+    
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
@@ -223,12 +225,12 @@ NSString* GlobalGetServerURL()
     [MobClick appTerminated];
 }
 
-/*
+
 // Optional UITabBarControllerDelegate method.
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
 {
 }
-*/
+
 
 /*
 // Optional UITabBarControllerDelegate method.
