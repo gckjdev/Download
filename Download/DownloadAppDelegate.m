@@ -103,18 +103,19 @@ NSString* GlobalGetServerURL()
 			  hasNavController:YES			
 			   viewControllers:controllers];	
 	    
-    [UIUtils addViewController:[AboutController alloc]
-                     viewTitle:NSLS(@"Settings")
-                     viewImage:ABOUT_ICON
-              hasNavController:YES			
-               viewControllers:controllers];	        
+//    [UIUtils addViewController:[AboutController alloc]
+//                     viewTitle:NSLS(@"Settings")
+//                     viewImage:ABOUT_ICON
+//              hasNavController:YES			
+//               viewControllers:controllers];	        
     
     [self.tabBarController setSelectedImageArray:[NSArray arrayWithObjects:
                                                   TOP_PRESS_ICON, 
                                                   RESOURCE_PRESS_ICON, 
                                                   BROWSE_PRESS_ICON, 
                                                   DOWNLOAD_PRESS_ICON, 
-                                                  ABOUT_PRESS_ICON, nil]];
+//                                                  ABOUT_PRESS_ICON, 
+                                                  nil]];
     	
 	self.tabBarController.viewControllers = controllers;	    
 	[controllers release];

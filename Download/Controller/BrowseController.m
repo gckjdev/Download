@@ -64,6 +64,7 @@
 - (void)viewDidLoad
 {    
     [self setDownloadNavigationTitle:NSLS(@"kThirdViewTitle")];
+    [self setDownloadRightBarButton:NSLS(@"kGotoWebView") selector:@selector(clickGotoWebView:)];
     
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.

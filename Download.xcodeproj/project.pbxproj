@@ -143,6 +143,8 @@
 		CA222AB61491DB1D00F168D4 /* MDAudioPlayerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA222A611491DB1D00F168D4 /* MDAudioPlayerTableViewCell.m */; };
 		CA222AB71491DB1D00F168D4 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = CA222A621491DB1D00F168D4 /* README.markdown */; };
 		CA222AE61491DB7100F168D4 /* PlayAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA222AE51491DB7000F168D4 /* PlayAudioController.m */; };
+		CA222AE91492105500F168D4 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222AE71492105500F168D4 /* 57.png */; };
+		CA222AEA1492105500F168D4 /* 57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222AE81492105500F168D4 /* 57@2x.png */; };
 		CA83D14214726BF500E004A6 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA83D14114726BF500E004A6 /* QuickLook.framework */; };
 		CA85C2781490A0F50089175B /* UIViewController+DownloadViewControllerAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = CA85C2771490A0F50089175B /* UIViewController+DownloadViewControllerAddition.m */; };
 		CA8E97FD146CF03E0007A824 /* TopDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8E97FC146CF03E0007A824 /* TopDownloadItem.m */; };
@@ -671,6 +673,8 @@
 		CA222A621491DB1D00F168D4 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		CA222AE41491DB7000F168D4 /* PlayAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayAudioController.h; sourceTree = "<group>"; };
 		CA222AE51491DB7000F168D4 /* PlayAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayAudioController.m; sourceTree = "<group>"; };
+		CA222AE71492105500F168D4 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		CA222AE81492105500F168D4 /* 57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "57@2x.png"; sourceTree = "<group>"; };
 		CA83D14114726BF500E004A6 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		CA85C2761490A0F50089175B /* UIViewController+DownloadViewControllerAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DownloadViewControllerAddition.h"; sourceTree = "<group>"; };
 		CA85C2771490A0F50089175B /* UIViewController+DownloadViewControllerAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DownloadViewControllerAddition.m"; sourceTree = "<group>"; };
@@ -2727,6 +2731,8 @@
 		CAEA38DD1467C38B006D2975 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				CA222AE71492105500F168D4 /* 57.png */,
+				CA222AE81492105500F168D4 /* 57@2x.png */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -3207,6 +3213,8 @@
 				CA222AB21491DB1D00F168D4 /* AudioPlayerTableBackground.png in Resources */,
 				CA222AB31491DB1D00F168D4 /* AudioPlayerVolumeKnob.png in Resources */,
 				CA222AB71491DB1D00F168D4 /* README.markdown in Resources */,
+				CA222AE91492105500F168D4 /* 57.png in Resources */,
+				CA222AEA1492105500F168D4 /* 57@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
