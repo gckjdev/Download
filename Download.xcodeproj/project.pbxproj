@@ -10,18 +10,6 @@
 		CA11360B1473A13C004D517E /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = CA11360A1473A13B004D517E /* Site.m */; };
 		CA19EFB81484C27400CDF114 /* Unrar4iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = CA19EF671484C27300CDF114 /* Unrar4iOS.mm */; };
 		CA19EFBE1484C2C800CDF114 /* Unrar4iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA19EFBD1484C2C800CDF114 /* Unrar4iOS.framework */; };
-		CA19F01D1484C8D300CDF114 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19EFF11484C8D300CDF114 /* Menu.m */; };
-		CA19F01E1484C8D300CDF114 /* MWPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19EFF31484C8D300CDF114 /* MWPhoto.m */; };
-		CA19F01F1484C8D300CDF114 /* MWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19EFF51484C8D300CDF114 /* MWPhotoBrowser.m */; };
-		CA19F0201484C8D300CDF114 /* MWPhotoBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19EFF71484C8D300CDF114 /* MWPhotoBrowserAppDelegate.m */; };
-		CA19F0211484C8D300CDF114 /* UIImage+Decompress.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19EFF91484C8D300CDF114 /* UIImage+Decompress.m */; };
-		CA19F0221484C8D300CDF114 /* UIImageViewTap.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19EFFB1484C8D300CDF114 /* UIImageViewTap.m */; };
-		CA19F0231484C8D300CDF114 /* UIViewTap.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19EFFD1484C8D300CDF114 /* UIViewTap.m */; };
-		CA19F0241484C8D300CDF114 /* ZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19EFFF1484C8D300CDF114 /* ZoomingScrollView.m */; };
-		CA19F0341484C8D300CDF114 /* UIBarButtonItemArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = CA19F0141484C8D300CDF114 /* UIBarButtonItemArrowLeft.png */; };
-		CA19F0351484C8D300CDF114 /* UIBarButtonItemArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA19F0151484C8D300CDF114 /* UIBarButtonItemArrowLeft@2x.png */; };
-		CA19F0361484C8D300CDF114 /* UIBarButtonItemArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = CA19F0161484C8D300CDF114 /* UIBarButtonItemArrowRight.png */; };
-		CA19F0371484C8D300CDF114 /* UIBarButtonItemArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA19F0171484C8D300CDF114 /* UIBarButtonItemArrowRight@2x.png */; };
 		CA19F0DA1484CDB900CDF114 /* DownloadResource.m in Sources */ = {isa = PBXBuildFile; fileRef = CA19F0D91484CDB900CDF114 /* DownloadResource.m */; };
 		CA19F1411484DACE00CDF114 /* png_08@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA19F0E01484DACE00CDF114 /* png_08@2x.png */; };
 		CA19F1421484DACE00CDF114 /* png_102@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA19F0E11484DACE00CDF114 /* png_102@2x.png */; };
@@ -120,28 +108,6 @@
 		CA19F19F1484DACE00CDF114 /* tu_95@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA19F13E1484DACE00CDF114 /* tu_95@2x.png */; };
 		CA19F1A01484DACE00CDF114 /* tu_96@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA19F13F1484DACE00CDF114 /* tu_96@2x.png */; };
 		CA19F1A11484DACE00CDF114 /* tu_97@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA19F1401484DACE00CDF114 /* tu_97@2x.png */; };
-		CA222AA21491DB1D00F168D4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CA222A481491DB1D00F168D4 /* .gitignore */; };
-		CA222AA31491DB1D00F168D4 /* AudioPlayerAlbumInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A4B1491DB1D00F168D4 /* AudioPlayerAlbumInfo.png */; };
-		CA222AA41491DB1D00F168D4 /* AudioPlayerBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A4C1491DB1D00F168D4 /* AudioPlayerBarBackground.png */; };
-		CA222AA51491DB1D00F168D4 /* AudioPlayerNextTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A4D1491DB1D00F168D4 /* AudioPlayerNextTrack.png */; };
-		CA222AA61491DB1D00F168D4 /* AudioPlayerNoArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A4E1491DB1D00F168D4 /* AudioPlayerNoArtwork.png */; };
-		CA222AA71491DB1D00F168D4 /* AudioPlayerPause.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A4F1491DB1D00F168D4 /* AudioPlayerPause.png */; };
-		CA222AA81491DB1D00F168D4 /* AudioPlayerPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A501491DB1D00F168D4 /* AudioPlayerPlay.png */; };
-		CA222AA91491DB1D00F168D4 /* AudioPlayerPrevTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A511491DB1D00F168D4 /* AudioPlayerPrevTrack.png */; };
-		CA222AAA1491DB1D00F168D4 /* AudioPlayerRepeatOff.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A521491DB1D00F168D4 /* AudioPlayerRepeatOff.png */; };
-		CA222AAB1491DB1D00F168D4 /* AudioPlayerRepeatOn.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A531491DB1D00F168D4 /* AudioPlayerRepeatOn.png */; };
-		CA222AAC1491DB1D00F168D4 /* AudioPlayerRepeatOneOn.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A541491DB1D00F168D4 /* AudioPlayerRepeatOneOn.png */; };
-		CA222AAD1491DB1D00F168D4 /* AudioPlayerScrubberKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A551491DB1D00F168D4 /* AudioPlayerScrubberKnob.png */; };
-		CA222AAE1491DB1D00F168D4 /* AudioPlayerScrubberLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A561491DB1D00F168D4 /* AudioPlayerScrubberLeft.png */; };
-		CA222AAF1491DB1D00F168D4 /* AudioPlayerScrubberRight.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A571491DB1D00F168D4 /* AudioPlayerScrubberRight.png */; };
-		CA222AB01491DB1D00F168D4 /* AudioPlayerShuffleOff.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A581491DB1D00F168D4 /* AudioPlayerShuffleOff.png */; };
-		CA222AB11491DB1D00F168D4 /* AudioPlayerShuffleOn.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A591491DB1D00F168D4 /* AudioPlayerShuffleOn.png */; };
-		CA222AB21491DB1D00F168D4 /* AudioPlayerTableBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A5A1491DB1D00F168D4 /* AudioPlayerTableBackground.png */; };
-		CA222AB31491DB1D00F168D4 /* AudioPlayerVolumeKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222A5B1491DB1D00F168D4 /* AudioPlayerVolumeKnob.png */; };
-		CA222AB41491DB1D00F168D4 /* MDAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CA222A5D1491DB1D00F168D4 /* MDAudioFile.m */; };
-		CA222AB51491DB1D00F168D4 /* MDAudioPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA222A5F1491DB1D00F168D4 /* MDAudioPlayerController.m */; };
-		CA222AB61491DB1D00F168D4 /* MDAudioPlayerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA222A611491DB1D00F168D4 /* MDAudioPlayerTableViewCell.m */; };
-		CA222AB71491DB1D00F168D4 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = CA222A621491DB1D00F168D4 /* README.markdown */; };
 		CA222AE61491DB7100F168D4 /* PlayAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA222AE51491DB7000F168D4 /* PlayAudioController.m */; };
 		CA222AE91492105500F168D4 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222AE71492105500F168D4 /* 57.png */; };
 		CA222AEA1492105500F168D4 /* 57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222AE81492105500F168D4 /* 57@2x.png */; };
@@ -490,6 +456,38 @@
 		CAEA38FD1467C4E1006D2975 /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA38FB1467C4E1006D2975 /* AboutController.m */; };
 		CAEA38FE1467C4E1006D2975 /* AboutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAEA38FC1467C4E1006D2975 /* AboutController.xib */; };
 		CAEA39011467D7EE006D2975 /* MainDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAEA38FF1467D7EE006D2975 /* MainDataModel.xcdatamodeld */; };
+		CAF6A3DB1494F4340007199B /* AudioPlayerAlbumInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3B81494F4340007199B /* AudioPlayerAlbumInfo.png */; };
+		CAF6A3DC1494F4340007199B /* AudioPlayerBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3B91494F4340007199B /* AudioPlayerBarBackground.png */; };
+		CAF6A3DD1494F4340007199B /* AudioPlayerNextTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3BA1494F4340007199B /* AudioPlayerNextTrack.png */; };
+		CAF6A3DE1494F4340007199B /* AudioPlayerNoArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3BB1494F4340007199B /* AudioPlayerNoArtwork.png */; };
+		CAF6A3DF1494F4340007199B /* AudioPlayerPause.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3BC1494F4340007199B /* AudioPlayerPause.png */; };
+		CAF6A3E01494F4340007199B /* AudioPlayerPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3BD1494F4340007199B /* AudioPlayerPlay.png */; };
+		CAF6A3E11494F4340007199B /* AudioPlayerPrevTrack.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3BE1494F4340007199B /* AudioPlayerPrevTrack.png */; };
+		CAF6A3E21494F4340007199B /* AudioPlayerRepeatOff.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3BF1494F4340007199B /* AudioPlayerRepeatOff.png */; };
+		CAF6A3E31494F4340007199B /* AudioPlayerRepeatOn.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3C01494F4340007199B /* AudioPlayerRepeatOn.png */; };
+		CAF6A3E41494F4340007199B /* AudioPlayerRepeatOneOn.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3C11494F4340007199B /* AudioPlayerRepeatOneOn.png */; };
+		CAF6A3E51494F4340007199B /* AudioPlayerScrubberKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3C21494F4340007199B /* AudioPlayerScrubberKnob.png */; };
+		CAF6A3E61494F4340007199B /* AudioPlayerScrubberLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3C31494F4340007199B /* AudioPlayerScrubberLeft.png */; };
+		CAF6A3E71494F4340007199B /* AudioPlayerScrubberRight.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3C41494F4340007199B /* AudioPlayerScrubberRight.png */; };
+		CAF6A3E81494F4340007199B /* AudioPlayerShuffleOff.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3C51494F4340007199B /* AudioPlayerShuffleOff.png */; };
+		CAF6A3E91494F4340007199B /* AudioPlayerShuffleOn.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3C61494F4340007199B /* AudioPlayerShuffleOn.png */; };
+		CAF6A3EA1494F4340007199B /* AudioPlayerTableBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3C71494F4340007199B /* AudioPlayerTableBackground.png */; };
+		CAF6A3EB1494F4340007199B /* AudioPlayerVolumeKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A3C81494F4340007199B /* AudioPlayerVolumeKnob.png */; };
+		CAF6A3EC1494F4340007199B /* MDAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF6A3CA1494F4340007199B /* MDAudioFile.m */; };
+		CAF6A3ED1494F4340007199B /* MDAudioPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF6A3CC1494F4340007199B /* MDAudioPlayerController.m */; };
+		CAF6A3EE1494F4340007199B /* MDAudioPlayerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF6A3CE1494F4340007199B /* MDAudioPlayerTableViewCell.m */; };
+		CAF6A4051494F7730007199B /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF6A3F21494F7730007199B /* Menu.m */; };
+		CAF6A4061494F7730007199B /* MWPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF6A3F41494F7730007199B /* MWPhoto.m */; };
+		CAF6A4071494F7730007199B /* MWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF6A3F61494F7730007199B /* MWPhotoBrowser.m */; };
+		CAF6A4081494F7730007199B /* MWPhotoBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF6A3F81494F7730007199B /* MWPhotoBrowserAppDelegate.m */; };
+		CAF6A4091494F7730007199B /* UIImage+Decompress.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF6A3FA1494F7730007199B /* UIImage+Decompress.m */; };
+		CAF6A40A1494F7730007199B /* UIImageViewTap.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF6A3FC1494F7730007199B /* UIImageViewTap.m */; };
+		CAF6A40B1494F7730007199B /* UIViewTap.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF6A3FE1494F7730007199B /* UIViewTap.m */; };
+		CAF6A40C1494F7730007199B /* ZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF6A4001494F7730007199B /* ZoomingScrollView.m */; };
+		CAF6A40D1494F7730007199B /* UIBarButtonItemArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A4011494F7730007199B /* UIBarButtonItemArrowLeft.png */; };
+		CAF6A40E1494F7730007199B /* UIBarButtonItemArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A4021494F7730007199B /* UIBarButtonItemArrowLeft@2x.png */; };
+		CAF6A40F1494F7730007199B /* UIBarButtonItemArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A4031494F7730007199B /* UIBarButtonItemArrowRight.png */; };
+		CAF6A4101494F7730007199B /* UIBarButtonItemArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF6A4041494F7730007199B /* UIBarButtonItemArrowRight@2x.png */; };
 		CAF71218146F65AA00FD161D /* PlayAudioVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF71216146F65AA00FD161D /* PlayAudioVideoController.m */; };
 		CAF71219146F65AA00FD161D /* PlayAudioVideoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAF71217146F65AA00FD161D /* PlayAudioVideoController.xib */; };
 		CAF7121D146F65DA00FD161D /* DisplayReadableFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF7121B146F65DA00FD161D /* DisplayReadableFileController.m */; };
@@ -529,26 +527,6 @@
 		CA19EF661484C27300CDF114 /* Unrar4iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unrar4iOS.h; sourceTree = "<group>"; };
 		CA19EF671484C27300CDF114 /* Unrar4iOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Unrar4iOS.mm; sourceTree = "<group>"; };
 		CA19EFBD1484C2C800CDF114 /* Unrar4iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Unrar4iOS.framework; sourceTree = "<group>"; };
-		CA19EFF01484C8D300CDF114 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
-		CA19EFF11484C8D300CDF114 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
-		CA19EFF21484C8D300CDF114 /* MWPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhoto.h; sourceTree = "<group>"; };
-		CA19EFF31484C8D300CDF114 /* MWPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhoto.m; sourceTree = "<group>"; };
-		CA19EFF41484C8D300CDF114 /* MWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoBrowser.h; sourceTree = "<group>"; };
-		CA19EFF51484C8D300CDF114 /* MWPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhotoBrowser.m; sourceTree = "<group>"; };
-		CA19EFF61484C8D300CDF114 /* MWPhotoBrowserAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoBrowserAppDelegate.h; sourceTree = "<group>"; };
-		CA19EFF71484C8D300CDF114 /* MWPhotoBrowserAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhotoBrowserAppDelegate.m; sourceTree = "<group>"; };
-		CA19EFF81484C8D300CDF114 /* UIImage+Decompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Decompress.h"; sourceTree = "<group>"; };
-		CA19EFF91484C8D300CDF114 /* UIImage+Decompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Decompress.m"; sourceTree = "<group>"; };
-		CA19EFFA1484C8D300CDF114 /* UIImageViewTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageViewTap.h; sourceTree = "<group>"; };
-		CA19EFFB1484C8D300CDF114 /* UIImageViewTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewTap.m; sourceTree = "<group>"; };
-		CA19EFFC1484C8D300CDF114 /* UIViewTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewTap.h; sourceTree = "<group>"; };
-		CA19EFFD1484C8D300CDF114 /* UIViewTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewTap.m; sourceTree = "<group>"; };
-		CA19EFFE1484C8D300CDF114 /* ZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomingScrollView.h; sourceTree = "<group>"; };
-		CA19EFFF1484C8D300CDF114 /* ZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomingScrollView.m; sourceTree = "<group>"; };
-		CA19F0141484C8D300CDF114 /* UIBarButtonItemArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIBarButtonItemArrowLeft.png; sourceTree = "<group>"; };
-		CA19F0151484C8D300CDF114 /* UIBarButtonItemArrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIBarButtonItemArrowLeft@2x.png"; sourceTree = "<group>"; };
-		CA19F0161484C8D300CDF114 /* UIBarButtonItemArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIBarButtonItemArrowRight.png; sourceTree = "<group>"; };
-		CA19F0171484C8D300CDF114 /* UIBarButtonItemArrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIBarButtonItemArrowRight@2x.png"; sourceTree = "<group>"; };
 		CA19F0D81484CDB900CDF114 /* DownloadResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadResource.h; sourceTree = "<group>"; };
 		CA19F0D91484CDB900CDF114 /* DownloadResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadResource.m; sourceTree = "<group>"; };
 		CA19F0E01484DACE00CDF114 /* png_08@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "png_08@2x.png"; sourceTree = "<group>"; };
@@ -648,31 +626,6 @@
 		CA19F13E1484DACE00CDF114 /* tu_95@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_95@2x.png"; sourceTree = "<group>"; };
 		CA19F13F1484DACE00CDF114 /* tu_96@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_96@2x.png"; sourceTree = "<group>"; };
 		CA19F1401484DACE00CDF114 /* tu_97@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tu_97@2x.png"; sourceTree = "<group>"; };
-		CA222A481491DB1D00F168D4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		CA222A4B1491DB1D00F168D4 /* AudioPlayerAlbumInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerAlbumInfo.png; sourceTree = "<group>"; };
-		CA222A4C1491DB1D00F168D4 /* AudioPlayerBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerBarBackground.png; sourceTree = "<group>"; };
-		CA222A4D1491DB1D00F168D4 /* AudioPlayerNextTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerNextTrack.png; sourceTree = "<group>"; };
-		CA222A4E1491DB1D00F168D4 /* AudioPlayerNoArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerNoArtwork.png; sourceTree = "<group>"; };
-		CA222A4F1491DB1D00F168D4 /* AudioPlayerPause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerPause.png; sourceTree = "<group>"; };
-		CA222A501491DB1D00F168D4 /* AudioPlayerPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerPlay.png; sourceTree = "<group>"; };
-		CA222A511491DB1D00F168D4 /* AudioPlayerPrevTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerPrevTrack.png; sourceTree = "<group>"; };
-		CA222A521491DB1D00F168D4 /* AudioPlayerRepeatOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerRepeatOff.png; sourceTree = "<group>"; };
-		CA222A531491DB1D00F168D4 /* AudioPlayerRepeatOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerRepeatOn.png; sourceTree = "<group>"; };
-		CA222A541491DB1D00F168D4 /* AudioPlayerRepeatOneOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerRepeatOneOn.png; sourceTree = "<group>"; };
-		CA222A551491DB1D00F168D4 /* AudioPlayerScrubberKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerScrubberKnob.png; sourceTree = "<group>"; };
-		CA222A561491DB1D00F168D4 /* AudioPlayerScrubberLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerScrubberLeft.png; sourceTree = "<group>"; };
-		CA222A571491DB1D00F168D4 /* AudioPlayerScrubberRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerScrubberRight.png; sourceTree = "<group>"; };
-		CA222A581491DB1D00F168D4 /* AudioPlayerShuffleOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerShuffleOff.png; sourceTree = "<group>"; };
-		CA222A591491DB1D00F168D4 /* AudioPlayerShuffleOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerShuffleOn.png; sourceTree = "<group>"; };
-		CA222A5A1491DB1D00F168D4 /* AudioPlayerTableBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerTableBackground.png; sourceTree = "<group>"; };
-		CA222A5B1491DB1D00F168D4 /* AudioPlayerVolumeKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerVolumeKnob.png; sourceTree = "<group>"; };
-		CA222A5C1491DB1D00F168D4 /* MDAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAudioFile.h; sourceTree = "<group>"; };
-		CA222A5D1491DB1D00F168D4 /* MDAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAudioFile.m; sourceTree = "<group>"; };
-		CA222A5E1491DB1D00F168D4 /* MDAudioPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAudioPlayerController.h; sourceTree = "<group>"; };
-		CA222A5F1491DB1D00F168D4 /* MDAudioPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAudioPlayerController.m; sourceTree = "<group>"; };
-		CA222A601491DB1D00F168D4 /* MDAudioPlayerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAudioPlayerTableViewCell.h; sourceTree = "<group>"; };
-		CA222A611491DB1D00F168D4 /* MDAudioPlayerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAudioPlayerTableViewCell.m; sourceTree = "<group>"; };
-		CA222A621491DB1D00F168D4 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		CA222AE41491DB7000F168D4 /* PlayAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayAudioController.h; sourceTree = "<group>"; };
 		CA222AE51491DB7000F168D4 /* PlayAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayAudioController.m; sourceTree = "<group>"; };
 		CA222AE71492105500F168D4 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
@@ -1278,6 +1231,49 @@
 		CAEA38FB1467C4E1006D2975 /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutController.m; sourceTree = "<group>"; };
 		CAEA38FC1467C4E1006D2975 /* AboutController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutController.xib; sourceTree = "<group>"; };
 		CAEA39001467D7EE006D2975 /* MainDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MainDataModel.xcdatamodel; sourceTree = "<group>"; };
+		CAF6A3B81494F4340007199B /* AudioPlayerAlbumInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerAlbumInfo.png; sourceTree = "<group>"; };
+		CAF6A3B91494F4340007199B /* AudioPlayerBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerBarBackground.png; sourceTree = "<group>"; };
+		CAF6A3BA1494F4340007199B /* AudioPlayerNextTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerNextTrack.png; sourceTree = "<group>"; };
+		CAF6A3BB1494F4340007199B /* AudioPlayerNoArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerNoArtwork.png; sourceTree = "<group>"; };
+		CAF6A3BC1494F4340007199B /* AudioPlayerPause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerPause.png; sourceTree = "<group>"; };
+		CAF6A3BD1494F4340007199B /* AudioPlayerPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerPlay.png; sourceTree = "<group>"; };
+		CAF6A3BE1494F4340007199B /* AudioPlayerPrevTrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerPrevTrack.png; sourceTree = "<group>"; };
+		CAF6A3BF1494F4340007199B /* AudioPlayerRepeatOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerRepeatOff.png; sourceTree = "<group>"; };
+		CAF6A3C01494F4340007199B /* AudioPlayerRepeatOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerRepeatOn.png; sourceTree = "<group>"; };
+		CAF6A3C11494F4340007199B /* AudioPlayerRepeatOneOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerRepeatOneOn.png; sourceTree = "<group>"; };
+		CAF6A3C21494F4340007199B /* AudioPlayerScrubberKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerScrubberKnob.png; sourceTree = "<group>"; };
+		CAF6A3C31494F4340007199B /* AudioPlayerScrubberLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerScrubberLeft.png; sourceTree = "<group>"; };
+		CAF6A3C41494F4340007199B /* AudioPlayerScrubberRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerScrubberRight.png; sourceTree = "<group>"; };
+		CAF6A3C51494F4340007199B /* AudioPlayerShuffleOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerShuffleOff.png; sourceTree = "<group>"; };
+		CAF6A3C61494F4340007199B /* AudioPlayerShuffleOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerShuffleOn.png; sourceTree = "<group>"; };
+		CAF6A3C71494F4340007199B /* AudioPlayerTableBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerTableBackground.png; sourceTree = "<group>"; };
+		CAF6A3C81494F4340007199B /* AudioPlayerVolumeKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioPlayerVolumeKnob.png; sourceTree = "<group>"; };
+		CAF6A3C91494F4340007199B /* MDAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAudioFile.h; sourceTree = "<group>"; };
+		CAF6A3CA1494F4340007199B /* MDAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAudioFile.m; sourceTree = "<group>"; };
+		CAF6A3CB1494F4340007199B /* MDAudioPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAudioPlayerController.h; sourceTree = "<group>"; };
+		CAF6A3CC1494F4340007199B /* MDAudioPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAudioPlayerController.m; sourceTree = "<group>"; };
+		CAF6A3CD1494F4340007199B /* MDAudioPlayerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDAudioPlayerTableViewCell.h; sourceTree = "<group>"; };
+		CAF6A3CE1494F4340007199B /* MDAudioPlayerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDAudioPlayerTableViewCell.m; sourceTree = "<group>"; };
+		CAF6A3F11494F7730007199B /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		CAF6A3F21494F7730007199B /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		CAF6A3F31494F7730007199B /* MWPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhoto.h; sourceTree = "<group>"; };
+		CAF6A3F41494F7730007199B /* MWPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhoto.m; sourceTree = "<group>"; };
+		CAF6A3F51494F7730007199B /* MWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoBrowser.h; sourceTree = "<group>"; };
+		CAF6A3F61494F7730007199B /* MWPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhotoBrowser.m; sourceTree = "<group>"; };
+		CAF6A3F71494F7730007199B /* MWPhotoBrowserAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoBrowserAppDelegate.h; sourceTree = "<group>"; };
+		CAF6A3F81494F7730007199B /* MWPhotoBrowserAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhotoBrowserAppDelegate.m; sourceTree = "<group>"; };
+		CAF6A3F91494F7730007199B /* UIImage+Decompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Decompress.h"; sourceTree = "<group>"; };
+		CAF6A3FA1494F7730007199B /* UIImage+Decompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Decompress.m"; sourceTree = "<group>"; };
+		CAF6A3FB1494F7730007199B /* UIImageViewTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageViewTap.h; sourceTree = "<group>"; };
+		CAF6A3FC1494F7730007199B /* UIImageViewTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewTap.m; sourceTree = "<group>"; };
+		CAF6A3FD1494F7730007199B /* UIViewTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewTap.h; sourceTree = "<group>"; };
+		CAF6A3FE1494F7730007199B /* UIViewTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewTap.m; sourceTree = "<group>"; };
+		CAF6A3FF1494F7730007199B /* ZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomingScrollView.h; sourceTree = "<group>"; };
+		CAF6A4001494F7730007199B /* ZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomingScrollView.m; sourceTree = "<group>"; };
+		CAF6A4011494F7730007199B /* UIBarButtonItemArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIBarButtonItemArrowLeft.png; sourceTree = "<group>"; };
+		CAF6A4021494F7730007199B /* UIBarButtonItemArrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIBarButtonItemArrowLeft@2x.png"; sourceTree = "<group>"; };
+		CAF6A4031494F7730007199B /* UIBarButtonItemArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIBarButtonItemArrowRight.png; sourceTree = "<group>"; };
+		CAF6A4041494F7730007199B /* UIBarButtonItemArrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIBarButtonItemArrowRight@2x.png"; sourceTree = "<group>"; };
 		CAF71215146F65AA00FD161D /* PlayAudioVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayAudioVideoController.h; sourceTree = "<group>"; };
 		CAF71216146F65AA00FD161D /* PlayAudioVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayAudioVideoController.m; sourceTree = "<group>"; };
 		CAF71217146F65AA00FD161D /* PlayAudioVideoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayAudioVideoController.xib; sourceTree = "<group>"; };
@@ -1376,42 +1372,6 @@
 				CA19EF671484C27300CDF114 /* Unrar4iOS.mm */,
 			);
 			path = Unrar4iOS;
-			sourceTree = "<group>";
-		};
-		CA19EFED1484C8D300CDF114 /* MWPhotoBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				CA19EFEF1484C8D300CDF114 /* Classes */,
-				CA19F0141484C8D300CDF114 /* UIBarButtonItemArrowLeft.png */,
-				CA19F0151484C8D300CDF114 /* UIBarButtonItemArrowLeft@2x.png */,
-				CA19F0161484C8D300CDF114 /* UIBarButtonItemArrowRight.png */,
-				CA19F0171484C8D300CDF114 /* UIBarButtonItemArrowRight@2x.png */,
-			);
-			name = MWPhotoBrowser;
-			path = ../MWPhotoBrowser;
-			sourceTree = "<group>";
-		};
-		CA19EFEF1484C8D300CDF114 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				CA19EFF01484C8D300CDF114 /* Menu.h */,
-				CA19EFF11484C8D300CDF114 /* Menu.m */,
-				CA19EFF21484C8D300CDF114 /* MWPhoto.h */,
-				CA19EFF31484C8D300CDF114 /* MWPhoto.m */,
-				CA19EFF41484C8D300CDF114 /* MWPhotoBrowser.h */,
-				CA19EFF51484C8D300CDF114 /* MWPhotoBrowser.m */,
-				CA19EFF61484C8D300CDF114 /* MWPhotoBrowserAppDelegate.h */,
-				CA19EFF71484C8D300CDF114 /* MWPhotoBrowserAppDelegate.m */,
-				CA19EFF81484C8D300CDF114 /* UIImage+Decompress.h */,
-				CA19EFF91484C8D300CDF114 /* UIImage+Decompress.m */,
-				CA19EFFA1484C8D300CDF114 /* UIImageViewTap.h */,
-				CA19EFFB1484C8D300CDF114 /* UIImageViewTap.m */,
-				CA19EFFC1484C8D300CDF114 /* UIViewTap.h */,
-				CA19EFFD1484C8D300CDF114 /* UIViewTap.m */,
-				CA19EFFE1484C8D300CDF114 /* ZoomingScrollView.h */,
-				CA19EFFF1484C8D300CDF114 /* ZoomingScrollView.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		CA19F0DF1484DACD00CDF114 /* Images */ = {
@@ -1520,55 +1480,6 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
-		CA222A471491DB1C00F168D4 /* MDAudioPlayerController */ = {
-			isa = PBXGroup;
-			children = (
-				CA222A481491DB1D00F168D4 /* .gitignore */,
-				CA222A491491DB1D00F168D4 /* MDAudioPlayerController */,
-				CA222A621491DB1D00F168D4 /* README.markdown */,
-			);
-			name = MDAudioPlayerController;
-			path = ../MDAudioPlayerController;
-			sourceTree = "<group>";
-		};
-		CA222A491491DB1D00F168D4 /* MDAudioPlayerController */ = {
-			isa = PBXGroup;
-			children = (
-				CA222A4A1491DB1D00F168D4 /* Images */,
-				CA222A5C1491DB1D00F168D4 /* MDAudioFile.h */,
-				CA222A5D1491DB1D00F168D4 /* MDAudioFile.m */,
-				CA222A5E1491DB1D00F168D4 /* MDAudioPlayerController.h */,
-				CA222A5F1491DB1D00F168D4 /* MDAudioPlayerController.m */,
-				CA222A601491DB1D00F168D4 /* MDAudioPlayerTableViewCell.h */,
-				CA222A611491DB1D00F168D4 /* MDAudioPlayerTableViewCell.m */,
-			);
-			path = MDAudioPlayerController;
-			sourceTree = "<group>";
-		};
-		CA222A4A1491DB1D00F168D4 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				CA222A4B1491DB1D00F168D4 /* AudioPlayerAlbumInfo.png */,
-				CA222A4C1491DB1D00F168D4 /* AudioPlayerBarBackground.png */,
-				CA222A4D1491DB1D00F168D4 /* AudioPlayerNextTrack.png */,
-				CA222A4E1491DB1D00F168D4 /* AudioPlayerNoArtwork.png */,
-				CA222A4F1491DB1D00F168D4 /* AudioPlayerPause.png */,
-				CA222A501491DB1D00F168D4 /* AudioPlayerPlay.png */,
-				CA222A511491DB1D00F168D4 /* AudioPlayerPrevTrack.png */,
-				CA222A521491DB1D00F168D4 /* AudioPlayerRepeatOff.png */,
-				CA222A531491DB1D00F168D4 /* AudioPlayerRepeatOn.png */,
-				CA222A541491DB1D00F168D4 /* AudioPlayerRepeatOneOn.png */,
-				CA222A551491DB1D00F168D4 /* AudioPlayerScrubberKnob.png */,
-				CA222A561491DB1D00F168D4 /* AudioPlayerScrubberLeft.png */,
-				CA222A571491DB1D00F168D4 /* AudioPlayerScrubberRight.png */,
-				CA222A581491DB1D00F168D4 /* AudioPlayerShuffleOff.png */,
-				CA222A591491DB1D00F168D4 /* AudioPlayerShuffleOn.png */,
-				CA222A5A1491DB1D00F168D4 /* AudioPlayerTableBackground.png */,
-				CA222A5B1491DB1D00F168D4 /* AudioPlayerVolumeKnob.png */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
 		CA85C2751490A0BE0089175B /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -1651,8 +1562,6 @@
 		CAEA30C01467BCAE006D2975 = {
 			isa = PBXGroup;
 			children = (
-				CA222A471491DB1C00F168D4 /* MDAudioPlayerController */,
-				CA19EFED1484C8D300CDF114 /* MWPhotoBrowser */,
 				CAEA339E1467BD12006D2975 /* Common_Iphone */,
 				CAEA33771467BD06006D2975 /* OHAttributedLabel */,
 				CAEA32191467BCF9006D2975 /* tapkulibrary */,
@@ -2029,6 +1938,8 @@
 		CAEA339E1467BD12006D2975 /* Common_Iphone */ = {
 			isa = PBXGroup;
 			children = (
+				CAF6A3EF1494F7730007199B /* PhotoBrowser */,
+				CAF6A3B61494F4340007199B /* MDAudioPlayerController */,
 				EAE9CFA01485F8E800EB8755 /* ssziparchive */,
 				CA19EEE31484C27300CDF114 /* Unrar4iOS */,
 				CAEA38E01467C3FA006D2975 /* DownloadCommon */,
@@ -2884,6 +2795,79 @@
 			path = Background;
 			sourceTree = "<group>";
 		};
+		CAF6A3B61494F4340007199B /* MDAudioPlayerController */ = {
+			isa = PBXGroup;
+			children = (
+				CAF6A3B71494F4340007199B /* Images */,
+				CAF6A3C91494F4340007199B /* MDAudioFile.h */,
+				CAF6A3CA1494F4340007199B /* MDAudioFile.m */,
+				CAF6A3CB1494F4340007199B /* MDAudioPlayerController.h */,
+				CAF6A3CC1494F4340007199B /* MDAudioPlayerController.m */,
+				CAF6A3CD1494F4340007199B /* MDAudioPlayerTableViewCell.h */,
+				CAF6A3CE1494F4340007199B /* MDAudioPlayerTableViewCell.m */,
+			);
+			path = MDAudioPlayerController;
+			sourceTree = "<group>";
+		};
+		CAF6A3B71494F4340007199B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CAF6A3B81494F4340007199B /* AudioPlayerAlbumInfo.png */,
+				CAF6A3B91494F4340007199B /* AudioPlayerBarBackground.png */,
+				CAF6A3BA1494F4340007199B /* AudioPlayerNextTrack.png */,
+				CAF6A3BB1494F4340007199B /* AudioPlayerNoArtwork.png */,
+				CAF6A3BC1494F4340007199B /* AudioPlayerPause.png */,
+				CAF6A3BD1494F4340007199B /* AudioPlayerPlay.png */,
+				CAF6A3BE1494F4340007199B /* AudioPlayerPrevTrack.png */,
+				CAF6A3BF1494F4340007199B /* AudioPlayerRepeatOff.png */,
+				CAF6A3C01494F4340007199B /* AudioPlayerRepeatOn.png */,
+				CAF6A3C11494F4340007199B /* AudioPlayerRepeatOneOn.png */,
+				CAF6A3C21494F4340007199B /* AudioPlayerScrubberKnob.png */,
+				CAF6A3C31494F4340007199B /* AudioPlayerScrubberLeft.png */,
+				CAF6A3C41494F4340007199B /* AudioPlayerScrubberRight.png */,
+				CAF6A3C51494F4340007199B /* AudioPlayerShuffleOff.png */,
+				CAF6A3C61494F4340007199B /* AudioPlayerShuffleOn.png */,
+				CAF6A3C71494F4340007199B /* AudioPlayerTableBackground.png */,
+				CAF6A3C81494F4340007199B /* AudioPlayerVolumeKnob.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CAF6A3EF1494F7730007199B /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				CAF6A3F01494F7730007199B /* Classes */,
+				CAF6A4011494F7730007199B /* UIBarButtonItemArrowLeft.png */,
+				CAF6A4021494F7730007199B /* UIBarButtonItemArrowLeft@2x.png */,
+				CAF6A4031494F7730007199B /* UIBarButtonItemArrowRight.png */,
+				CAF6A4041494F7730007199B /* UIBarButtonItemArrowRight@2x.png */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		CAF6A3F01494F7730007199B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CAF6A3F11494F7730007199B /* Menu.h */,
+				CAF6A3F21494F7730007199B /* Menu.m */,
+				CAF6A3F31494F7730007199B /* MWPhoto.h */,
+				CAF6A3F41494F7730007199B /* MWPhoto.m */,
+				CAF6A3F51494F7730007199B /* MWPhotoBrowser.h */,
+				CAF6A3F61494F7730007199B /* MWPhotoBrowser.m */,
+				CAF6A3F71494F7730007199B /* MWPhotoBrowserAppDelegate.h */,
+				CAF6A3F81494F7730007199B /* MWPhotoBrowserAppDelegate.m */,
+				CAF6A3F91494F7730007199B /* UIImage+Decompress.h */,
+				CAF6A3FA1494F7730007199B /* UIImage+Decompress.m */,
+				CAF6A3FB1494F7730007199B /* UIImageViewTap.h */,
+				CAF6A3FC1494F7730007199B /* UIImageViewTap.m */,
+				CAF6A3FD1494F7730007199B /* UIViewTap.h */,
+				CAF6A3FE1494F7730007199B /* UIViewTap.m */,
+				CAF6A3FF1494F7730007199B /* ZoomingScrollView.h */,
+				CAF6A4001494F7730007199B /* ZoomingScrollView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		CAF71213146F659200FD161D /* Action */ = {
 			isa = PBXGroup;
 			children = (
@@ -3096,10 +3080,6 @@
 				EA24B5481473632700BFE1BF /* TopDownloadItemCell.xib in Resources */,
 				EAC56225147CE36C00DD2AFF /* ViewImageController.xib in Resources */,
 				EAAF75F6147F60E8009A61CE /* ViewDecompressItemController.xib in Resources */,
-				CA19F0341484C8D300CDF114 /* UIBarButtonItemArrowLeft.png in Resources */,
-				CA19F0351484C8D300CDF114 /* UIBarButtonItemArrowLeft@2x.png in Resources */,
-				CA19F0361484C8D300CDF114 /* UIBarButtonItemArrowRight.png in Resources */,
-				CA19F0371484C8D300CDF114 /* UIBarButtonItemArrowRight@2x.png in Resources */,
 				CA19F1411484DACE00CDF114 /* png_08@2x.png in Resources */,
 				CA19F1421484DACE00CDF114 /* png_102@2x.png in Resources */,
 				CA19F1431484DACE00CDF114 /* png_103@2x.png in Resources */,
@@ -3202,29 +3182,31 @@
 				CAE45CB3148F4EE400447806 /* ReviewRequest.strings in Resources */,
 				CAE45CB4148F4EE400447806 /* ReviewRequest.strings in Resources */,
 				CAE45CB5148F4EE400447806 /* ReviewRequest.strings in Resources */,
-				CA222AA21491DB1D00F168D4 /* .gitignore in Resources */,
-				CA222AA31491DB1D00F168D4 /* AudioPlayerAlbumInfo.png in Resources */,
-				CA222AA41491DB1D00F168D4 /* AudioPlayerBarBackground.png in Resources */,
-				CA222AA51491DB1D00F168D4 /* AudioPlayerNextTrack.png in Resources */,
-				CA222AA61491DB1D00F168D4 /* AudioPlayerNoArtwork.png in Resources */,
-				CA222AA71491DB1D00F168D4 /* AudioPlayerPause.png in Resources */,
-				CA222AA81491DB1D00F168D4 /* AudioPlayerPlay.png in Resources */,
-				CA222AA91491DB1D00F168D4 /* AudioPlayerPrevTrack.png in Resources */,
-				CA222AAA1491DB1D00F168D4 /* AudioPlayerRepeatOff.png in Resources */,
-				CA222AAB1491DB1D00F168D4 /* AudioPlayerRepeatOn.png in Resources */,
-				CA222AAC1491DB1D00F168D4 /* AudioPlayerRepeatOneOn.png in Resources */,
-				CA222AAD1491DB1D00F168D4 /* AudioPlayerScrubberKnob.png in Resources */,
-				CA222AAE1491DB1D00F168D4 /* AudioPlayerScrubberLeft.png in Resources */,
-				CA222AAF1491DB1D00F168D4 /* AudioPlayerScrubberRight.png in Resources */,
-				CA222AB01491DB1D00F168D4 /* AudioPlayerShuffleOff.png in Resources */,
-				CA222AB11491DB1D00F168D4 /* AudioPlayerShuffleOn.png in Resources */,
-				CA222AB21491DB1D00F168D4 /* AudioPlayerTableBackground.png in Resources */,
-				CA222AB31491DB1D00F168D4 /* AudioPlayerVolumeKnob.png in Resources */,
-				CA222AB71491DB1D00F168D4 /* README.markdown in Resources */,
 				CA222AE91492105500F168D4 /* 57.png in Resources */,
 				CA222AEA1492105500F168D4 /* 57@2x.png in Resources */,
 				CA222AFB14938EF900F168D4 /* Default.png in Resources */,
 				CA222AF814938EF600F168D4 /* Default@2x.png in Resources */,
+				CAF6A3DB1494F4340007199B /* AudioPlayerAlbumInfo.png in Resources */,
+				CAF6A3DC1494F4340007199B /* AudioPlayerBarBackground.png in Resources */,
+				CAF6A3DD1494F4340007199B /* AudioPlayerNextTrack.png in Resources */,
+				CAF6A3DE1494F4340007199B /* AudioPlayerNoArtwork.png in Resources */,
+				CAF6A3DF1494F4340007199B /* AudioPlayerPause.png in Resources */,
+				CAF6A3E01494F4340007199B /* AudioPlayerPlay.png in Resources */,
+				CAF6A3E11494F4340007199B /* AudioPlayerPrevTrack.png in Resources */,
+				CAF6A3E21494F4340007199B /* AudioPlayerRepeatOff.png in Resources */,
+				CAF6A3E31494F4340007199B /* AudioPlayerRepeatOn.png in Resources */,
+				CAF6A3E41494F4340007199B /* AudioPlayerRepeatOneOn.png in Resources */,
+				CAF6A3E51494F4340007199B /* AudioPlayerScrubberKnob.png in Resources */,
+				CAF6A3E61494F4340007199B /* AudioPlayerScrubberLeft.png in Resources */,
+				CAF6A3E71494F4340007199B /* AudioPlayerScrubberRight.png in Resources */,
+				CAF6A3E81494F4340007199B /* AudioPlayerShuffleOff.png in Resources */,
+				CAF6A3E91494F4340007199B /* AudioPlayerShuffleOn.png in Resources */,
+				CAF6A3EA1494F4340007199B /* AudioPlayerTableBackground.png in Resources */,
+				CAF6A3EB1494F4340007199B /* AudioPlayerVolumeKnob.png in Resources */,
+				CAF6A40D1494F7730007199B /* UIBarButtonItemArrowLeft.png in Resources */,
+				CAF6A40E1494F7730007199B /* UIBarButtonItemArrowLeft@2x.png in Resources */,
+				CAF6A40F1494F7730007199B /* UIBarButtonItemArrowRight.png in Resources */,
+				CAF6A4101494F7730007199B /* UIBarButtonItemArrowRight@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3499,14 +3481,6 @@
 				EA1B00C014823908002A1E8B /* DecompressService.m in Sources */,
 				EA1B00C314824456002A1E8B /* DecompressManager.m in Sources */,
 				CA19EFB81484C27400CDF114 /* Unrar4iOS.mm in Sources */,
-				CA19F01D1484C8D300CDF114 /* Menu.m in Sources */,
-				CA19F01E1484C8D300CDF114 /* MWPhoto.m in Sources */,
-				CA19F01F1484C8D300CDF114 /* MWPhotoBrowser.m in Sources */,
-				CA19F0201484C8D300CDF114 /* MWPhotoBrowserAppDelegate.m in Sources */,
-				CA19F0211484C8D300CDF114 /* UIImage+Decompress.m in Sources */,
-				CA19F0221484C8D300CDF114 /* UIImageViewTap.m in Sources */,
-				CA19F0231484C8D300CDF114 /* UIViewTap.m in Sources */,
-				CA19F0241484C8D300CDF114 /* ZoomingScrollView.m in Sources */,
 				CA19F0DA1484CDB900CDF114 /* DownloadResource.m in Sources */,
 				EAE9CFAD1485F8E800EB8755 /* ioapi.c in Sources */,
 				EAE9CFAE1485F8E900EB8755 /* mztools.c in Sources */,
@@ -3514,10 +3488,18 @@
 				EAE9CFB01485F8E900EB8755 /* zip.c in Sources */,
 				EAE9CFB11485F8E900EB8755 /* SSZipArchive.m in Sources */,
 				CA85C2781490A0F50089175B /* UIViewController+DownloadViewControllerAddition.m in Sources */,
-				CA222AB41491DB1D00F168D4 /* MDAudioFile.m in Sources */,
-				CA222AB51491DB1D00F168D4 /* MDAudioPlayerController.m in Sources */,
-				CA222AB61491DB1D00F168D4 /* MDAudioPlayerTableViewCell.m in Sources */,
 				CA222AE61491DB7100F168D4 /* PlayAudioController.m in Sources */,
+				CAF6A3EC1494F4340007199B /* MDAudioFile.m in Sources */,
+				CAF6A3ED1494F4340007199B /* MDAudioPlayerController.m in Sources */,
+				CAF6A3EE1494F4340007199B /* MDAudioPlayerTableViewCell.m in Sources */,
+				CAF6A4051494F7730007199B /* Menu.m in Sources */,
+				CAF6A4061494F7730007199B /* MWPhoto.m in Sources */,
+				CAF6A4071494F7730007199B /* MWPhotoBrowser.m in Sources */,
+				CAF6A4081494F7730007199B /* MWPhotoBrowserAppDelegate.m in Sources */,
+				CAF6A4091494F7730007199B /* UIImage+Decompress.m in Sources */,
+				CAF6A40A1494F7730007199B /* UIImageViewTap.m in Sources */,
+				CAF6A40B1494F7730007199B /* UIViewTap.m in Sources */,
+				CAF6A40C1494F7730007199B /* ZoomingScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
