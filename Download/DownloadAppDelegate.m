@@ -27,13 +27,18 @@ NSString* GlobalGetServerURL()
 {
     //   return @"http://192.168.1.101:8000/api/i?";
     
-    // return @"http://uhz001030.chinaw3.com/api/i?";
+    return @"http://www.dipan100.com/api/i?";
     
     
-    return @"http://192.168.1.188:8000/api/i?";
+//    return @"http://192.168.1.188:8000/api/i?";
     
 }
 
+enum TAB_INDEX {
+    TAB_TOP = 0,
+    TAB_SITE,
+    TAB_BROWSE
+    };
 
 @implementation DownloadAppDelegate
 
@@ -117,7 +122,8 @@ NSString* GlobalGetServerURL()
 //                                                  ABOUT_PRESS_ICON, 
                                                   nil]];
     	
-	self.tabBarController.viewControllers = controllers;	    
+	self.tabBarController.viewControllers = controllers;	
+    self.tabBarController.selectedIndex = TAB_BROWSE;
 	[controllers release];
 }
 

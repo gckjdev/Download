@@ -145,6 +145,8 @@
 		CA222AE61491DB7100F168D4 /* PlayAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA222AE51491DB7000F168D4 /* PlayAudioController.m */; };
 		CA222AE91492105500F168D4 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222AE71492105500F168D4 /* 57.png */; };
 		CA222AEA1492105500F168D4 /* 57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222AE81492105500F168D4 /* 57@2x.png */; };
+		CA222AF814938EF600F168D4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222AFA14938EF600F168D4 /* Default@2x.png */; };
+		CA222AFB14938EF900F168D4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA222AFD14938EF900F168D4 /* Default.png */; };
 		CA83D14214726BF500E004A6 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA83D14114726BF500E004A6 /* QuickLook.framework */; };
 		CA85C2781490A0F50089175B /* UIViewController+DownloadViewControllerAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = CA85C2771490A0F50089175B /* UIViewController+DownloadViewControllerAddition.m */; };
 		CA8E97FD146CF03E0007A824 /* TopDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8E97FC146CF03E0007A824 /* TopDownloadItem.m */; };
@@ -675,6 +677,10 @@
 		CA222AE51491DB7000F168D4 /* PlayAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayAudioController.m; sourceTree = "<group>"; };
 		CA222AE71492105500F168D4 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
 		CA222AE81492105500F168D4 /* 57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "57@2x.png"; sourceTree = "<group>"; };
+		CA222AF914938EF600F168D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/Default@2x.png"; sourceTree = "<group>"; };
+		CA222AFC14938EF900F168D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/Default.png; sourceTree = "<group>"; };
+		CA222AFE14938F0800F168D4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/Default@2x.png"; sourceTree = "<group>"; };
+		CA222AFF14938F1300F168D4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/Default.png"; sourceTree = "<group>"; };
 		CA83D14114726BF500E004A6 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		CA85C2761490A0F50089175B /* UIViewController+DownloadViewControllerAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DownloadViewControllerAddition.h"; sourceTree = "<group>"; };
 		CA85C2771490A0F50089175B /* UIViewController+DownloadViewControllerAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DownloadViewControllerAddition.m"; sourceTree = "<group>"; };
@@ -2731,6 +2737,8 @@
 		CAEA38DD1467C38B006D2975 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				CA222AFD14938EF900F168D4 /* Default.png */,
+				CA222AFA14938EF600F168D4 /* Default@2x.png */,
 				CA222AE71492105500F168D4 /* 57.png */,
 				CA222AE81492105500F168D4 /* 57@2x.png */,
 			);
@@ -3215,6 +3223,8 @@
 				CA222AB71491DB1D00F168D4 /* README.markdown in Resources */,
 				CA222AE91492105500F168D4 /* 57.png in Resources */,
 				CA222AEA1492105500F168D4 /* 57@2x.png in Resources */,
+				CA222AFB14938EF900F168D4 /* Default.png in Resources */,
+				CA222AF814938EF600F168D4 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3530,6 +3540,24 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		CA222AFA14938EF600F168D4 /* Default@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA222AF914938EF600F168D4 /* en */,
+				CA222AFE14938F0800F168D4 /* zh-Hans */,
+			);
+			name = "Default@2x.png";
+			sourceTree = "<group>";
+		};
+		CA222AFD14938EF900F168D4 /* Default.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA222AFC14938EF900F168D4 /* en */,
+				CA222AFF14938F1300F168D4 /* zh-Hans */,
+			);
+			name = Default.png;
+			sourceTree = "<group>";
+		};
 		CAAC3B8C146C26AD008A74B9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -3717,6 +3745,8 @@
 		CAEA310E1467BCAE006D2975 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lingzhe Peng";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lingzhe Peng";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -3732,6 +3762,8 @@
 					"\"$(SRCROOT)/../Common_Iphone/MobClick\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0800EA77-3040-4706-A496-EC0131B765C6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0800EA77-3040-4706-A496-EC0131B765C6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

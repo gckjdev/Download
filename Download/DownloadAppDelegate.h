@@ -15,7 +15,7 @@
 #import "ReviewRequest.h"
 #import "WebViewTouchWindow.h"
 
-#define kAppId			@"456494464"					// To be changed for each project
+#define kAppId			@"488119324"					// To be changed for each project
 #define kMobClickKey	@"4ec3d3045270151da9000025"		// To be changed for each project
 #define kDbFileName     @"Download"
 

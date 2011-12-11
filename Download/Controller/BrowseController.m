@@ -61,6 +61,15 @@
         return @"http://www.google.com/search?q=";
 }
 
+- (NSString*)getDefaultSite
+{
+    if ([LocaleUtils isChina])
+        return @"http://www.baidu.com";
+    else
+        return @"http://www.google.com";
+    
+}
+
 - (void)viewDidLoad
 {    
     [self setDownloadNavigationTitle:NSLS(@"kThirdViewTitle")];
@@ -93,6 +102,8 @@
     [self.browseButton setBackgroundImage:BROSWER_VISITED_BG_IMAGE forState:UIControlStateSelected];
     
     [self.commonlyUsedWordsLabel setText:NSLS(@"kCommonlyUsedWordsLabel")];    
+    
+    self.browseTextField.text = [self getDefaultSite];
 }
 
 - (void)viewDidAppear:(BOOL)animated
