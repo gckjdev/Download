@@ -498,6 +498,10 @@
 		EA1B00C314824456002A1E8B /* DecompressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1B00C214824456002A1E8B /* DecompressManager.m */; };
 		EA24B5471473632700BFE1BF /* TopDownloadItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA24B5451473632700BFE1BF /* TopDownloadItemCell.m */; };
 		EA24B5481473632700BFE1BF /* TopDownloadItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA24B5461473632700BFE1BF /* TopDownloadItemCell.xib */; };
+		EA89FE7D14B2A2AA002645EA /* MusicPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA89FE7B14B2A2AA002645EA /* MusicPlayController.m */; };
+		EA89FE7E14B2A2AA002645EA /* MusicPlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA89FE7C14B2A2AA002645EA /* MusicPlayController.xib */; };
+		EA89FE8214B2A2BA002645EA /* VideoPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA89FE8014B2A2BA002645EA /* VideoPlayController.m */; };
+		EA89FE8314B2A2BA002645EA /* VideoPlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA89FE8114B2A2BA002645EA /* VideoPlayController.xib */; };
 		EAAF75F5147F60E8009A61CE /* ViewDecompressItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAF75F3147F60E7009A61CE /* ViewDecompressItemController.m */; };
 		EAAF75F6147F60E8009A61CE /* ViewDecompressItemController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAAF75F4147F60E8009A61CE /* ViewDecompressItemController.xib */; };
 		EAC56224147CE36C00DD2AFF /* ViewImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC56222147CE36C00DD2AFF /* ViewImageController.m */; };
@@ -1291,6 +1295,12 @@
 		EA24B5441473632700BFE1BF /* TopDownloadItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopDownloadItemCell.h; sourceTree = "<group>"; };
 		EA24B5451473632700BFE1BF /* TopDownloadItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopDownloadItemCell.m; sourceTree = "<group>"; };
 		EA24B5461473632700BFE1BF /* TopDownloadItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopDownloadItemCell.xib; sourceTree = "<group>"; };
+		EA89FE7A14B2A2AA002645EA /* MusicPlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayController.h; sourceTree = "<group>"; };
+		EA89FE7B14B2A2AA002645EA /* MusicPlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayController.m; sourceTree = "<group>"; };
+		EA89FE7C14B2A2AA002645EA /* MusicPlayController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicPlayController.xib; sourceTree = "<group>"; };
+		EA89FE7F14B2A2BA002645EA /* VideoPlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayController.h; sourceTree = "<group>"; };
+		EA89FE8014B2A2BA002645EA /* VideoPlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayController.m; sourceTree = "<group>"; };
+		EA89FE8114B2A2BA002645EA /* VideoPlayController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoPlayController.xib; sourceTree = "<group>"; };
 		EAAF75F2147F60E7009A61CE /* ViewDecompressItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewDecompressItemController.h; sourceTree = "<group>"; };
 		EAAF75F3147F60E7009A61CE /* ViewDecompressItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewDecompressItemController.m; sourceTree = "<group>"; };
 		EAAF75F4147F60E8009A61CE /* ViewDecompressItemController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewDecompressItemController.xib; sourceTree = "<group>"; };
@@ -2686,6 +2696,8 @@
 		CAEA38E11467C3FA006D2975 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EA89FE7914B2A28E002645EA /* Video */,
+				EA89FE7714B2A26D002645EA /* Music */,
 				CA85C2751490A0BE0089175B /* Common */,
 				CAF71213146F659200FD161D /* Action */,
 				CAEA38EB1467C46E006D2975 /* DownloadManageController.h */,
@@ -2888,6 +2900,26 @@
 				EAAF75F4147F60E8009A61CE /* ViewDecompressItemController.xib */,
 			);
 			path = Action;
+			sourceTree = "<group>";
+		};
+		EA89FE7714B2A26D002645EA /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				EA89FE7A14B2A2AA002645EA /* MusicPlayController.h */,
+				EA89FE7B14B2A2AA002645EA /* MusicPlayController.m */,
+				EA89FE7C14B2A2AA002645EA /* MusicPlayController.xib */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		EA89FE7914B2A28E002645EA /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				EA89FE7F14B2A2BA002645EA /* VideoPlayController.h */,
+				EA89FE8014B2A2BA002645EA /* VideoPlayController.m */,
+				EA89FE8114B2A2BA002645EA /* VideoPlayController.xib */,
+			);
+			name = Video;
 			sourceTree = "<group>";
 		};
 		EAE9CFA01485F8E800EB8755 /* ssziparchive */ = {
@@ -3207,6 +3239,8 @@
 				CAF6A40E1494F7730007199B /* UIBarButtonItemArrowLeft@2x.png in Resources */,
 				CAF6A40F1494F7730007199B /* UIBarButtonItemArrowRight.png in Resources */,
 				CAF6A4101494F7730007199B /* UIBarButtonItemArrowRight@2x.png in Resources */,
+				EA89FE7E14B2A2AA002645EA /* MusicPlayController.xib in Resources */,
+				EA89FE8314B2A2BA002645EA /* VideoPlayController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3500,6 +3534,8 @@
 				CAF6A40A1494F7730007199B /* UIImageViewTap.m in Sources */,
 				CAF6A40B1494F7730007199B /* UIViewTap.m in Sources */,
 				CAF6A40C1494F7730007199B /* ZoomingScrollView.m in Sources */,
+				EA89FE7D14B2A2AA002645EA /* MusicPlayController.m in Sources */,
+				EA89FE8214B2A2BA002645EA /* VideoPlayController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

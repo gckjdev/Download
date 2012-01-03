@@ -28,7 +28,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "84"
          endingLineNumber = "84"
-         landmarkName = "-preview:decompressItem:"
+         landmarkName = "-preview:downloadItem:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
