@@ -45,5 +45,9 @@
 	<true/>
 	<key>CFHasMusicPlayerTab</key>
 	<false/>
+	<key>CFHasVideoPlayerTab</key>
+	<false/>
+	<key>CFHasWallpaperTab</key>
+	<false/>
 </dict>
 </plist>
