@@ -10,6 +10,10 @@
 		A3F7A378156C80A7004975B1 /* DownloadAd.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F7A377156C80A7004975B1 /* DownloadAd.m */; };
 		A3F7A3D4156C9AC8004975B1 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F7A3D2156C9AC8004975B1 /* libGoogleAdMobAds.a */; };
 		A3F7A3D5156C9AC8004975B1 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3F7A3D3156C9AC8004975B1 /* README.txt */; };
+		A3F7A3DF156C9BCD004975B1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A3F7A3D9156C9BCD004975B1 /* .gitignore */; };
+		A3F7A3E0156C9BCD004975B1 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F7A3DA156C9BCD004975B1 /* libMobClickLibrary.a */; };
+		A3F7A3E1156C9BCD004975B1 /* MobClickUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F7A3DD156C9BCD004975B1 /* MobClickUtils.m */; };
+		A3F7A3E2156C9BCD004975B1 /* tips.html in Resources */ = {isa = PBXBuildFile; fileRef = A3F7A3DE156C9BCD004975B1 /* tips.html */; };
 		CA11360B1473A13C004D517E /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = CA11360A1473A13B004D517E /* Site.m */; };
 		CA19EFB81484C27400CDF114 /* Unrar4iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = CA19EF671484C27300CDF114 /* Unrar4iOS.mm */; };
 		CA19EFBE1484C2C800CDF114 /* Unrar4iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA19EFBD1484C2C800CDF114 /* Unrar4iOS.framework */; };
@@ -343,7 +347,6 @@
 		CAEA38081467BD14006D2975 /* LiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA35971467BD13006D2975 /* LiteManager.m */; };
 		CAEA38091467BD14006D2975 /* MapViewUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA359A1467BD13006D2975 /* MapViewUtil.m */; };
 		CAEA380A1467BD14006D2975 /* PPLoationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA359C1467BD13006D2975 /* PPLoationManager.m */; };
-		CAEA380C1467BD14006D2975 /* libMobClickLibrary_1.6.4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEA359F1467BD13006D2975 /* libMobClickLibrary_1.6.4.a */; };
 		CAEA384C1467BD15006D2975 /* BasicSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA362E1467BD14006D2975 /* BasicSearch.m */; };
 		CAEA384D1467BD15006D2975 /* ImageSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA36301467BD14006D2975 /* ImageSearch.m */; };
 		CAEA384E1467BD15006D2975 /* ImageSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEA36321467BD14006D2975 /* ImageSearchResult.m */; };
@@ -543,6 +546,12 @@
 		A3F7A3D1156C9AC8004975B1 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
 		A3F7A3D2156C9AC8004975B1 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
 		A3F7A3D3156C9AC8004975B1 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		A3F7A3D9156C9BCD004975B1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A3F7A3DA156C9BCD004975B1 /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
+		A3F7A3DB156C9BCD004975B1 /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
+		A3F7A3DC156C9BCD004975B1 /* MobClickUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClickUtils.h; sourceTree = "<group>"; };
+		A3F7A3DD156C9BCD004975B1 /* MobClickUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobClickUtils.m; sourceTree = "<group>"; };
+		A3F7A3DE156C9BCD004975B1 /* tips.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tips.html; sourceTree = "<group>"; };
 		CA1136091473A13B004D517E /* Site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Site.h; sourceTree = "<group>"; };
 		CA11360A1473A13B004D517E /* Site.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Site.m; sourceTree = "<group>"; };
 		CA19EF661484C27300CDF114 /* Unrar4iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unrar4iOS.h; sourceTree = "<group>"; };
@@ -1059,8 +1068,6 @@
 		CAEA359A1467BD13006D2975 /* MapViewUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewUtil.m; sourceTree = "<group>"; };
 		CAEA359B1467BD13006D2975 /* PPLoationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLoationManager.h; sourceTree = "<group>"; };
 		CAEA359C1467BD13006D2975 /* PPLoationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLoationManager.m; sourceTree = "<group>"; };
-		CAEA359F1467BD13006D2975 /* libMobClickLibrary_1.6.4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary_1.6.4.a; sourceTree = "<group>"; };
-		CAEA35A01467BD13006D2975 /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
 		CAEA362D1467BD14006D2975 /* BasicSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicSearch.h; sourceTree = "<group>"; };
 		CAEA362E1467BD14006D2975 /* BasicSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicSearch.m; sourceTree = "<group>"; };
 		CAEA362F1467BD14006D2975 /* ImageSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSearch.h; sourceTree = "<group>"; };
@@ -1371,9 +1378,9 @@
 				CAEA30D01467BCAE006D2975 /* UIKit.framework in Frameworks */,
 				CAEA30D21467BCAE006D2975 /* Foundation.framework in Frameworks */,
 				CAEA30D41467BCAE006D2975 /* CoreGraphics.framework in Frameworks */,
-				CAEA380C1467BD14006D2975 /* libMobClickLibrary_1.6.4.a in Frameworks */,
 				CA19EFBE1484C2C800CDF114 /* Unrar4iOS.framework in Frameworks */,
 				A3F7A3D4156C9AC8004975B1 /* libGoogleAdMobAds.a in Frameworks */,
+				A3F7A3E0156C9BCD004975B1 /* libMobClickLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1403,6 +1410,20 @@
 				A3F7A3D3156C9AC8004975B1 /* README.txt */,
 			);
 			path = GoogleAdMobAdsSDK;
+			sourceTree = "<group>";
+		};
+		A3F7A3D8156C9BCD004975B1 /* MobClick */ = {
+			isa = PBXGroup;
+			children = (
+				A3F7A3D9156C9BCD004975B1 /* .gitignore */,
+				A3F7A3DA156C9BCD004975B1 /* libMobClickLibrary.a */,
+				A3F7A3DB156C9BCD004975B1 /* MobClick.h */,
+				A3F7A3DC156C9BCD004975B1 /* MobClickUtils.h */,
+				A3F7A3DD156C9BCD004975B1 /* MobClickUtils.m */,
+				A3F7A3DE156C9BCD004975B1 /* tips.html */,
+			);
+			name = MobClick;
+			path = "../Common_iPhone_20/3PP-SDK/MobClick";
 			sourceTree = "<group>";
 		};
 		CA19EEE31484C27300CDF114 /* Unrar4iOS */ = {
@@ -1611,6 +1632,7 @@
 		CAEA30C01467BCAE006D2975 = {
 			isa = PBXGroup;
 			children = (
+				A3F7A3D8156C9BCD004975B1 /* MobClick */,
 				CAEA339E1467BD12006D2975 /* Common_Iphone */,
 				CAEA33771467BD06006D2975 /* OHAttributedLabel */,
 				CAEA32191467BCF9006D2975 /* tapkulibrary */,
@@ -2001,7 +2023,6 @@
 				CAEA35871467BD13006D2975 /* JSON */,
 				CAEA35951467BD13006D2975 /* LiteManager */,
 				CAEA35981467BD13006D2975 /* Location */,
-				CAEA359D1467BD13006D2975 /* MobClick */,
 				CAEA362C1467BD14006D2975 /* Search */,
 				CAEA363A1467BD14006D2975 /* SNS */,
 				CAEA36581467BD14006D2975 /* SpecialCharacters.txt */,
@@ -2402,15 +2423,6 @@
 				CAEA359C1467BD13006D2975 /* PPLoationManager.m */,
 			);
 			path = Location;
-			sourceTree = "<group>";
-		};
-		CAEA359D1467BD13006D2975 /* MobClick */ = {
-			isa = PBXGroup;
-			children = (
-				CAEA359F1467BD13006D2975 /* libMobClickLibrary_1.6.4.a */,
-				CAEA35A01467BD13006D2975 /* MobClick.h */,
-			);
-			path = MobClick;
 			sourceTree = "<group>";
 		};
 		CAEA362C1467BD14006D2975 /* Search */ = {
@@ -3308,6 +3320,8 @@
 				EA92E23914B43E0C00469067 /* WallpaperController.xib in Resources */,
 				EA92E23E14B43E1800469067 /* BookController.xib in Resources */,
 				A3F7A3D5156C9AC8004975B1 /* README.txt in Resources */,
+				A3F7A3DF156C9BCD004975B1 /* .gitignore in Resources */,
+				A3F7A3E2156C9BCD004975B1 /* tips.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3606,6 +3620,7 @@
 				EA92E23814B43E0C00469067 /* WallpaperController.m in Sources */,
 				EA92E23D14B43E1800469067 /* BookController.m in Sources */,
 				A3F7A378156C80A7004975B1 /* DownloadAd.m in Sources */,
+				A3F7A3E1156C9BCD004975B1 /* MobClickUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3826,6 +3841,7 @@
 					"\"$(SRCROOT)/../Common_Iphone/MobClick\"",
 					"\"$(SRCROOT)/../Common_iPhone_20/3PP-SDK/GoogleAdMobAdsSDK\"",
 					"\"$(SRCROOT)/../Common_Iphone/GoogleAdMobAdsSDK\"",
+					"\"$(SRCROOT)/../Common_iPhone_20/3PP-SDK/MobClick\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -3852,6 +3868,7 @@
 					"\"$(SRCROOT)/../Common_Iphone/MobClick\"",
 					"\"$(SRCROOT)/../Common_iPhone_20/3PP-SDK/GoogleAdMobAdsSDK\"",
 					"\"$(SRCROOT)/../Common_Iphone/GoogleAdMobAdsSDK\"",
+					"\"$(SRCROOT)/../Common_iPhone_20/3PP-SDK/MobClick\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "0800EA77-3040-4706-A496-EC0131B765C6";

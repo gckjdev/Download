@@ -11,17 +11,15 @@
 #import "ReviewRequest.h"
 #import "DeviceDetection.h"
 #import "UINavigationBarExt.h"
-
 #import "BrowseController.h"
 #import "DownloadManageController.h"
 #import "TopDownloadController.h"
 #import "ResourceCategoryController.h"
 #import "AboutController.h"
-
 #import "DownloadService.h"
 #import "ResourceService.h"
-
 #import "DownloadResource.h"
+#import "MobClick.h"
 
 #define MUSICPLAYER_TAB 4
 #define WALLPAPER_TAB 4
@@ -51,11 +49,6 @@ enum TAB_INDEX {
 @synthesize tabBarController = _tabBarController;
 @synthesize dataManager;
 @synthesize reviewRequest;
-
-- (NSString *)appKey
-{
-    return kMobClickKey;
-}
 
 - (void)dealloc
 {
@@ -132,14 +125,12 @@ enum TAB_INDEX {
 	[controllers release];
 }
 
-- (void)initMobClick
-{
-    [MobClick setDelegate:self reportPolicy:BATCH];
-}
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [MobClick startWithAppkey:DOWNLOAD_UMENG_APP_KEY reportPolicy:REALTIME channelId:nil];
+    [MobClick updateOnlineConfig];
+    
     self.window = [[[WebViewTouchWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     [self initTabViewControllers];
     
@@ -149,9 +140,7 @@ enum TAB_INDEX {
     // init service
     [DownloadService defaultService];   
     [ResourceService defaultService];
-	[self initMobClick];
     
-    // test
 
     // Ask For Review
 	self.reviewRequest = [ReviewRequest startReviewRequest:kAppId appName:GlobalGetAppName() isTest:NO];
